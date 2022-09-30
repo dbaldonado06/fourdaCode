@@ -1,14 +1,12 @@
 # fourdaCode
 An educational repository for the group named FOURDA CODE.
 
-test 1:12:25
+*Authors:*
 
-Group Member:
+| `Name`                        | `Course` |
+| ----------------------------- | -------- |
+| `Dante D. Baldonado`          | `BSIT`   |
+| `Maria Feliza F. Dia`         | `BSIT`   |
+| `Jogie A. Otic`               | `BSIT`   |
+| `Rose Bianca Frances V. Pano` | `BSIT`   |
 
-Baldonado
-
-Dia
-
-Otic
-
-Pano

@@ -5,8 +5,8 @@ An educational repository for the group named FOURDA CODE.
 
 | `Name`                        | `Course` |
 | ----------------------------- | -------- |
-| `Dante D. Baldonado`          | `BSIT`   |
-| `Maria Feliza F. Dia`         | `BSIT`   |
-| `Jogie A. Otic`               | `BSIT`   |
-| `Rose Bianca Frances V. Pano` | `BSIT`   |
+| `Dante D. Baldonado`          | `BS-IT`  |
+| `Maria Feliza F. Dia`         | `BS-IT`  |
+| `Jogie A. Otic`               | `BS-IT`  |
+| `Rose Bianca Frances V. Pano` | `BS-IT`  |
 

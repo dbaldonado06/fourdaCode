@@ -24,13 +24,13 @@ Partial Class loginForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(loginForm))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.minimizeButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
         Me.userProfile = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.userProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -49,14 +49,28 @@ Partial Class loginForm
         Me.Panel1.Size = New System.Drawing.Size(325, 47)
         Me.Panel1.TabIndex = 0
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(3, 11)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(226, 19)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Athena Perb's Catering Service"
+        '
         'minimizeButton
         '
         Me.minimizeButton.BackColor = System.Drawing.Color.Transparent
         Me.minimizeButton.BackgroundImage = CType(resources.GetObject("minimizeButton.BackgroundImage"), System.Drawing.Image)
-        Me.minimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.minimizeButton.Location = New System.Drawing.Point(251, 12)
+        Me.minimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.minimizeButton.FlatAppearance.BorderSize = 0
+        Me.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.minimizeButton.ForeColor = System.Drawing.Color.Transparent
+        Me.minimizeButton.Location = New System.Drawing.Point(255, 12)
         Me.minimizeButton.Name = "minimizeButton"
-        Me.minimizeButton.Size = New System.Drawing.Size(35, 24)
+        Me.minimizeButton.Size = New System.Drawing.Size(31, 24)
         Me.minimizeButton.TabIndex = 1
         Me.minimizeButton.UseVisualStyleBackColor = False
         '
@@ -65,10 +79,13 @@ Partial Class loginForm
         Me.exitButton.BackColor = System.Drawing.Color.Transparent
         Me.exitButton.BackgroundImage = CType(resources.GetObject("exitButton.BackgroundImage"), System.Drawing.Image)
         Me.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.exitButton.Location = New System.Drawing.Point(287, 4)
+        Me.exitButton.FlatAppearance.BorderSize = 0
+        Me.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.exitButton.ForeColor = System.Drawing.Color.Transparent
+        Me.exitButton.Location = New System.Drawing.Point(292, 11)
         Me.exitButton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.exitButton.Name = "exitButton"
-        Me.exitButton.Size = New System.Drawing.Size(33, 32)
+        Me.exitButton.Size = New System.Drawing.Size(30, 25)
         Me.exitButton.TabIndex = 1
         Me.exitButton.UseVisualStyleBackColor = False
         '
@@ -113,17 +130,6 @@ Partial Class loginForm
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "LOGIN"
         Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(5, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(226, 19)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Athena Perb's Catering Service"
         '
         'loginForm
         '

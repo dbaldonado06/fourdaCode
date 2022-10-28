@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DantZee\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Bianca Pano\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+      "projectUniqueName": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
       "projectName": "APCS_POS_x_IS",
-      "projectPath": "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
-      "packagesPath": "C:\\Users\\DantZee\\.nuget\\packages\\",
-      "outputPath": "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\obj\\",
+      "projectPath": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+      "packagesPath": "C:\\Users\\Bianca Pano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\DantZee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Bianca Pano\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
       }
     }
   }

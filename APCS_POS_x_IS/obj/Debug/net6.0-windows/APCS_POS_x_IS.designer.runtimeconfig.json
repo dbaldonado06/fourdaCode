@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Bianca Pano\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Bianca Pano\\.nuget\\packages"
+      "C:\\Users\\oticj\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\oticj\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

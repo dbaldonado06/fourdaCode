@@ -4,7 +4,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles minimizeButton.Click
-
+        Me.WindowState = FormWindowState.Minimized
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles userProfile.Click

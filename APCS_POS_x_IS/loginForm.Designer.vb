@@ -71,7 +71,7 @@ Partial Class loginForm
         Me.minimizeButton.Location = New System.Drawing.Point(227, 0)
         Me.minimizeButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.minimizeButton.Name = "minimizeButton"
-        Me.minimizeButton.Size = New System.Drawing.Size(28, 32)
+        Me.minimizeButton.Size = New System.Drawing.Size(28, 35)
         Me.minimizeButton.TabIndex = 1
         Me.minimizeButton.UseVisualStyleBackColor = False
         '
@@ -85,7 +85,7 @@ Partial Class loginForm
         Me.exitButton.Image = CType(resources.GetObject("exitButton.Image"), System.Drawing.Image)
         Me.exitButton.Location = New System.Drawing.Point(256, 0)
         Me.exitButton.Name = "exitButton"
-        Me.exitButton.Size = New System.Drawing.Size(28, 32)
+        Me.exitButton.Size = New System.Drawing.Size(28, 35)
         Me.exitButton.TabIndex = 1
         Me.exitButton.UseVisualStyleBackColor = False
         '

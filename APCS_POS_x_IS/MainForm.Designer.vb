@@ -24,12 +24,14 @@ Partial Class MainForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.LeftPanel = New System.Windows.Forms.Panel()
+        Me.LogoutButton = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.DashboardButton = New System.Windows.Forms.Button()
         Me.UsersButton = New System.Windows.Forms.Button()
         Me.ProfilePanel = New System.Windows.Forms.Panel()
         Me.EmployeeText = New System.Windows.Forms.Label()
         Me.ProfilePic = New System.Windows.Forms.PictureBox()
+        Me.MainPanel = New System.Windows.Forms.Panel()
         Me.LeftPanel.SuspendLayout()
         Me.ProfilePanel.SuspendLayout()
         CType(Me.ProfilePic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -38,6 +40,7 @@ Partial Class MainForm
         'LeftPanel
         '
         Me.LeftPanel.BackColor = System.Drawing.Color.SlateGray
+        Me.LeftPanel.Controls.Add(Me.LogoutButton)
         Me.LeftPanel.Controls.Add(Me.Button1)
         Me.LeftPanel.Controls.Add(Me.DashboardButton)
         Me.LeftPanel.Controls.Add(Me.UsersButton)
@@ -45,8 +48,24 @@ Partial Class MainForm
         Me.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left
         Me.LeftPanel.Location = New System.Drawing.Point(0, 0)
         Me.LeftPanel.Name = "LeftPanel"
-        Me.LeftPanel.Size = New System.Drawing.Size(307, 638)
+        Me.LeftPanel.Size = New System.Drawing.Size(307, 1098)
         Me.LeftPanel.TabIndex = 0
+        '
+        'LogoutButton
+        '
+        Me.LogoutButton.FlatAppearance.BorderSize = 0
+        Me.LogoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.LogoutButton.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LogoutButton.ForeColor = System.Drawing.Color.White
+        Me.LogoutButton.Image = CType(resources.GetObject("LogoutButton.Image"), System.Drawing.Image)
+        Me.LogoutButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.LogoutButton.Location = New System.Drawing.Point(0, 1038)
+        Me.LogoutButton.Name = "LogoutButton"
+        Me.LogoutButton.Size = New System.Drawing.Size(307, 42)
+        Me.LogoutButton.TabIndex = 4
+        Me.LogoutButton.Text = "LOGOUT"
+        Me.LogoutButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.LogoutButton.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -56,9 +75,9 @@ Partial Class MainForm
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(12, 310)
+        Me.Button1.Location = New System.Drawing.Point(0, 310)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(283, 42)
+        Me.Button1.Size = New System.Drawing.Size(307, 42)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "POS"
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -72,9 +91,9 @@ Partial Class MainForm
         Me.DashboardButton.ForeColor = System.Drawing.Color.White
         Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
         Me.DashboardButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.DashboardButton.Location = New System.Drawing.Point(12, 264)
+        Me.DashboardButton.Location = New System.Drawing.Point(0, 264)
         Me.DashboardButton.Name = "DashboardButton"
-        Me.DashboardButton.Size = New System.Drawing.Size(283, 42)
+        Me.DashboardButton.Size = New System.Drawing.Size(307, 42)
         Me.DashboardButton.TabIndex = 2
         Me.DashboardButton.Text = "DASHBOARD"
         Me.DashboardButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -88,9 +107,9 @@ Partial Class MainForm
         Me.UsersButton.ForeColor = System.Drawing.Color.White
         Me.UsersButton.Image = CType(resources.GetObject("UsersButton.Image"), System.Drawing.Image)
         Me.UsersButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.UsersButton.Location = New System.Drawing.Point(12, 218)
+        Me.UsersButton.Location = New System.Drawing.Point(0, 218)
         Me.UsersButton.Name = "UsersButton"
-        Me.UsersButton.Size = New System.Drawing.Size(283, 42)
+        Me.UsersButton.Size = New System.Drawing.Size(307, 42)
         Me.UsersButton.TabIndex = 1
         Me.UsersButton.Text = "USERS"
         Me.UsersButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -129,12 +148,20 @@ Partial Class MainForm
         Me.ProfilePic.TabIndex = 0
         Me.ProfilePic.TabStop = False
         '
+        'MainPanel
+        '
+        Me.MainPanel.Location = New System.Drawing.Point(313, 56)
+        Me.MainPanel.Name = "MainPanel"
+        Me.MainPanel.Size = New System.Drawing.Size(646, 366)
+        Me.MainPanel.TabIndex = 1
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1005, 638)
+        Me.ClientSize = New System.Drawing.Size(1005, 1098)
+        Me.Controls.Add(Me.MainPanel)
         Me.Controls.Add(Me.LeftPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "MainForm"
@@ -155,4 +182,6 @@ Partial Class MainForm
     Friend WithEvents UsersButton As Button
     Friend WithEvents DashboardButton As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents LogoutButton As Button
+    Friend WithEvents MainPanel As Panel
 End Class

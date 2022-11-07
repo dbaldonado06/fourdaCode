@@ -36,3 +36,6 @@ C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-
 C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.genruntimeconfig.cache
 C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\ref\APCS_POS_x_IS.dll
 C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.MainForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.DashboardForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.PosForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.UsersForm.resources

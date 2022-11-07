@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MainForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,16 +20,18 @@ Partial Class MainForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.LeftPanel = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.LogoutButton = New System.Windows.Forms.Button()
+        Me.PosButton = New System.Windows.Forms.Button()
         Me.DashboardButton = New System.Windows.Forms.Button()
         Me.UsersButton = New System.Windows.Forms.Button()
         Me.ProfilePanel = New System.Windows.Forms.Panel()
         Me.EmployeeText = New System.Windows.Forms.Label()
         Me.ProfilePic = New System.Windows.Forms.PictureBox()
+        Me.MainPanel = New System.Windows.Forms.Panel()
         Me.LeftPanel.SuspendLayout()
         Me.ProfilePanel.SuspendLayout()
         CType(Me.ProfilePic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -38,31 +40,48 @@ Partial Class MainForm
         'LeftPanel
         '
         Me.LeftPanel.BackColor = System.Drawing.Color.SlateGray
-        Me.LeftPanel.Controls.Add(Me.Button1)
+        Me.LeftPanel.Controls.Add(Me.LogoutButton)
+        Me.LeftPanel.Controls.Add(Me.PosButton)
         Me.LeftPanel.Controls.Add(Me.DashboardButton)
         Me.LeftPanel.Controls.Add(Me.UsersButton)
         Me.LeftPanel.Controls.Add(Me.ProfilePanel)
         Me.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left
         Me.LeftPanel.Location = New System.Drawing.Point(0, 0)
         Me.LeftPanel.Name = "LeftPanel"
-        Me.LeftPanel.Size = New System.Drawing.Size(307, 638)
+        Me.LeftPanel.Size = New System.Drawing.Size(307, 1098)
         Me.LeftPanel.TabIndex = 0
         '
-        'Button1
+        'LogoutButton
         '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(12, 310)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(283, 42)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "POS"
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.LogoutButton.FlatAppearance.BorderSize = 0
+        Me.LogoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.LogoutButton.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LogoutButton.ForeColor = System.Drawing.Color.White
+        Me.LogoutButton.Image = CType(resources.GetObject("LogoutButton.Image"), System.Drawing.Image)
+        Me.LogoutButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.LogoutButton.Location = New System.Drawing.Point(0, 1038)
+        Me.LogoutButton.Name = "LogoutButton"
+        Me.LogoutButton.Size = New System.Drawing.Size(307, 42)
+        Me.LogoutButton.TabIndex = 4
+        Me.LogoutButton.Text = "LOGOUT"
+        Me.LogoutButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.LogoutButton.UseVisualStyleBackColor = True
+        '
+        'PosButton
+        '
+        Me.PosButton.FlatAppearance.BorderSize = 0
+        Me.PosButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PosButton.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.PosButton.ForeColor = System.Drawing.Color.White
+        Me.PosButton.Image = CType(resources.GetObject("PosButton.Image"), System.Drawing.Image)
+        Me.PosButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.PosButton.Location = New System.Drawing.Point(0, 310)
+        Me.PosButton.Name = "PosButton"
+        Me.PosButton.Size = New System.Drawing.Size(307, 42)
+        Me.PosButton.TabIndex = 3
+        Me.PosButton.Text = "POS"
+        Me.PosButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.PosButton.UseVisualStyleBackColor = True
         '
         'DashboardButton
         '
@@ -72,9 +91,9 @@ Partial Class MainForm
         Me.DashboardButton.ForeColor = System.Drawing.Color.White
         Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
         Me.DashboardButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.DashboardButton.Location = New System.Drawing.Point(12, 264)
+        Me.DashboardButton.Location = New System.Drawing.Point(0, 264)
         Me.DashboardButton.Name = "DashboardButton"
-        Me.DashboardButton.Size = New System.Drawing.Size(283, 42)
+        Me.DashboardButton.Size = New System.Drawing.Size(307, 42)
         Me.DashboardButton.TabIndex = 2
         Me.DashboardButton.Text = "DASHBOARD"
         Me.DashboardButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -88,9 +107,9 @@ Partial Class MainForm
         Me.UsersButton.ForeColor = System.Drawing.Color.White
         Me.UsersButton.Image = CType(resources.GetObject("UsersButton.Image"), System.Drawing.Image)
         Me.UsersButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.UsersButton.Location = New System.Drawing.Point(12, 218)
+        Me.UsersButton.Location = New System.Drawing.Point(0, 218)
         Me.UsersButton.Name = "UsersButton"
-        Me.UsersButton.Size = New System.Drawing.Size(283, 42)
+        Me.UsersButton.Size = New System.Drawing.Size(307, 42)
         Me.UsersButton.TabIndex = 1
         Me.UsersButton.Text = "USERS"
         Me.UsersButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -129,12 +148,20 @@ Partial Class MainForm
         Me.ProfilePic.TabIndex = 0
         Me.ProfilePic.TabStop = False
         '
+        'MainPanel
+        '
+        Me.MainPanel.Location = New System.Drawing.Point(304, 0)
+        Me.MainPanel.Name = "MainPanel"
+        Me.MainPanel.Size = New System.Drawing.Size(1940, 1098)
+        Me.MainPanel.TabIndex = 1
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1005, 638)
+        Me.ClientSize = New System.Drawing.Size(1940, 1098)
+        Me.Controls.Add(Me.MainPanel)
         Me.Controls.Add(Me.LeftPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "MainForm"
@@ -154,5 +181,7 @@ Partial Class MainForm
     Friend WithEvents ProfilePic As PictureBox
     Friend WithEvents UsersButton As Button
     Friend WithEvents DashboardButton As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents PosButton As Button
+    Friend WithEvents LogoutButton As Button
+    Friend WithEvents MainPanel As Panel
 End Class

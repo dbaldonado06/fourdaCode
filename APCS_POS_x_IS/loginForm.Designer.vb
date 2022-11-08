@@ -51,11 +51,11 @@ Partial Class loginForm
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Font = New System.Drawing.Font("Malgun Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(1, 8)
+        Me.Label1.Location = New System.Drawing.Point(5, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(210, 19)
+        Me.Label1.Size = New System.Drawing.Size(200, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Athena Perb's Catering Service"
         '
@@ -104,6 +104,7 @@ Partial Class loginForm
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.TextBox1.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TextBox1.Location = New System.Drawing.Point(60, 172)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"

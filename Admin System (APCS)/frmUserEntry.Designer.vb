@@ -36,13 +36,9 @@ Partial Class frmUserEntry
         Me.pnl2UserEntry = New System.Windows.Forms.Panel()
         Me.lblAdminUserEntry = New System.Windows.Forms.Label()
         Me.picBoxUserEntry = New System.Windows.Forms.PictureBox()
-        Me.pnlUserPage = New System.Windows.Forms.Panel()
-        Me.picBoxCreateUser = New System.Windows.Forms.PictureBox()
         Me.pnl1UserEntry.SuspendLayout()
         Me.pnl2UserEntry.SuspendLayout()
         CType(Me.picBoxUserEntry, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.pnlUserPage.SuspendLayout()
-        CType(Me.picBoxCreateUser, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnl1UserEntry
@@ -61,7 +57,7 @@ Partial Class frmUserEntry
         Me.pnl1UserEntry.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnl1UserEntry.Location = New System.Drawing.Point(0, 0)
         Me.pnl1UserEntry.Name = "pnl1UserEntry"
-        Me.pnl1UserEntry.Size = New System.Drawing.Size(307, 770)
+        Me.pnl1UserEntry.Size = New System.Drawing.Size(307, 1100)
         Me.pnl1UserEntry.TabIndex = 0
         '
         'btnLogoutUserEntry
@@ -241,43 +237,20 @@ Partial Class frmUserEntry
         Me.picBoxUserEntry.TabIndex = 0
         Me.picBoxUserEntry.TabStop = False
         '
-        'pnlUserPage
-        '
-        Me.pnlUserPage.Controls.Add(Me.picBoxCreateUser)
-        Me.pnlUserPage.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pnlUserPage.Location = New System.Drawing.Point(307, 0)
-        Me.pnlUserPage.Name = "pnlUserPage"
-        Me.pnlUserPage.Size = New System.Drawing.Size(803, 770)
-        Me.pnlUserPage.TabIndex = 1
-        '
-        'picBoxCreateUser
-        '
-        Me.picBoxCreateUser.Image = CType(resources.GetObject("picBoxCreateUser.Image"), System.Drawing.Image)
-        Me.picBoxCreateUser.Location = New System.Drawing.Point(752, 12)
-        Me.picBoxCreateUser.Name = "picBoxCreateUser"
-        Me.picBoxCreateUser.Size = New System.Drawing.Size(39, 38)
-        Me.picBoxCreateUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBoxCreateUser.TabIndex = 0
-        Me.picBoxCreateUser.TabStop = False
-        '
         'frmUserEntry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1110, 770)
+        Me.ClientSize = New System.Drawing.Size(1940, 1100)
         Me.ControlBox = False
-        Me.Controls.Add(Me.pnlUserPage)
         Me.Controls.Add(Me.pnl1UserEntry)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmUserEntry"
         Me.Text = "Form1"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.pnl1UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.PerformLayout()
         CType(Me.picBoxUserEntry, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.pnlUserPage.ResumeLayout(False)
-        CType(Me.picBoxCreateUser, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -295,6 +268,4 @@ Partial Class frmUserEntry
     Friend WithEvents btnProdMenuUserEntry As Button
     Friend WithEvents btnPosUserEntry As Button
     Friend WithEvents btnDashboardUserEntry As Button
-    Friend WithEvents pnlUserPage As Panel
-    Friend WithEvents picBoxCreateUser As PictureBox
 End Class

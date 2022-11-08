@@ -27,7 +27,7 @@
 
     End Sub
 
-    Private Sub picBoxCreateUser_Click(sender As Object, e As EventArgs) Handles picBoxCreateUser.Click
+    Private Sub picBoxCreateUser_Click(sender As Object, e As EventArgs)
         frmCreateUser.Show()
     End Sub
 End Class

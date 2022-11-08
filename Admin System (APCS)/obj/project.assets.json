@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DantZee\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Feliza Dia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Desktop\\project\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
+      "projectUniqueName": "D:\\Desktop\\Repository\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
       "projectName": "Admin System (APCS)",
-      "projectPath": "E:\\Desktop\\project\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
-      "packagesPath": "C:\\Users\\DantZee\\.nuget\\packages\\",
-      "outputPath": "E:\\Desktop\\project\\fourdaCode\\Admin System (APCS)\\obj\\",
+      "projectPath": "D:\\Desktop\\Repository\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
+      "packagesPath": "C:\\Users\\Feliza Dia\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\Repository\\fourdaCode\\Admin System (APCS)\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\DantZee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Feliza Dia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

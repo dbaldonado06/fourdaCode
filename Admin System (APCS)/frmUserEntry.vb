@@ -3,7 +3,7 @@
 
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) 
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -28,6 +28,46 @@
     End Sub
 
     Private Sub picBoxCreateUser_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub btnProdMenuUserEntry_Click(sender As Object, e As EventArgs) Handles btnProdMenuUserEntry.Click
+
+    End Sub
+
+    Private Sub btnCustomersUserEntry_Click(sender As Object, e As EventArgs) Handles btnCustomersUserEntry.Click
+
+    End Sub
+
+    Private Sub btnRecordsUserEntry_Click(sender As Object, e As EventArgs) Handles btnRecordsUserEntry.Click
+
+    End Sub
+
+    Private Sub btnVouchersUserEntry_Click(sender As Object, e As EventArgs) Handles btnVouchersUserEntry.Click
+
+    End Sub
+
+    Private Sub btnStocksInvUserEntry_Click(sender As Object, e As EventArgs) Handles btnStocksInvUserEntry.Click
+
+    End Sub
+
+    Private Sub btnLogoutUserEntry_Click(sender As Object, e As EventArgs) Handles btnLogoutUserEntry.Click
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub btnCreateUser_Click(sender As Object, e As EventArgs) Handles btnCreateUser.Click
         frmCreateUser.Show()
+    End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
+
+    End Sub
+
+    Private Sub pnl3UserEntry_Paint(sender As Object, e As PaintEventArgs) Handles pnl3UserEntry.Paint
+
     End Sub
 End Class

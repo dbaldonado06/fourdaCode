@@ -1,0 +1,41 @@
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.exe
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.deps.json
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.runtimeconfig.json
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.dll
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.pdb
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.AssemblyReference.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.loginForm.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.Resources.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.frmDashboard.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.GenerateResource.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.AssemblyInfoInputs.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.AssemblyInfo.vb
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.CoreCompileInputs.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.dll
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\refint\APCS_POS_x_IS.dll
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.pdb
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.genruntimeconfig.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\ref\APCS_POS_x_IS.dll
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.exe
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.deps.json
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.runtimeconfig.json
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.dll
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.pdb
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.AssemblyReference.cache
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.loginForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.Resources.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.GenerateResource.cache
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.AssemblyInfoInputs.cache
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.AssemblyInfo.vb
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.CoreCompileInputs.cache
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.dll
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\refint\APCS_POS_x_IS.dll
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.pdb
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.genruntimeconfig.cache
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\ref\APCS_POS_x_IS.dll
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.MainForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.DashboardForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.PosForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.UsersForm.resources

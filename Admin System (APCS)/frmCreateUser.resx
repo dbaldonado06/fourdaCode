@@ -58,10 +58,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pbClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picBoxClose.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
-        hwAAAYcBOqddywAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFySURBVEhL7dZb
+        iAAAAYgBTGnz0QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFySURBVEhL7dZb
         SgMxGIbhgiJ6qegSBI/X6k5UcBEedqNW9+CFuhJBxQ0obkBF3xcMhJm/M52mpSB+8NAhk0ObZpLp/acl
         M9jFIY5/eW2Z98aebVzhDd8DeM86WyjOEuzsC9FgkU/0YduRsooHRJ0P4xkb6JR1vCPqsAv7sK+h4hQ9
         IupoFC9YRmuuEXVQ4hKNcfW6OKLGJeyzcbW7gqOGOsIK7rKyxDLvWad6L3Glh5lF03Nqx2Yet0jlXltm

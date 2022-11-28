@@ -22,217 +22,169 @@ Partial Class frmCreateUser
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCreateUser))
-        Me.pnlCreateUser = New System.Windows.Forms.Panel()
-        Me.picBoxClose = New System.Windows.Forms.PictureBox()
-        Me.lblFname = New System.Windows.Forms.Label()
-        Me.lblMiddleName = New System.Windows.Forms.Label()
-        Me.lblLname = New System.Windows.Forms.Label()
-        Me.lblEmail = New System.Windows.Forms.Label()
-        Me.lblContactNumber = New System.Windows.Forms.Label()
-        Me.txtBoxFname = New System.Windows.Forms.TextBox()
-        Me.txtBoxMiddleName = New System.Windows.Forms.TextBox()
-        Me.txtBoxLname = New System.Windows.Forms.TextBox()
-        Me.txtBoxEmail = New System.Windows.Forms.TextBox()
-        Me.txtBoxContactNumber = New System.Windows.Forms.TextBox()
-        Me.btnCreate = New System.Windows.Forms.Button()
-        Me.dataGridViewUser = New System.Windows.Forms.DataGridView()
-        Me.lblID = New System.Windows.Forms.Label()
-        Me.txtBoxID = New System.Windows.Forms.TextBox()
-        Me.pnlCreateUser.SuspendLayout()
-        CType(Me.picBoxClose, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.dataGridViewUser, System.ComponentModel.ISupportInitialize).BeginInit()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Me.dataGridViewUserfrm = New System.Windows.Forms.DataGridView()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column7 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.Column8 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.picBoxRegUser = New System.Windows.Forms.PictureBox()
+        Me.lblUserAccounts = New System.Windows.Forms.Label()
+        CType(Me.dataGridViewUserfrm, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picBoxRegUser, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'pnlCreateUser
+        'dataGridViewUserfrm
         '
-        Me.pnlCreateUser.BackColor = System.Drawing.Color.SlateGray
-        Me.pnlCreateUser.Controls.Add(Me.picBoxClose)
-        Me.pnlCreateUser.Dock = System.Windows.Forms.DockStyle.Top
-        Me.pnlCreateUser.Location = New System.Drawing.Point(0, 0)
-        Me.pnlCreateUser.Name = "pnlCreateUser"
-        Me.pnlCreateUser.Size = New System.Drawing.Size(1244, 45)
-        Me.pnlCreateUser.TabIndex = 0
+        Me.dataGridViewUserfrm.AllowUserToAddRows = False
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.dataGridViewUserfrm.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.dataGridViewUserfrm.BackgroundColor = System.Drawing.SystemColors.Control
+        Me.dataGridViewUserfrm.ColumnHeadersHeight = 30
+        Me.dataGridViewUserfrm.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dataGridViewUserfrm.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8})
+        Me.dataGridViewUserfrm.Location = New System.Drawing.Point(55, 138)
+        Me.dataGridViewUserfrm.Name = "dataGridViewUserfrm"
+        Me.dataGridViewUserfrm.RowTemplate.Height = 25
+        Me.dataGridViewUserfrm.Size = New System.Drawing.Size(956, 394)
+        Me.dataGridViewUserfrm.TabIndex = 0
         '
-        'picBoxClose
+        'Column1
         '
-        Me.picBoxClose.AccessibleRole = System.Windows.Forms.AccessibleRole.None
-        Me.picBoxClose.BackgroundImage = CType(resources.GetObject("picBoxClose.BackgroundImage"), System.Drawing.Image)
-        Me.picBoxClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.picBoxClose.Location = New System.Drawing.Point(1198, 0)
-        Me.picBoxClose.Name = "picBoxClose"
-        Me.picBoxClose.Size = New System.Drawing.Size(46, 45)
-        Me.picBoxClose.TabIndex = 0
-        Me.picBoxClose.TabStop = False
+        Me.Column1.HeaderText = "ID"
+        Me.Column1.Name = "Column1"
+        Me.Column1.Visible = False
         '
-        'lblFname
+        'Column2
         '
-        Me.lblFname.AutoSize = True
-        Me.lblFname.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblFname.Location = New System.Drawing.Point(43, 148)
-        Me.lblFname.Name = "lblFname"
-        Me.lblFname.Size = New System.Drawing.Size(106, 25)
-        Me.lblFname.TabIndex = 1
-        Me.lblFname.Text = "First Name"
+        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.Column2.DefaultCellStyle = DataGridViewCellStyle2
+        Me.Column2.HeaderText = "Username"
+        Me.Column2.Name = "Column2"
+        Me.Column2.Width = 85
         '
-        'lblMiddleName
+        'Column3
         '
-        Me.lblMiddleName.AutoSize = True
-        Me.lblMiddleName.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblMiddleName.Location = New System.Drawing.Point(43, 217)
-        Me.lblMiddleName.Name = "lblMiddleName"
-        Me.lblMiddleName.Size = New System.Drawing.Size(129, 25)
-        Me.lblMiddleName.TabIndex = 2
-        Me.lblMiddleName.Text = "Middle Name"
+        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column3.DefaultCellStyle = DataGridViewCellStyle3
+        Me.Column3.HeaderText = "Password"
+        Me.Column3.Name = "Column3"
+        Me.Column3.Width = 82
         '
-        'lblLname
+        'Column4
         '
-        Me.lblLname.AutoSize = True
-        Me.lblLname.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblLname.Location = New System.Drawing.Point(46, 285)
-        Me.lblLname.Name = "lblLname"
-        Me.lblLname.Size = New System.Drawing.Size(103, 25)
-        Me.lblLname.TabIndex = 3
-        Me.lblLname.Text = "Last Name"
+        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column4.DefaultCellStyle = DataGridViewCellStyle4
+        Me.Column4.HeaderText = "Address"
+        Me.Column4.Name = "Column4"
         '
-        'lblEmail
+        'Column5
         '
-        Me.lblEmail.AutoSize = True
-        Me.lblEmail.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblEmail.Location = New System.Drawing.Point(46, 352)
-        Me.lblEmail.Name = "lblEmail"
-        Me.lblEmail.Size = New System.Drawing.Size(59, 25)
-        Me.lblEmail.TabIndex = 4
-        Me.lblEmail.Text = "Email"
+        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column5.DefaultCellStyle = DataGridViewCellStyle5
+        Me.Column5.HeaderText = "Phone Number"
+        Me.Column5.Name = "Column5"
+        Me.Column5.Width = 113
         '
-        'lblContactNumber
+        'Column6
         '
-        Me.lblContactNumber.AutoSize = True
-        Me.lblContactNumber.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblContactNumber.Location = New System.Drawing.Point(46, 417)
-        Me.lblContactNumber.Name = "lblContactNumber"
-        Me.lblContactNumber.Size = New System.Drawing.Size(155, 25)
-        Me.lblContactNumber.TabIndex = 5
-        Me.lblContactNumber.Text = "Contact Number"
+        Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column6.DefaultCellStyle = DataGridViewCellStyle6
+        Me.Column6.HeaderText = "Email"
+        Me.Column6.Name = "Column6"
+        Me.Column6.Width = 61
         '
-        'txtBoxFname
+        'Column7
         '
-        Me.txtBoxFname.Location = New System.Drawing.Point(227, 144)
-        Me.txtBoxFname.Name = "txtBoxFname"
-        Me.txtBoxFname.Size = New System.Drawing.Size(205, 23)
-        Me.txtBoxFname.TabIndex = 6
+        Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle7.NullValue = CType(resources.GetObject("DataGridViewCellStyle7.NullValue"), Object)
+        Me.Column7.DefaultCellStyle = DataGridViewCellStyle7
+        Me.Column7.HeaderText = ""
+        Me.Column7.Image = CType(resources.GetObject("Column7.Image"), System.Drawing.Image)
+        Me.Column7.Name = "Column7"
+        Me.Column7.Width = 5
         '
-        'txtBoxMiddleName
+        'Column8
         '
-        Me.txtBoxMiddleName.Location = New System.Drawing.Point(227, 214)
-        Me.txtBoxMiddleName.Name = "txtBoxMiddleName"
-        Me.txtBoxMiddleName.Size = New System.Drawing.Size(205, 23)
-        Me.txtBoxMiddleName.TabIndex = 7
+        Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle8.NullValue = CType(resources.GetObject("DataGridViewCellStyle8.NullValue"), Object)
+        Me.Column8.DefaultCellStyle = DataGridViewCellStyle8
+        Me.Column8.HeaderText = ""
+        Me.Column8.Image = CType(resources.GetObject("Column8.Image"), System.Drawing.Image)
+        Me.Column8.Name = "Column8"
+        Me.Column8.Width = 5
         '
-        'txtBoxLname
+        'picBoxRegUser
         '
-        Me.txtBoxLname.Location = New System.Drawing.Point(227, 280)
-        Me.txtBoxLname.Name = "txtBoxLname"
-        Me.txtBoxLname.Size = New System.Drawing.Size(205, 23)
-        Me.txtBoxLname.TabIndex = 8
+        Me.picBoxRegUser.Image = CType(resources.GetObject("picBoxRegUser.Image"), System.Drawing.Image)
+        Me.picBoxRegUser.Location = New System.Drawing.Point(965, 12)
+        Me.picBoxRegUser.Name = "picBoxRegUser"
+        Me.picBoxRegUser.Size = New System.Drawing.Size(46, 46)
+        Me.picBoxRegUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBoxRegUser.TabIndex = 1
+        Me.picBoxRegUser.TabStop = False
         '
-        'txtBoxEmail
+        'lblUserAccounts
         '
-        Me.txtBoxEmail.Location = New System.Drawing.Point(227, 351)
-        Me.txtBoxEmail.Name = "txtBoxEmail"
-        Me.txtBoxEmail.Size = New System.Drawing.Size(205, 23)
-        Me.txtBoxEmail.TabIndex = 9
-        '
-        'txtBoxContactNumber
-        '
-        Me.txtBoxContactNumber.Location = New System.Drawing.Point(227, 418)
-        Me.txtBoxContactNumber.Name = "txtBoxContactNumber"
-        Me.txtBoxContactNumber.Size = New System.Drawing.Size(205, 23)
-        Me.txtBoxContactNumber.TabIndex = 10
-        '
-        'btnCreate
-        '
-        Me.btnCreate.BackColor = System.Drawing.Color.LightGray
-        Me.btnCreate.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnCreate.Location = New System.Drawing.Point(173, 485)
-        Me.btnCreate.Name = "btnCreate"
-        Me.btnCreate.Size = New System.Drawing.Size(101, 39)
-        Me.btnCreate.TabIndex = 11
-        Me.btnCreate.Text = "CREATE"
-        Me.btnCreate.UseVisualStyleBackColor = False
-        '
-        'dataGridViewUser
-        '
-        Me.dataGridViewUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dataGridViewUser.Location = New System.Drawing.Point(485, 91)
-        Me.dataGridViewUser.Name = "dataGridViewUser"
-        Me.dataGridViewUser.RowTemplate.Height = 25
-        Me.dataGridViewUser.Size = New System.Drawing.Size(733, 402)
-        Me.dataGridViewUser.TabIndex = 12
-        '
-        'lblID
-        '
-        Me.lblID.AutoSize = True
-        Me.lblID.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblID.Location = New System.Drawing.Point(46, 78)
-        Me.lblID.Name = "lblID"
-        Me.lblID.Size = New System.Drawing.Size(32, 25)
-        Me.lblID.TabIndex = 13
-        Me.lblID.Text = "ID"
-        '
-        'txtBoxID
-        '
-        Me.txtBoxID.Location = New System.Drawing.Point(227, 83)
-        Me.txtBoxID.Name = "txtBoxID"
-        Me.txtBoxID.Size = New System.Drawing.Size(205, 23)
-        Me.txtBoxID.TabIndex = 14
+        Me.lblUserAccounts.AutoSize = True
+        Me.lblUserAccounts.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.lblUserAccounts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblUserAccounts.Font = New System.Drawing.Font("Yu Gothic UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblUserAccounts.ForeColor = System.Drawing.Color.White
+        Me.lblUserAccounts.Location = New System.Drawing.Point(-2, 12)
+        Me.lblUserAccounts.Name = "lblUserAccounts"
+        Me.lblUserAccounts.Size = New System.Drawing.Size(193, 37)
+        Me.lblUserAccounts.TabIndex = 2
+        Me.lblUserAccounts.Text = "User Accounts"
         '
         'frmCreateUser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1244, 553)
+        Me.ClientSize = New System.Drawing.Size(1079, 788)
         Me.ControlBox = False
-        Me.Controls.Add(Me.txtBoxID)
-        Me.Controls.Add(Me.lblID)
-        Me.Controls.Add(Me.dataGridViewUser)
-        Me.Controls.Add(Me.btnCreate)
-        Me.Controls.Add(Me.txtBoxContactNumber)
-        Me.Controls.Add(Me.txtBoxEmail)
-        Me.Controls.Add(Me.txtBoxLname)
-        Me.Controls.Add(Me.txtBoxMiddleName)
-        Me.Controls.Add(Me.txtBoxFname)
-        Me.Controls.Add(Me.lblContactNumber)
-        Me.Controls.Add(Me.lblEmail)
-        Me.Controls.Add(Me.lblLname)
-        Me.Controls.Add(Me.lblMiddleName)
-        Me.Controls.Add(Me.lblFname)
-        Me.Controls.Add(Me.pnlCreateUser)
+        Me.Controls.Add(Me.lblUserAccounts)
+        Me.Controls.Add(Me.picBoxRegUser)
+        Me.Controls.Add(Me.dataGridViewUserfrm)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmCreateUser"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmCreateUser"
-        Me.pnlCreateUser.ResumeLayout(False)
-        CType(Me.picBoxClose, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.dataGridViewUser, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dataGridViewUserfrm, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picBoxRegUser, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents pnlCreateUser As Panel
-    Friend WithEvents picBoxClose As PictureBox
-    Friend WithEvents lblFname As Label
-    Friend WithEvents lblMiddleName As Label
-    Friend WithEvents lblLname As Label
-    Friend WithEvents lblEmail As Label
-    Friend WithEvents lblContactNumber As Label
-    Friend WithEvents txtBoxFname As TextBox
-    Friend WithEvents txtBoxMiddleName As TextBox
-    Friend WithEvents txtBoxLname As TextBox
-    Friend WithEvents txtBoxEmail As TextBox
-    Friend WithEvents txtBoxContactNumber As TextBox
-    Friend WithEvents btnCreate As Button
-    Friend WithEvents dataGridViewUser As DataGridView
-    Friend WithEvents lblID As Label
-    Friend WithEvents txtBoxID As TextBox
+    Friend WithEvents dataGridViewUserfrm As DataGridView
+    Friend WithEvents picBoxRegUser As PictureBox
+    Friend WithEvents lblUserAccounts As Label
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents Column7 As DataGridViewImageColumn
+    Friend WithEvents Column8 As DataGridViewImageColumn
 End Class

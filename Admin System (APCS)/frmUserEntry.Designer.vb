@@ -60,7 +60,7 @@ Partial Class frmUserEntry
         Me.pnl1UserEntry.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnl1UserEntry.Location = New System.Drawing.Point(0, 0)
         Me.pnl1UserEntry.Name = "pnl1UserEntry"
-        Me.pnl1UserEntry.Size = New System.Drawing.Size(307, 1100)
+        Me.pnl1UserEntry.Size = New System.Drawing.Size(307, 694)
         Me.pnl1UserEntry.TabIndex = 0
         '
         'btnLogoutUserEntry
@@ -246,7 +246,7 @@ Partial Class frmUserEntry
         Me.pnl3UserEntry.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnl3UserEntry.Location = New System.Drawing.Point(307, 0)
         Me.pnl3UserEntry.Name = "pnl3UserEntry"
-        Me.pnl3UserEntry.Size = New System.Drawing.Size(879, 1100)
+        Me.pnl3UserEntry.Size = New System.Drawing.Size(806, 694)
         Me.pnl3UserEntry.TabIndex = 1
         '
         'btnCreateUser
@@ -263,13 +263,14 @@ Partial Class frmUserEntry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1186, 1100)
+        Me.ClientSize = New System.Drawing.Size(1113, 634)
         Me.ControlBox = False
         Me.Controls.Add(Me.pnl3UserEntry)
         Me.Controls.Add(Me.pnl1UserEntry)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmUserEntry"
         Me.Text = "Form1"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.pnl1UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.PerformLayout()

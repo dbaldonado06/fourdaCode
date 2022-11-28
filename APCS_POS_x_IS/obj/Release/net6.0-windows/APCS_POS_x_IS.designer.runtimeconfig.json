@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Bianca Pano\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Bianca Pano\\.nuget\\packages"
+      "C:\\Users\\DantZee\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\DantZee\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

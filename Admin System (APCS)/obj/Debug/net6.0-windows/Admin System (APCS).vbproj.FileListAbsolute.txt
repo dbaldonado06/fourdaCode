@@ -17,3 +17,22 @@ D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\re
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmUserEntry.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.Resources.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCreateUser.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).exe
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).deps.json
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).runtimeconfig.json
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).pdb
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.AssemblyReference.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCreateUser.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmUserEntry.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.Resources.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.GenerateResource.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).GeneratedMSBuildEditorConfig.editorconfig
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).AssemblyInfoInputs.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).AssemblyInfo.vb
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.CoreCompileInputs.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\refint\Admin System (APCS).dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).pdb
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).genruntimeconfig.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\ref\Admin System (APCS).dll

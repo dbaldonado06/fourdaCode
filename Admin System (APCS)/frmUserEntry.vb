@@ -26,7 +26,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnDashboardUserEntry.Click
-
+        switchPanel(frmDashboard)
     End Sub
 
     Private Sub Label1_Click_1(sender As Object, e As EventArgs) Handles lblAdminUserEntry.Click
@@ -42,15 +42,15 @@
     End Sub
 
     Private Sub btnProdMenuUserEntry_Click(sender As Object, e As EventArgs) Handles btnProdMenuUserEntry.Click
-
+        switchPanel(frmProductMenuList)
     End Sub
 
     Private Sub btnCustomersUserEntry_Click(sender As Object, e As EventArgs) Handles btnCustomersUserEntry.Click
-
+        switchPanel(frmCustomers)
     End Sub
 
     Private Sub btnRecordsUserEntry_Click(sender As Object, e As EventArgs) Handles btnRecordsUserEntry.Click
-
+        switchPanel(frmSalesRecords)
     End Sub
 
     Private Sub btnVouchersUserEntry_Click(sender As Object, e As EventArgs) Handles btnVouchersUserEntry.Click
@@ -62,7 +62,7 @@
     End Sub
 
     Private Sub btnLogoutUserEntry_Click(sender As Object, e As EventArgs) Handles btnLogoutUserEntry.Click
-
+        Application.Exit()
     End Sub
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs)
@@ -83,5 +83,13 @@
 
     Private Sub picBoxCreateUser_Click_1(sender As Object, e As EventArgs) Handles picBoxCreateUser.Click
         frmCreateUser.Show()
+    End Sub
+
+    Private Sub btnPosUserEntry_Click(sender As Object, e As EventArgs) Handles btnPosUserEntry.Click
+        switchPanel(frmPointOfSale)
+    End Sub
+
+    Private Sub pnlMain_Paint(sender As Object, e As PaintEventArgs) Handles pnlMain.Paint
+
     End Sub
 End Class

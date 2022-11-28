@@ -17,3 +17,16 @@ D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\re
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmUserEntry.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.Resources.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCreateUser.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.RegisterUser.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmDashboard.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmPointOfSale.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmProductMenuList.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmProductEntry.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCategory.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmOrders.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSelectOrder.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmQty.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSettlePayment.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomerEntry.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomers.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesRecords.resources

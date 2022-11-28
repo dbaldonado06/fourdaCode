@@ -1,10 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="frmCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmCreateUser.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmCustomerEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCustomers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmPointOfSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmProductEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmProductMenuList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmQty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSalesRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSelectOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSettlePayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmUserEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegisterUser.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

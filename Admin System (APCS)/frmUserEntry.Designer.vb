@@ -47,7 +47,7 @@ Partial Class frmUserEntry
         '
         'pnl1UserEntry
         '
-        Me.pnl1UserEntry.BackColor = System.Drawing.Color.SlateGray
+        Me.pnl1UserEntry.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
         Me.pnl1UserEntry.Controls.Add(Me.btnLogoutUserEntry)
         Me.pnl1UserEntry.Controls.Add(Me.btnRecordsUserEntry)
         Me.pnl1UserEntry.Controls.Add(Me.btnVouchersUserEntry)
@@ -61,7 +61,7 @@ Partial Class frmUserEntry
         Me.pnl1UserEntry.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnl1UserEntry.Location = New System.Drawing.Point(0, 0)
         Me.pnl1UserEntry.Name = "pnl1UserEntry"
-        Me.pnl1UserEntry.Size = New System.Drawing.Size(307, 1098)
+        Me.pnl1UserEntry.Size = New System.Drawing.Size(307, 788)
         Me.pnl1UserEntry.TabIndex = 0
         '
         'btnLogoutUserEntry
@@ -72,7 +72,7 @@ Partial Class frmUserEntry
         Me.btnLogoutUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnLogoutUserEntry.Image = CType(resources.GetObject("btnLogoutUserEntry.Image"), System.Drawing.Image)
         Me.btnLogoutUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLogoutUserEntry.Location = New System.Drawing.Point(12, 1030)
+        Me.btnLogoutUserEntry.Location = New System.Drawing.Point(12, 702)
         Me.btnLogoutUserEntry.Name = "btnLogoutUserEntry"
         Me.btnLogoutUserEntry.Size = New System.Drawing.Size(283, 42)
         Me.btnLogoutUserEntry.TabIndex = 9
@@ -257,14 +257,14 @@ Partial Class frmUserEntry
         Me.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlMain.Location = New System.Drawing.Point(307, 0)
         Me.pnlMain.Name = "pnlMain"
-        Me.pnlMain.Size = New System.Drawing.Size(1633, 1098)
+        Me.pnlMain.Size = New System.Drawing.Size(1079, 788)
         Me.pnlMain.TabIndex = 1
         '
         'frmUserEntry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1940, 1098)
+        Me.ClientSize = New System.Drawing.Size(1386, 788)
         Me.ControlBox = False
         Me.Controls.Add(Me.pnlMain)
         Me.Controls.Add(Me.pnl1UserEntry)
@@ -272,6 +272,7 @@ Partial Class frmUserEntry
         Me.Name = "frmUserEntry"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmUserEntry"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.pnl1UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.PerformLayout()

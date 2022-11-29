@@ -30,4 +30,11 @@
         Close()
     End Sub
 
+    Private Sub MainPanel_Paint(sender As Object, e As PaintEventArgs) Handles MainPanel.Paint
+
+    End Sub
+
+    Private Sub ProfilePic_Click(sender As Object, e As EventArgs) Handles ProfilePic.Click
+
+    End Sub
 End Class

@@ -42,3 +42,4 @@ C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-wind
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.MainForm.resources
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.PosForm.resources
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.UsersForm.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.edituserForm.resources

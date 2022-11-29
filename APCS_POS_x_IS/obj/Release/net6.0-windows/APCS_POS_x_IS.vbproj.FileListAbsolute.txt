@@ -6,7 +6,6 @@ C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-wind
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.AssemblyReference.cache
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.loginForm.resources
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.Resources.resources
-C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.frmDashboard.resources
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.GenerateResource.cache
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.AssemblyInfoInputs.cache
@@ -39,6 +38,7 @@ C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-
 C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.DashboardForm.resources
 C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.PosForm.resources
 C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.UsersForm.resources
+<<<<<<< HEAD
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.exe
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.deps.json
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\APCS_POS_x_IS.runtimeconfig.json
@@ -61,3 +61,9 @@ E:\Desktop\project\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\refint\AP
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.pdb
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.genruntimeconfig.cache
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\ref\APCS_POS_x_IS.dll
+=======
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.DashboardForm.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.MainForm.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.PosForm.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.UsersForm.resources
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48

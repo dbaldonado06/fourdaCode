@@ -14,4 +14,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = APCS_POS_x_IS
+<<<<<<< HEAD
 build_property.ProjectDir = E:\Desktop\project\fourdaCode\APCS_POS_x_IS\
+=======
+build_property.ProjectDir = C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48

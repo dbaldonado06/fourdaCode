@@ -36,17 +36,18 @@ Partial Class frmUserEntry
         Me.pnl2UserEntry = New System.Windows.Forms.Panel()
         Me.lblAdminUserEntry = New System.Windows.Forms.Label()
         Me.picBoxUserEntry = New System.Windows.Forms.PictureBox()
-        Me.pnl3UserEntry = New System.Windows.Forms.Panel()
-        Me.btnCreateUser = New System.Windows.Forms.Button()
+        Me.picBoxCreateUser = New System.Windows.Forms.PictureBox()
+        Me.pnlMain = New System.Windows.Forms.Panel()
         Me.pnl1UserEntry.SuspendLayout()
         Me.pnl2UserEntry.SuspendLayout()
         CType(Me.picBoxUserEntry, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.pnl3UserEntry.SuspendLayout()
+        CType(Me.picBoxCreateUser, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlMain.SuspendLayout()
         Me.SuspendLayout()
         '
         'pnl1UserEntry
         '
-        Me.pnl1UserEntry.BackColor = System.Drawing.Color.SlateGray
+        Me.pnl1UserEntry.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
         Me.pnl1UserEntry.Controls.Add(Me.btnLogoutUserEntry)
         Me.pnl1UserEntry.Controls.Add(Me.btnRecordsUserEntry)
         Me.pnl1UserEntry.Controls.Add(Me.btnVouchersUserEntry)
@@ -60,7 +61,11 @@ Partial Class frmUserEntry
         Me.pnl1UserEntry.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnl1UserEntry.Location = New System.Drawing.Point(0, 0)
         Me.pnl1UserEntry.Name = "pnl1UserEntry"
+<<<<<<< HEAD
         Me.pnl1UserEntry.Size = New System.Drawing.Size(307, 694)
+=======
+        Me.pnl1UserEntry.Size = New System.Drawing.Size(307, 788)
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
         Me.pnl1UserEntry.TabIndex = 0
         '
         'btnLogoutUserEntry
@@ -71,7 +76,7 @@ Partial Class frmUserEntry
         Me.btnLogoutUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnLogoutUserEntry.Image = CType(resources.GetObject("btnLogoutUserEntry.Image"), System.Drawing.Image)
         Me.btnLogoutUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLogoutUserEntry.Location = New System.Drawing.Point(12, 1030)
+        Me.btnLogoutUserEntry.Location = New System.Drawing.Point(12, 702)
         Me.btnLogoutUserEntry.Name = "btnLogoutUserEntry"
         Me.btnLogoutUserEntry.Size = New System.Drawing.Size(283, 42)
         Me.btnLogoutUserEntry.TabIndex = 9
@@ -89,7 +94,7 @@ Partial Class frmUserEntry
         Me.btnRecordsUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnRecordsUserEntry.Location = New System.Drawing.Point(12, 516)
         Me.btnRecordsUserEntry.Name = "btnRecordsUserEntry"
-        Me.btnRecordsUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnRecordsUserEntry.Size = New System.Drawing.Size(283, 50)
         Me.btnRecordsUserEntry.TabIndex = 8
         Me.btnRecordsUserEntry.Text = "    RECORDS"
         Me.btnRecordsUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -105,7 +110,7 @@ Partial Class frmUserEntry
         Me.btnVouchersUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnVouchersUserEntry.Location = New System.Drawing.Point(12, 572)
         Me.btnVouchersUserEntry.Name = "btnVouchersUserEntry"
-        Me.btnVouchersUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnVouchersUserEntry.Size = New System.Drawing.Size(283, 50)
         Me.btnVouchersUserEntry.TabIndex = 7
         Me.btnVouchersUserEntry.Text = "    VOUCHERS"
         Me.btnVouchersUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -121,7 +126,7 @@ Partial Class frmUserEntry
         Me.btnStocksInvUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnStocksInvUserEntry.Location = New System.Drawing.Point(12, 628)
         Me.btnStocksInvUserEntry.Name = "btnStocksInvUserEntry"
-        Me.btnStocksInvUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnStocksInvUserEntry.Size = New System.Drawing.Size(283, 46)
         Me.btnStocksInvUserEntry.TabIndex = 6
         Me.btnStocksInvUserEntry.Text = "    STOCKS AND INVENTORY"
         Me.btnStocksInvUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -137,7 +142,7 @@ Partial Class frmUserEntry
         Me.btnCustomersUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnCustomersUserEntry.Location = New System.Drawing.Point(12, 460)
         Me.btnCustomersUserEntry.Name = "btnCustomersUserEntry"
-        Me.btnCustomersUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnCustomersUserEntry.Size = New System.Drawing.Size(283, 50)
         Me.btnCustomersUserEntry.TabIndex = 5
         Me.btnCustomersUserEntry.Text = "    CUSTOMERS"
         Me.btnCustomersUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -153,7 +158,7 @@ Partial Class frmUserEntry
         Me.btnProdMenuUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnProdMenuUserEntry.Location = New System.Drawing.Point(12, 404)
         Me.btnProdMenuUserEntry.Name = "btnProdMenuUserEntry"
-        Me.btnProdMenuUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnProdMenuUserEntry.Size = New System.Drawing.Size(283, 50)
         Me.btnProdMenuUserEntry.TabIndex = 4
         Me.btnProdMenuUserEntry.Text = "    PRODUCT MENU"
         Me.btnProdMenuUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -169,7 +174,7 @@ Partial Class frmUserEntry
         Me.btnPosUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnPosUserEntry.Location = New System.Drawing.Point(12, 348)
         Me.btnPosUserEntry.Name = "btnPosUserEntry"
-        Me.btnPosUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnPosUserEntry.Size = New System.Drawing.Size(283, 50)
         Me.btnPosUserEntry.TabIndex = 3
         Me.btnPosUserEntry.Text = "    POINT OF SALE"
         Me.btnPosUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -185,7 +190,7 @@ Partial Class frmUserEntry
         Me.btnDashboardUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnDashboardUserEntry.Location = New System.Drawing.Point(12, 292)
         Me.btnDashboardUserEntry.Name = "btnDashboardUserEntry"
-        Me.btnDashboardUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnDashboardUserEntry.Size = New System.Drawing.Size(283, 50)
         Me.btnDashboardUserEntry.TabIndex = 2
         Me.btnDashboardUserEntry.Text = "    DASHBOARD"
         Me.btnDashboardUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -201,7 +206,7 @@ Partial Class frmUserEntry
         Me.btnUserUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnUserUserEntry.Location = New System.Drawing.Point(12, 239)
         Me.btnUserUserEntry.Name = "btnUserUserEntry"
-        Me.btnUserUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnUserUserEntry.Size = New System.Drawing.Size(283, 47)
         Me.btnUserUserEntry.TabIndex = 1
         Me.btnUserUserEntry.Text = "    USERS"
         Me.btnUserUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -240,42 +245,61 @@ Partial Class frmUserEntry
         Me.picBoxUserEntry.TabIndex = 0
         Me.picBoxUserEntry.TabStop = False
         '
-        'pnl3UserEntry
+        'picBoxCreateUser
         '
+<<<<<<< HEAD
         Me.pnl3UserEntry.Controls.Add(Me.btnCreateUser)
         Me.pnl3UserEntry.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnl3UserEntry.Location = New System.Drawing.Point(307, 0)
         Me.pnl3UserEntry.Name = "pnl3UserEntry"
         Me.pnl3UserEntry.Size = New System.Drawing.Size(806, 694)
         Me.pnl3UserEntry.TabIndex = 1
+=======
+        Me.picBoxCreateUser.BackgroundImage = CType(resources.GetObject("picBoxCreateUser.BackgroundImage"), System.Drawing.Image)
+        Me.picBoxCreateUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.picBoxCreateUser.Location = New System.Drawing.Point(1575, 12)
+        Me.picBoxCreateUser.Name = "picBoxCreateUser"
+        Me.picBoxCreateUser.Size = New System.Drawing.Size(46, 43)
+        Me.picBoxCreateUser.TabIndex = 1
+        Me.picBoxCreateUser.TabStop = False
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
         '
-        'btnCreateUser
+        'pnlMain
         '
-        Me.btnCreateUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btnCreateUser.Image = CType(resources.GetObject("btnCreateUser.Image"), System.Drawing.Image)
-        Me.btnCreateUser.Location = New System.Drawing.Point(792, 33)
-        Me.btnCreateUser.Name = "btnCreateUser"
-        Me.btnCreateUser.Size = New System.Drawing.Size(41, 42)
-        Me.btnCreateUser.TabIndex = 0
-        Me.btnCreateUser.UseVisualStyleBackColor = True
+        Me.pnlMain.Controls.Add(Me.picBoxCreateUser)
+        Me.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pnlMain.Location = New System.Drawing.Point(307, 0)
+        Me.pnlMain.Name = "pnlMain"
+        Me.pnlMain.Size = New System.Drawing.Size(1079, 788)
+        Me.pnlMain.TabIndex = 1
         '
         'frmUserEntry
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.ClientSize = New System.Drawing.Size(1113, 634)
+=======
+        Me.ClientSize = New System.Drawing.Size(1386, 788)
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
         Me.ControlBox = False
-        Me.Controls.Add(Me.pnl3UserEntry)
+        Me.Controls.Add(Me.pnlMain)
         Me.Controls.Add(Me.pnl1UserEntry)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmUserEntry"
+<<<<<<< HEAD
         Me.Text = "Form1"
+=======
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "frmUserEntry"
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.pnl1UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.PerformLayout()
         CType(Me.picBoxUserEntry, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.pnl3UserEntry.ResumeLayout(False)
+        CType(Me.picBoxCreateUser, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlMain.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -293,6 +317,6 @@ Partial Class frmUserEntry
     Friend WithEvents btnProdMenuUserEntry As Button
     Friend WithEvents btnPosUserEntry As Button
     Friend WithEvents btnDashboardUserEntry As Button
-    Friend WithEvents pnl3UserEntry As Panel
-    Friend WithEvents btnCreateUser As Button
+    Friend WithEvents picBoxCreateUser As PictureBox
+    Friend WithEvents pnlMain As Panel
 End Class

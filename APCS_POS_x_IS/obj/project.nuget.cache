@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "2UvIEfL5mSoeJ0LcRMJO9v3NdRMZTMOpKO2M7ln4JHjImwb8AAejTLbkLvIcPlJgpJqWy/Z0NgmoSJ2FVCFj5g==",
   "success": true,
   "projectFilePath": "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+=======
+  "dgSpecHash": "CMDLhll0MPkn1m/JOlAJ6XlWyJmxyUqxTAqo348mrq8vDE2axXVGoKp1VqfSQC8qLBCJ9a91iZnTPUu1m9yVIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
   "expectedPackageFiles": [],
   "logs": []
 }

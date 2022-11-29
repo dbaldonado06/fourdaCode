@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DantZee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+        "projectName": "APCS_POS_x_IS",
+        "projectPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+        "packagesPath": "C:\\Users\\oticj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oticj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +75,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
         }
       }
     }

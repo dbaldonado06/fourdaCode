@@ -241,10 +241,14 @@
         gg==
 </value>
   </data>
-  <data name="btnCreateUser.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picBoxCreateUser.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+<<<<<<< HEAD
         DgAACw4BQL7hQQAAAJRJREFUWEfFzDEKAwEMA8H8/9OXlEZMIThQBNMsxp/fnj9jXGJcYlxiXGJcYlxi
+=======
+        DAAACwwBP0AiyAAAAJRJREFUWEfFzDEKAwEMA8H8/9OXlEZMIThQBNMsxp/fnj9jXGJcYlxiXGJcYlxi
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
         XGJs5HTTYGzkdNNgbOR002Bs5HTTYGzkdNNgbOR002C83k4/L8br7fTzYrzeTj8vxuvt9PNibOR002Bs
         5HTTYGzkdNNgbOR002Bs5HTTYGzkdNNgXGJcYlxiXGJcYlxiXGIc+TxfsWCMnucmNvsAAAAASUVORK5C
         YII=

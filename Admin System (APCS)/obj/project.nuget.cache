@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "DEl57JJPbSYGKBMsLF41uET3HQ7rgsfAqR7HD+ZFlxW8097hlFDMVmk79tlKfUk03pkVXvDDAxVyOylmXduVNA==",
+=======
+  "dgSpecHash": "5IvdWGbNDB+rN7QJ2p+4Z+Y4G8wrWuT70pbR5GupcKccTO1gWbRlT1F+CBWF12Im+eiW90UPZt+gUMHAYgLx6A==",
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
   "success": true,
   "projectFilePath": "E:\\Desktop\\project\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
   "expectedPackageFiles": [],

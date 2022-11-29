@@ -12,8 +12,13 @@
       }
     ],
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\DantZee\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\DantZee\\.nuget\\packages"
+=======
+      "C:\\Users\\oticj\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\oticj\\.nuget\\packages"
+>>>>>>> bc04524076398f52e905cb1e272c972d9df04d48
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

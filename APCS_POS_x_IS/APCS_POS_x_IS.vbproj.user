@@ -4,13 +4,31 @@
     <Compile Update="DashboardForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EdituserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="loginForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ManagemenuproductForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageordersForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NewtransactionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PosForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductentryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SettlepaymentForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UsersForm.vb">

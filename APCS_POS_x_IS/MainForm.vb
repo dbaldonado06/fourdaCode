@@ -37,4 +37,24 @@
     Private Sub ProfilePic_Click(sender As Object, e As EventArgs) Handles ProfilePic.Click
 
     End Sub
+
+    Private Sub btnPOSNewTransaction_Click(sender As Object, e As EventArgs) Handles btnPOSNewTransaction.Click
+        NewtransactionForm.Show()
+    End Sub
+
+    Private Sub btnPOSSettlePayment_Click(sender As Object, e As EventArgs) Handles btnPOSSettlePayment.Click
+        SettlepaymentForm.Show()
+    End Sub
+
+    Private Sub btnPOSCancelOrder_Click(sender As Object, e As EventArgs) Handles btnPOSCancelOrder.Click
+        ManageordersForm.Show()
+    End Sub
+
+    Private Sub btnPOSManageProductMenu_Click(sender As Object, e As EventArgs) Handles btnPOSManageProductMenu.Click
+        ManagemenuproductForm.Show()
+    End Sub
+
+    Private Sub btnPOSManageOrders_Click(sender As Object, e As EventArgs) Handles btnPOSManageOrders.Click
+        ManageordersForm.Show()
+    End Sub
 End Class

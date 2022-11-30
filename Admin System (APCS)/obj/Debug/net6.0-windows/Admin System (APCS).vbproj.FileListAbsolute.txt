@@ -30,3 +30,14 @@ D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Ad
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomerEntry.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomers.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesRecords.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmStartOfDay.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmDailySales.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmViewSalesDetails.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmLogin.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmPrintPreview.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmAdminPassword.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCancelOrder.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesSummary.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmVoidItem.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmVoucherDiscount.resources
+D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmStocksFoodInventory.resources

@@ -54,7 +54,7 @@ Partial Class frmSettlePayment
         Me.pnlSettlePayment.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlSettlePayment.Location = New System.Drawing.Point(0, 0)
         Me.pnlSettlePayment.Name = "pnlSettlePayment"
-        Me.pnlSettlePayment.Size = New System.Drawing.Size(345, 552)
+        Me.pnlSettlePayment.Size = New System.Drawing.Size(345, 692)
         Me.pnlSettlePayment.TabIndex = 0
         '
         'btnSettlePaymentAcceptPayment
@@ -75,11 +75,12 @@ Partial Class frmSettlePayment
         '
         Me.lblSettlePaymentChange.AutoSize = True
         Me.lblSettlePaymentChange.Font = New System.Drawing.Font("Yu Gothic UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblSettlePaymentChange.Location = New System.Drawing.Point(136, 371)
+        Me.lblSettlePaymentChange.Location = New System.Drawing.Point(11, 373)
         Me.lblSettlePaymentChange.Name = "lblSettlePaymentChange"
         Me.lblSettlePaymentChange.Size = New System.Drawing.Size(69, 20)
         Me.lblSettlePaymentChange.TabIndex = 8
         Me.lblSettlePaymentChange.Text = "CHANGE"
+        Me.lblSettlePaymentChange.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'txtBoxSettlePaymentChange
         '
@@ -101,11 +102,12 @@ Partial Class frmSettlePayment
         '
         Me.lblSettlePaymentAddVoucher.AutoSize = True
         Me.lblSettlePaymentAddVoucher.Font = New System.Drawing.Font("Yu Gothic UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblSettlePaymentAddVoucher.Location = New System.Drawing.Point(115, 285)
+        Me.lblSettlePaymentAddVoucher.Location = New System.Drawing.Point(11, 286)
         Me.lblSettlePaymentAddVoucher.Name = "lblSettlePaymentAddVoucher"
-        Me.lblSettlePaymentAddVoucher.Size = New System.Drawing.Size(114, 20)
+        Me.lblSettlePaymentAddVoucher.Size = New System.Drawing.Size(119, 20)
         Me.lblSettlePaymentAddVoucher.TabIndex = 4
-        Me.lblSettlePaymentAddVoucher.Text = "ADD VOUCHER"
+        Me.lblSettlePaymentAddVoucher.Text = "ADD DISCOUNT"
+        Me.lblSettlePaymentAddVoucher.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'txtBoxSettlePaymentCash
         '
@@ -119,11 +121,12 @@ Partial Class frmSettlePayment
         '
         Me.lblSettlePaymentCash.AutoSize = True
         Me.lblSettlePaymentCash.Font = New System.Drawing.Font("Yu Gothic UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblSettlePaymentCash.Location = New System.Drawing.Point(145, 198)
+        Me.lblSettlePaymentCash.Location = New System.Drawing.Point(16, 199)
         Me.lblSettlePaymentCash.Name = "lblSettlePaymentCash"
         Me.lblSettlePaymentCash.Size = New System.Drawing.Size(47, 20)
         Me.lblSettlePaymentCash.TabIndex = 2
         Me.lblSettlePaymentCash.Text = "CASH"
+        Me.lblSettlePaymentCash.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'txtBoxSettlePaymentTotal
         '
@@ -137,11 +140,12 @@ Partial Class frmSettlePayment
         '
         Me.lblSettlePaymentTotal.AutoSize = True
         Me.lblSettlePaymentTotal.Font = New System.Drawing.Font("Yu Gothic UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblSettlePaymentTotal.Location = New System.Drawing.Point(145, 111)
+        Me.lblSettlePaymentTotal.Location = New System.Drawing.Point(11, 111)
         Me.lblSettlePaymentTotal.Name = "lblSettlePaymentTotal"
         Me.lblSettlePaymentTotal.Size = New System.Drawing.Size(52, 20)
         Me.lblSettlePaymentTotal.TabIndex = 0
         Me.lblSettlePaymentTotal.Text = "TOTAL"
+        Me.lblSettlePaymentTotal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'picBoxAthenaSettlePayment
         '

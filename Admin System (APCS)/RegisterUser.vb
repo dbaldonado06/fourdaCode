@@ -1,6 +1,6 @@
 ﻿Public Class RegisterUser
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles lblRegUserAddress.Click
+    Private Sub Label2_Click(sender As Object, e As EventArgs)
 
     End Sub
     Private Sub btnRegUserCancel_Click(sender As Object, e As EventArgs) Handles btnRegUserCancel.Click
@@ -35,11 +35,11 @@
 
     End Sub
 
-    Private Sub lblRegUserPhoneNumber_Click(sender As Object, e As EventArgs) Handles lblRegUserPhoneNumber.Click
+    Private Sub lblRegUserPhoneNumber_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub lblRegUserEmail_Click(sender As Object, e As EventArgs) Handles lblRegUserEmail.Click
+    Private Sub lblRegUserEmail_Click(sender As Object, e As EventArgs) Handles lblRegUserName.Click
 
     End Sub
 
@@ -51,19 +51,23 @@
 
     End Sub
 
-    Private Sub txtBoxRegUserAddress_TextChanged(sender As Object, e As EventArgs) Handles txtBoxRegUserAddress.TextChanged
+    Private Sub txtBoxRegUserAddress_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub txtBoxRegUserPhoneNumber_TextChanged(sender As Object, e As EventArgs) Handles txtBoxRegUserPhoneNumber.TextChanged
+    Private Sub txtBoxRegUserPhoneNumber_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub txtBoxRegUserEmail_TextChanged(sender As Object, e As EventArgs) Handles txtBoxRegUserEmail.TextChanged
+    Private Sub txtBoxRegUserEmail_TextChanged(sender As Object, e As EventArgs) Handles txtBoxRegUserName.TextChanged
 
     End Sub
 
     Private Sub btnRegUserSave_Click(sender As Object, e As EventArgs) Handles btnRegUserSave.Click
+
+    End Sub
+
+    Private Sub pnlRegUser_Paint_1(sender As Object, e As PaintEventArgs) Handles pnlRegUser.Paint
 
     End Sub
 End Class

@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\oticj\\.nuget\\packages\\": {}
+    "C:\\Users\\Feliza Dia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+      "projectUniqueName": "D:\\Desktop\\Repository\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
       "projectName": "APCS_POS_x_IS",
-      "projectPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
-      "packagesPath": "C:\\Users\\oticj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\obj\\",
+      "projectPath": "D:\\Desktop\\Repository\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+      "packagesPath": "C:\\Users\\Feliza Dia\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\Repository\\fourdaCode\\APCS_POS_x_IS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\oticj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Feliza Dia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

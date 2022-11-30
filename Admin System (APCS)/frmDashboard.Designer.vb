@@ -23,34 +23,39 @@ Partial Class frmDashboard
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmDashboard))
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.picBoxDashboardMonthlySales = New System.Windows.Forms.PictureBox()
         Me.picBoxDashboardMonthlyExpenses = New System.Windows.Forms.PictureBox()
         Me.picBoxDashboardMonthlyCustomers = New System.Windows.Forms.PictureBox()
-        Me.lblDashboardMonthlySales = New System.Windows.Forms.Label()
+        Me.lblDashboardSales = New System.Windows.Forms.Label()
         Me.picBoxDashboardSalesIcon = New System.Windows.Forms.PictureBox()
         Me.picBoxDashboardExpensesIcon = New System.Windows.Forms.PictureBox()
         Me.picBoxDashboardCustomersIcon = New System.Windows.Forms.PictureBox()
-        Me.lblDashboardMonthlyExpenses = New System.Windows.Forms.Label()
+        Me.lblDashboardTotalProducts = New System.Windows.Forms.Label()
         Me.lblDashboardMonthlyCstomers = New System.Windows.Forms.Label()
         Me.lblDashboard = New System.Windows.Forms.Label()
         Me.lblDashboardBestSelling = New System.Windows.Forms.Label()
-        Me.dataGridViewDashboardBestSellers = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.dateDashboardTo = New System.Windows.Forms.DateTimePicker()
+        Me.lblDashboardDateRange = New System.Windows.Forms.Label()
+        Me.dateDashboardFrom = New System.Windows.Forms.DateTimePicker()
+        Me.dataGridViewBestSelling = New System.Windows.Forms.DataGridView()
+        Me.colSalesRecordsBlank = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colSalesRecordsDescription = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colSalesRecordsPrice = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colSalesRecordsQty = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colSalesRecordsTotal = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.picBoxDashboardMonthlySales, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBoxDashboardMonthlyExpenses, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBoxDashboardMonthlyCustomers, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBoxDashboardSalesIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBoxDashboardExpensesIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBoxDashboardCustomersIcon, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.dataGridViewDashboardBestSellers, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dataGridViewBestSelling, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'picBoxDashboardMonthlySales
@@ -80,18 +85,18 @@ Partial Class frmDashboard
         Me.picBoxDashboardMonthlyCustomers.TabIndex = 2
         Me.picBoxDashboardMonthlyCustomers.TabStop = False
         '
-        'lblDashboardMonthlySales
+        'lblDashboardSales
         '
-        Me.lblDashboardMonthlySales.AutoSize = True
-        Me.lblDashboardMonthlySales.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(159, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.lblDashboardMonthlySales.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.lblDashboardMonthlySales.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblDashboardMonthlySales.ForeColor = System.Drawing.Color.Transparent
-        Me.lblDashboardMonthlySales.Location = New System.Drawing.Point(176, 170)
-        Me.lblDashboardMonthlySales.Name = "lblDashboardMonthlySales"
-        Me.lblDashboardMonthlySales.Size = New System.Drawing.Size(133, 25)
-        Me.lblDashboardMonthlySales.TabIndex = 3
-        Me.lblDashboardMonthlySales.Text = "Monthly Sales"
+        Me.lblDashboardSales.AutoSize = True
+        Me.lblDashboardSales.BackColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(159, Byte), Integer), CType(CType(130, Byte), Integer))
+        Me.lblDashboardSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblDashboardSales.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblDashboardSales.ForeColor = System.Drawing.Color.Transparent
+        Me.lblDashboardSales.Location = New System.Drawing.Point(176, 170)
+        Me.lblDashboardSales.Name = "lblDashboardSales"
+        Me.lblDashboardSales.Size = New System.Drawing.Size(101, 25)
+        Me.lblDashboardSales.TabIndex = 3
+        Me.lblDashboardSales.Text = "Total Sales"
         '
         'picBoxDashboardSalesIcon
         '
@@ -123,18 +128,18 @@ Partial Class frmDashboard
         Me.picBoxDashboardCustomersIcon.TabIndex = 6
         Me.picBoxDashboardCustomersIcon.TabStop = False
         '
-        'lblDashboardMonthlyExpenses
+        'lblDashboardTotalProducts
         '
-        Me.lblDashboardMonthlyExpenses.AutoSize = True
-        Me.lblDashboardMonthlyExpenses.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(132, Byte), Integer), CType(CType(31, Byte), Integer))
-        Me.lblDashboardMonthlyExpenses.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.lblDashboardMonthlyExpenses.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblDashboardMonthlyExpenses.ForeColor = System.Drawing.Color.Transparent
-        Me.lblDashboardMonthlyExpenses.Location = New System.Drawing.Point(490, 170)
-        Me.lblDashboardMonthlyExpenses.Name = "lblDashboardMonthlyExpenses"
-        Me.lblDashboardMonthlyExpenses.Size = New System.Drawing.Size(168, 25)
-        Me.lblDashboardMonthlyExpenses.TabIndex = 7
-        Me.lblDashboardMonthlyExpenses.Text = "Monthly Expenses"
+        Me.lblDashboardTotalProducts.AutoSize = True
+        Me.lblDashboardTotalProducts.BackColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(132, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.lblDashboardTotalProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblDashboardTotalProducts.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblDashboardTotalProducts.ForeColor = System.Drawing.Color.Transparent
+        Me.lblDashboardTotalProducts.Location = New System.Drawing.Point(490, 170)
+        Me.lblDashboardTotalProducts.Name = "lblDashboardTotalProducts"
+        Me.lblDashboardTotalProducts.Size = New System.Drawing.Size(125, 25)
+        Me.lblDashboardTotalProducts.TabIndex = 7
+        Me.lblDashboardTotalProducts.Text = "Total Product"
         '
         'lblDashboardMonthlyCstomers
         '
@@ -171,72 +176,115 @@ Partial Class frmDashboard
         Me.lblDashboardBestSelling.ForeColor = System.Drawing.Color.White
         Me.lblDashboardBestSelling.Image = CType(resources.GetObject("lblDashboardBestSelling.Image"), System.Drawing.Image)
         Me.lblDashboardBestSelling.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.lblDashboardBestSelling.Location = New System.Drawing.Point(-2, 296)
+        Me.lblDashboardBestSelling.Location = New System.Drawing.Point(-2, 274)
         Me.lblDashboardBestSelling.Name = "lblDashboardBestSelling"
         Me.lblDashboardBestSelling.Size = New System.Drawing.Size(266, 37)
         Me.lblDashboardBestSelling.TabIndex = 10
         Me.lblDashboardBestSelling.Text = "     Top 5 Best Selling"
         '
-        'dataGridViewDashboardBestSellers
+        'dateDashboardTo
         '
-        Me.dataGridViewDashboardBestSellers.AllowUserToAddRows = False
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.dataGridViewDashboardBestSellers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
-        Me.dataGridViewDashboardBestSellers.BackgroundColor = System.Drawing.Color.White
-        Me.dataGridViewDashboardBestSellers.ColumnHeadersHeight = 30
-        Me.dataGridViewDashboardBestSellers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.dataGridViewDashboardBestSellers.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dataGridViewDashboardBestSellers.DefaultCellStyle = DataGridViewCellStyle8
-        Me.dataGridViewDashboardBestSellers.EnableHeadersVisualStyles = False
-        Me.dataGridViewDashboardBestSellers.Location = New System.Drawing.Point(90, 385)
-        Me.dataGridViewDashboardBestSellers.Name = "dataGridViewDashboardBestSellers"
-        Me.dataGridViewDashboardBestSellers.RowTemplate.Height = 25
-        Me.dataGridViewDashboardBestSellers.Size = New System.Drawing.Size(674, 269)
-        Me.dataGridViewDashboardBestSellers.TabIndex = 11
+        Me.dateDashboardTo.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.dateDashboardTo.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dateDashboardTo.Location = New System.Drawing.Point(134, 370)
+        Me.dateDashboardTo.Name = "dateDashboardTo"
+        Me.dateDashboardTo.Size = New System.Drawing.Size(120, 23)
+        Me.dateDashboardTo.TabIndex = 22
         '
-        'Column1
+        'lblDashboardDateRange
         '
-        Me.Column1.HeaderText = "ID"
-        Me.Column1.Name = "Column1"
-        Me.Column1.Visible = False
+        Me.lblDashboardDateRange.AutoSize = True
+        Me.lblDashboardDateRange.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblDashboardDateRange.Location = New System.Drawing.Point(10, 352)
+        Me.lblDashboardDateRange.Name = "lblDashboardDateRange"
+        Me.lblDashboardDateRange.Size = New System.Drawing.Size(123, 15)
+        Me.lblDashboardDateRange.TabIndex = 21
+        Me.lblDashboardDateRange.Text = "Filter Date [From - To]"
         '
-        'Column2
+        'dateDashboardFrom
         '
-        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column2.HeaderText = ""
-        Me.Column2.Name = "Column2"
-        Me.Column2.Width = 5
+        Me.dateDashboardFrom.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.dateDashboardFrom.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.dateDashboardFrom.Location = New System.Drawing.Point(10, 370)
+        Me.dateDashboardFrom.Name = "dateDashboardFrom"
+        Me.dateDashboardFrom.Size = New System.Drawing.Size(120, 23)
+        Me.dateDashboardFrom.TabIndex = 20
         '
-        'Column3
+        'dataGridViewBestSelling
         '
-        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column3.HeaderText = "Description"
-        Me.Column3.Name = "Column3"
+        Me.dataGridViewBestSelling.AllowUserToAddRows = False
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlDark
+        Me.dataGridViewBestSelling.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.dataGridViewBestSelling.BackgroundColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dataGridViewBestSelling.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.dataGridViewBestSelling.ColumnHeadersHeight = 30
+        Me.dataGridViewBestSelling.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dataGridViewBestSelling.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colSalesRecordsBlank, Me.colSalesRecordsDescription, Me.colSalesRecordsPrice, Me.colSalesRecordsQty, Me.colSalesRecordsTotal})
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SeaShell
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dataGridViewBestSelling.DefaultCellStyle = DataGridViewCellStyle6
+        Me.dataGridViewBestSelling.EnableHeadersVisualStyles = False
+        Me.dataGridViewBestSelling.Location = New System.Drawing.Point(10, 399)
+        Me.dataGridViewBestSelling.Name = "dataGridViewBestSelling"
+        Me.dataGridViewBestSelling.RowHeadersVisible = False
+        Me.dataGridViewBestSelling.RowTemplate.Height = 25
+        Me.dataGridViewBestSelling.Size = New System.Drawing.Size(1057, 377)
+        Me.dataGridViewBestSelling.TabIndex = 19
         '
-        'Column4
+        'colSalesRecordsBlank
         '
-        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column4.DefaultCellStyle = DataGridViewCellStyle6
-        Me.Column4.HeaderText = "Price"
-        Me.Column4.Name = "Column4"
-        Me.Column4.Width = 58
+        Me.colSalesRecordsBlank.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.colSalesRecordsBlank.HeaderText = "#"
+        Me.colSalesRecordsBlank.Name = "colSalesRecordsBlank"
+        Me.colSalesRecordsBlank.Width = 39
         '
-        'Column5
+        'colSalesRecordsDescription
         '
-        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column5.DefaultCellStyle = DataGridViewCellStyle7
-        Me.Column5.HeaderText = "Orders"
-        Me.Column5.Name = "Column5"
-        Me.Column5.Width = 67
+        Me.colSalesRecordsDescription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.colSalesRecordsDescription.HeaderText = "Description"
+        Me.colSalesRecordsDescription.Name = "colSalesRecordsDescription"
+        '
+        'colSalesRecordsPrice
+        '
+        Me.colSalesRecordsPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.colSalesRecordsPrice.DefaultCellStyle = DataGridViewCellStyle3
+        Me.colSalesRecordsPrice.HeaderText = "Price"
+        Me.colSalesRecordsPrice.Name = "colSalesRecordsPrice"
+        Me.colSalesRecordsPrice.Width = 58
+        '
+        'colSalesRecordsQty
+        '
+        Me.colSalesRecordsQty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.colSalesRecordsQty.DefaultCellStyle = DataGridViewCellStyle4
+        Me.colSalesRecordsQty.HeaderText = "Qty (per person/pax)"
+        Me.colSalesRecordsQty.Name = "colSalesRecordsQty"
+        Me.colSalesRecordsQty.Width = 142
+        '
+        'colSalesRecordsTotal
+        '
+        Me.colSalesRecordsTotal.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.colSalesRecordsTotal.DefaultCellStyle = DataGridViewCellStyle5
+        Me.colSalesRecordsTotal.HeaderText = "Total"
+        Me.colSalesRecordsTotal.Name = "colSalesRecordsTotal"
+        Me.colSalesRecordsTotal.Width = 58
         '
         'frmDashboard
         '
@@ -244,15 +292,18 @@ Partial Class frmDashboard
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 788)
         Me.ControlBox = False
-        Me.Controls.Add(Me.dataGridViewDashboardBestSellers)
+        Me.Controls.Add(Me.dateDashboardTo)
+        Me.Controls.Add(Me.lblDashboardDateRange)
+        Me.Controls.Add(Me.dateDashboardFrom)
+        Me.Controls.Add(Me.dataGridViewBestSelling)
         Me.Controls.Add(Me.lblDashboardBestSelling)
         Me.Controls.Add(Me.lblDashboard)
         Me.Controls.Add(Me.lblDashboardMonthlyCstomers)
-        Me.Controls.Add(Me.lblDashboardMonthlyExpenses)
+        Me.Controls.Add(Me.lblDashboardTotalProducts)
         Me.Controls.Add(Me.picBoxDashboardCustomersIcon)
         Me.Controls.Add(Me.picBoxDashboardExpensesIcon)
         Me.Controls.Add(Me.picBoxDashboardSalesIcon)
-        Me.Controls.Add(Me.lblDashboardMonthlySales)
+        Me.Controls.Add(Me.lblDashboardSales)
         Me.Controls.Add(Me.picBoxDashboardMonthlyCustomers)
         Me.Controls.Add(Me.picBoxDashboardMonthlyExpenses)
         Me.Controls.Add(Me.picBoxDashboardMonthlySales)
@@ -266,7 +317,7 @@ Partial Class frmDashboard
         CType(Me.picBoxDashboardSalesIcon, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBoxDashboardExpensesIcon, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBoxDashboardCustomersIcon, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.dataGridViewDashboardBestSellers, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dataGridViewBestSelling, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -275,18 +326,21 @@ Partial Class frmDashboard
     Friend WithEvents picBoxDashboardMonthlySales As PictureBox
     Friend WithEvents picBoxDashboardMonthlyExpenses As PictureBox
     Friend WithEvents picBoxDashboardMonthlyCustomers As PictureBox
-    Friend WithEvents lblDashboardMonthlySales As Label
+    Friend WithEvents lblDashboardSales As Label
     Friend WithEvents picBoxDashboardSalesIcon As PictureBox
     Friend WithEvents picBoxDashboardExpensesIcon As PictureBox
     Friend WithEvents picBoxDashboardCustomersIcon As PictureBox
-    Friend WithEvents lblDashboardMonthlyExpenses As Label
+    Friend WithEvents lblDashboardTotalProducts As Label
     Friend WithEvents lblDashboardMonthlyCstomers As Label
     Friend WithEvents lblDashboard As Label
     Friend WithEvents lblDashboardBestSelling As Label
-    Friend WithEvents dataGridViewDashboardBestSellers As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewImageColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents dateDashboardTo As DateTimePicker
+    Friend WithEvents lblDashboardDateRange As Label
+    Friend WithEvents dateDashboardFrom As DateTimePicker
+    Friend WithEvents dataGridViewBestSelling As DataGridView
+    Friend WithEvents colSalesRecordsBlank As DataGridViewTextBoxColumn
+    Friend WithEvents colSalesRecordsDescription As DataGridViewTextBoxColumn
+    Friend WithEvents colSalesRecordsPrice As DataGridViewTextBoxColumn
+    Friend WithEvents colSalesRecordsQty As DataGridViewTextBoxColumn
+    Friend WithEvents colSalesRecordsTotal As DataGridViewTextBoxColumn
 End Class

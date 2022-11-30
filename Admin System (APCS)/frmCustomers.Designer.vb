@@ -22,16 +22,17 @@ Partial Class frmCustomers
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCustomers))
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.pnlCustomers = New System.Windows.Forms.Panel()
+        Me.picBoxCustomers = New System.Windows.Forms.PictureBox()
         Me.lblCustomers = New System.Windows.Forms.Label()
-        Me.dataGridViewUserfrm = New System.Windows.Forms.DataGridView()
+        Me.dataGridViewCustomers = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -42,22 +43,31 @@ Partial Class frmCustomers
         Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.picBoxCustomers = New System.Windows.Forms.PictureBox()
         Me.pnlCustomers.SuspendLayout()
-        CType(Me.dataGridViewUserfrm, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBoxCustomers, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dataGridViewCustomers, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnlCustomers
         '
         Me.pnlCustomers.Controls.Add(Me.picBoxCustomers)
         Me.pnlCustomers.Controls.Add(Me.lblCustomers)
-        Me.pnlCustomers.Controls.Add(Me.dataGridViewUserfrm)
+        Me.pnlCustomers.Controls.Add(Me.dataGridViewCustomers)
         Me.pnlCustomers.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlCustomers.Location = New System.Drawing.Point(0, 0)
         Me.pnlCustomers.Name = "pnlCustomers"
         Me.pnlCustomers.Size = New System.Drawing.Size(1079, 788)
         Me.pnlCustomers.TabIndex = 0
+        '
+        'picBoxCustomers
+        '
+        Me.picBoxCustomers.Image = CType(resources.GetObject("picBoxCustomers.Image"), System.Drawing.Image)
+        Me.picBoxCustomers.Location = New System.Drawing.Point(999, 12)
+        Me.picBoxCustomers.Name = "picBoxCustomers"
+        Me.picBoxCustomers.Size = New System.Drawing.Size(46, 46)
+        Me.picBoxCustomers.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picBoxCustomers.TabIndex = 5
+        Me.picBoxCustomers.TabStop = False
         '
         'lblCustomers
         '
@@ -72,20 +82,20 @@ Partial Class frmCustomers
         Me.lblCustomers.TabIndex = 4
         Me.lblCustomers.Text = "Customers"
         '
-        'dataGridViewUserfrm
+        'dataGridViewCustomers
         '
-        Me.dataGridViewUserfrm.AllowUserToAddRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(81, Byte), Integer))
-        Me.dataGridViewUserfrm.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.dataGridViewUserfrm.BackgroundColor = System.Drawing.SystemColors.Control
-        Me.dataGridViewUserfrm.ColumnHeadersHeight = 30
-        Me.dataGridViewUserfrm.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.dataGridViewUserfrm.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column9, Me.Column10, Me.Column11, Me.Column12})
-        Me.dataGridViewUserfrm.Location = New System.Drawing.Point(25, 139)
-        Me.dataGridViewUserfrm.Name = "dataGridViewUserfrm"
-        Me.dataGridViewUserfrm.RowTemplate.Height = 25
-        Me.dataGridViewUserfrm.Size = New System.Drawing.Size(1020, 450)
-        Me.dataGridViewUserfrm.TabIndex = 3
+        Me.dataGridViewCustomers.AllowUserToAddRows = False
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.dataGridViewCustomers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
+        Me.dataGridViewCustomers.BackgroundColor = System.Drawing.SystemColors.Control
+        Me.dataGridViewCustomers.ColumnHeadersHeight = 30
+        Me.dataGridViewCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dataGridViewCustomers.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column9, Me.Column10, Me.Column11, Me.Column12})
+        Me.dataGridViewCustomers.Location = New System.Drawing.Point(25, 139)
+        Me.dataGridViewCustomers.Name = "dataGridViewCustomers"
+        Me.dataGridViewCustomers.RowTemplate.Height = 25
+        Me.dataGridViewCustomers.Size = New System.Drawing.Size(1020, 450)
+        Me.dataGridViewCustomers.TabIndex = 3
         '
         'Column1
         '
@@ -96,8 +106,8 @@ Partial Class frmCustomers
         'Column2
         '
         Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.Column2.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.Column2.DefaultCellStyle = DataGridViewCellStyle8
         Me.Column2.HeaderText = "Name"
         Me.Column2.Name = "Column2"
         Me.Column2.Width = 64
@@ -105,8 +115,8 @@ Partial Class frmCustomers
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column3.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column3.DefaultCellStyle = DataGridViewCellStyle9
         Me.Column3.HeaderText = "Location"
         Me.Column3.Name = "Column3"
         Me.Column3.Width = 78
@@ -114,16 +124,16 @@ Partial Class frmCustomers
         'Column4
         '
         Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column4.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column4.DefaultCellStyle = DataGridViewCellStyle10
         Me.Column4.HeaderText = "Phone Number"
         Me.Column4.Name = "Column4"
         '
         'Column5
         '
         Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column5.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column5.DefaultCellStyle = DataGridViewCellStyle11
         Me.Column5.HeaderText = "Service Type"
         Me.Column5.Name = "Column5"
         Me.Column5.Width = 96
@@ -131,8 +141,8 @@ Partial Class frmCustomers
         'Column6
         '
         Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column6.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column6.DefaultCellStyle = DataGridViewCellStyle12
         Me.Column6.HeaderText = "QTY"
         Me.Column6.Name = "Column6"
         Me.Column6.Width = 53
@@ -157,16 +167,6 @@ Partial Class frmCustomers
         Me.Column12.HeaderText = "Fully Paid Date"
         Me.Column12.Name = "Column12"
         '
-        'picBoxCustomers
-        '
-        Me.picBoxCustomers.Image = CType(resources.GetObject("picBoxCustomers.Image"), System.Drawing.Image)
-        Me.picBoxCustomers.Location = New System.Drawing.Point(999, 12)
-        Me.picBoxCustomers.Name = "picBoxCustomers"
-        Me.picBoxCustomers.Size = New System.Drawing.Size(46, 46)
-        Me.picBoxCustomers.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picBoxCustomers.TabIndex = 5
-        Me.picBoxCustomers.TabStop = False
-        '
         'frmCustomers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -179,15 +179,15 @@ Partial Class frmCustomers
         Me.Text = "frmCustomers"
         Me.pnlCustomers.ResumeLayout(False)
         Me.pnlCustomers.PerformLayout()
-        CType(Me.dataGridViewUserfrm, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBoxCustomers, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dataGridViewCustomers, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents pnlCustomers As Panel
     Friend WithEvents lblCustomers As Label
-    Friend WithEvents dataGridViewUserfrm As DataGridView
+    Friend WithEvents dataGridViewCustomers As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn

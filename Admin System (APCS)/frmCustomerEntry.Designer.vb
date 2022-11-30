@@ -60,6 +60,7 @@ Partial Class frmCustomerEntry
         '
         'pnlCustomerEntry
         '
+        Me.pnlCustomerEntry.BackColor = System.Drawing.SystemColors.Control
         Me.pnlCustomerEntry.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.pnlCustomerEntry.Controls.Add(Me.btnCustomersCancel)
         Me.pnlCustomerEntry.Controls.Add(Me.btnCustomersSave)

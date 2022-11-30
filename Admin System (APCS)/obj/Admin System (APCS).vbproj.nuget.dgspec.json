@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Repository\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj": {}
+    "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Repository\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj": {
+    "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Repository\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
+        "projectUniqueName": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
         "projectName": "Admin System (APCS)",
-        "projectPath": "D:\\Desktop\\Repository\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
-        "packagesPath": "C:\\Users\\Feliza Dia\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Repository\\fourdaCode\\Admin System (APCS)\\obj\\",
+        "projectPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
+        "packagesPath": "C:\\Users\\oticj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\Admin System (APCS)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Feliza Dia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oticj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

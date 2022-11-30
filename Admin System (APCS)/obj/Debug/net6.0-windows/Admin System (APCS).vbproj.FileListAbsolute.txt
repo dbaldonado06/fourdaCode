@@ -30,3 +30,35 @@ D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Ad
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomerEntry.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomers.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesRecords.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).exe
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).deps.json
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).runtimeconfig.json
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).dll
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).pdb
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.AssemblyReference.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCategory.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCreateUser.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomerEntry.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomers.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmDashboard.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmOrders.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmPointOfSale.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmProductEntry.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmProductMenuList.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmQty.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesRecords.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSelectOrder.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSettlePayment.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmUserEntry.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.Resources.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.RegisterUser.resources
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.GenerateResource.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).AssemblyInfoInputs.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).AssemblyInfo.vb
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.CoreCompileInputs.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).dll
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\refint\Admin System (APCS).dll
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).pdb
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).genruntimeconfig.cache
+C:\Users\oticj\Downloads\fourda\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\ref\Admin System (APCS).dll

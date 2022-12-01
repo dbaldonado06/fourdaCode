@@ -36,7 +36,7 @@ Partial Class frmPointOfSale
         Me.pnlBottomDashboardPOS = New System.Windows.Forms.Panel()
         Me.btnBlank = New System.Windows.Forms.Button()
         Me.btnPOSManageOrders = New System.Windows.Forms.Button()
-        Me.btnPOSMonthlyReport = New System.Windows.Forms.Button()
+        Me.btnPOSSalesReport = New System.Windows.Forms.Button()
         Me.btnPOSManageProductMenu = New System.Windows.Forms.Button()
         Me.btnPOSCancelOrder = New System.Windows.Forms.Button()
         Me.btnPOSAddVoucher = New System.Windows.Forms.Button()
@@ -57,6 +57,8 @@ Partial Class frmPointOfSale
         Me.lblOrderNumber = New System.Windows.Forms.Label()
         Me.lblName = New System.Windows.Forms.Label()
         Me.lblRole = New System.Windows.Forms.Label()
+        Me.btnPOSStart = New System.Windows.Forms.Button()
+        Me.btnPOSEnd = New System.Windows.Forms.Button()
         Me.pnlTopPOS.SuspendLayout()
         CType(Me.picBoxPOSAthena, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlBottomDashboardPOS.SuspendLayout()
@@ -122,7 +124,7 @@ Partial Class frmPointOfSale
         '
         Me.pnlBottomDashboardPOS.Controls.Add(Me.btnBlank)
         Me.pnlBottomDashboardPOS.Controls.Add(Me.btnPOSManageOrders)
-        Me.pnlBottomDashboardPOS.Controls.Add(Me.btnPOSMonthlyReport)
+        Me.pnlBottomDashboardPOS.Controls.Add(Me.btnPOSSalesReport)
         Me.pnlBottomDashboardPOS.Controls.Add(Me.btnPOSManageProductMenu)
         Me.pnlBottomDashboardPOS.Controls.Add(Me.btnPOSCancelOrder)
         Me.pnlBottomDashboardPOS.Controls.Add(Me.btnPOSAddVoucher)
@@ -161,19 +163,19 @@ Partial Class frmPointOfSale
         Me.btnPOSManageOrders.Text = "[F6] MANAGE ORDERS"
         Me.btnPOSManageOrders.UseVisualStyleBackColor = False
         '
-        'btnPOSMonthlyReport
+        'btnPOSSalesReport
         '
-        Me.btnPOSMonthlyReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
-        Me.btnPOSMonthlyReport.FlatAppearance.BorderSize = 0
-        Me.btnPOSMonthlyReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPOSMonthlyReport.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnPOSMonthlyReport.ForeColor = System.Drawing.Color.White
-        Me.btnPOSMonthlyReport.Location = New System.Drawing.Point(790, 27)
-        Me.btnPOSMonthlyReport.Name = "btnPOSMonthlyReport"
-        Me.btnPOSMonthlyReport.Size = New System.Drawing.Size(137, 40)
-        Me.btnPOSMonthlyReport.TabIndex = 6
-        Me.btnPOSMonthlyReport.Text = " [F7] MONTHLY SALES REPORT"
-        Me.btnPOSMonthlyReport.UseVisualStyleBackColor = False
+        Me.btnPOSSalesReport.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.btnPOSSalesReport.FlatAppearance.BorderSize = 0
+        Me.btnPOSSalesReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPOSSalesReport.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnPOSSalesReport.ForeColor = System.Drawing.Color.White
+        Me.btnPOSSalesReport.Location = New System.Drawing.Point(790, 27)
+        Me.btnPOSSalesReport.Name = "btnPOSSalesReport"
+        Me.btnPOSSalesReport.Size = New System.Drawing.Size(137, 40)
+        Me.btnPOSSalesReport.TabIndex = 6
+        Me.btnPOSSalesReport.Text = " [F7] SALES REPORT"
+        Me.btnPOSSalesReport.UseVisualStyleBackColor = False
         '
         'btnPOSManageProductMenu
         '
@@ -274,7 +276,8 @@ Partial Class frmPointOfSale
         Me.dataGridViewPOS.Name = "dataGridViewPOS"
         Me.dataGridViewPOS.RowHeadersVisible = False
         Me.dataGridViewPOS.RowTemplate.Height = 25
-        Me.dataGridViewPOS.Size = New System.Drawing.Size(377, 607)
+        Me.dataGridViewPOS.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dataGridViewPOS.Size = New System.Drawing.Size(393, 560)
         Me.dataGridViewPOS.TabIndex = 3
         '
         'Column1
@@ -345,9 +348,9 @@ Partial Class frmPointOfSale
         Me.lblPOSTransactionNo.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblPOSTransactionNo.Location = New System.Drawing.Point(17, 59)
         Me.lblPOSTransactionNo.Name = "lblPOSTransactionNo"
-        Me.lblPOSTransactionNo.Size = New System.Drawing.Size(113, 15)
+        Me.lblPOSTransactionNo.Size = New System.Drawing.Size(110, 15)
         Me.lblPOSTransactionNo.TabIndex = 6
-        Me.lblPOSTransactionNo.Text = "TRANSACTION NO."
+        Me.lblPOSTransactionNo.Text = "TRANSACTION NO"
         '
         'lblPOSOrderNo
         '
@@ -355,9 +358,9 @@ Partial Class frmPointOfSale
         Me.lblPOSOrderNo.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblPOSOrderNo.Location = New System.Drawing.Point(60, 85)
         Me.lblPOSOrderNo.Name = "lblPOSOrderNo"
-        Me.lblPOSOrderNo.Size = New System.Drawing.Size(69, 15)
+        Me.lblPOSOrderNo.Size = New System.Drawing.Size(66, 15)
         Me.lblPOSOrderNo.TabIndex = 7
-        Me.lblPOSOrderNo.Text = "ORDER NO."
+        Me.lblPOSOrderNo.Text = "ORDER NO"
         '
         'lblTransactionNumber
         '
@@ -383,21 +386,55 @@ Partial Class frmPointOfSale
         '
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblName.Location = New System.Drawing.Point(1012, 60)
+        Me.lblName.Location = New System.Drawing.Point(1006, 59)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(41, 15)
+        Me.lblName.Size = New System.Drawing.Size(47, 15)
         Me.lblName.TabIndex = 10
-        Me.lblName.Text = "NAME"
+        Me.lblName.Text = "NAME :"
         '
         'lblRole
         '
         Me.lblRole.AutoSize = True
         Me.lblRole.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblRole.Location = New System.Drawing.Point(1017, 85)
+        Me.lblRole.ForeColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.lblRole.Location = New System.Drawing.Point(1012, 85)
         Me.lblRole.Name = "lblRole"
-        Me.lblRole.Size = New System.Drawing.Size(35, 15)
+        Me.lblRole.Size = New System.Drawing.Size(41, 15)
         Me.lblRole.TabIndex = 11
-        Me.lblRole.Text = "ROLE"
+        Me.lblRole.Text = "ROLE :"
+        '
+        'btnPOSStart
+        '
+        Me.btnPOSStart.BackColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnPOSStart.FlatAppearance.BorderSize = 0
+        Me.btnPOSStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPOSStart.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnPOSStart.ForeColor = System.Drawing.Color.White
+        Me.btnPOSStart.Image = CType(resources.GetObject("btnPOSStart.Image"), System.Drawing.Image)
+        Me.btnPOSStart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnPOSStart.Location = New System.Drawing.Point(683, 675)
+        Me.btnPOSStart.Name = "btnPOSStart"
+        Me.btnPOSStart.Size = New System.Drawing.Size(172, 40)
+        Me.btnPOSStart.TabIndex = 9
+        Me.btnPOSStart.Text = " [ START OF THE DAY ]"
+        Me.btnPOSStart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnPOSStart.UseVisualStyleBackColor = False
+        '
+        'btnPOSEnd
+        '
+        Me.btnPOSEnd.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.btnPOSEnd.FlatAppearance.BorderSize = 0
+        Me.btnPOSEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPOSEnd.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnPOSEnd.ForeColor = System.Drawing.Color.White
+        Me.btnPOSEnd.Image = CType(resources.GetObject("btnPOSEnd.Image"), System.Drawing.Image)
+        Me.btnPOSEnd.Location = New System.Drawing.Point(861, 675)
+        Me.btnPOSEnd.Name = "btnPOSEnd"
+        Me.btnPOSEnd.Size = New System.Drawing.Size(172, 40)
+        Me.btnPOSEnd.TabIndex = 12
+        Me.btnPOSEnd.Text = " [ END OF THE DAY ]"
+        Me.btnPOSEnd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnPOSEnd.UseVisualStyleBackColor = False
         '
         'frmPointOfSale
         '
@@ -405,6 +442,8 @@ Partial Class frmPointOfSale
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 788)
         Me.ControlBox = False
+        Me.Controls.Add(Me.btnPOSEnd)
+        Me.Controls.Add(Me.btnPOSStart)
         Me.Controls.Add(Me.lblRole)
         Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.lblOrderNumber)
@@ -441,7 +480,7 @@ Partial Class frmPointOfSale
     Friend WithEvents lblPOSAthenaPerbs As Label
     Friend WithEvents lblPOSSoftware As Label
     Friend WithEvents dataGridViewPOS As DataGridView
-    Friend WithEvents btnPOSMonthlyReport As Button
+    Friend WithEvents btnPOSSalesReport As Button
     Friend WithEvents btnPOSManageOrders As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents pnlPOSMenu As FlowLayoutPanel
@@ -459,4 +498,6 @@ Partial Class frmPointOfSale
     Friend WithEvents lblName As Label
     Friend WithEvents lblRole As Label
     Friend WithEvents btnBlank As Button
+    Friend WithEvents btnPOSStart As Button
+    Friend WithEvents btnPOSEnd As Button
 End Class

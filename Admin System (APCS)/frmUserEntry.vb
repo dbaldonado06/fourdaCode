@@ -50,15 +50,15 @@
     End Sub
 
     Private Sub btnRecordsUserEntry_Click(sender As Object, e As EventArgs) Handles btnRecordsUserEntry.Click
-        switchPanel(frmSalesRecords)
+        switchPanel(frmSalesSummary)
     End Sub
 
-    Private Sub btnVouchersUserEntry_Click(sender As Object, e As EventArgs) Handles btnVouchersUserEntry.Click
-
+    Private Sub btnVouchersUserEntry_Click(sender As Object, e As EventArgs) Handles btnDiscountUserEntry.Click
+        switchPanel(frmVoucherDiscount)
     End Sub
 
     Private Sub btnStocksInvUserEntry_Click(sender As Object, e As EventArgs) Handles btnStocksInvUserEntry.Click
-
+        switchPanel(frmStocksFoodInventory)
     End Sub
 
     Private Sub btnLogoutUserEntry_Click(sender As Object, e As EventArgs) Handles btnLogoutUserEntry.Click

@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="frmAdminPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCancelOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmCategory.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -13,13 +19,22 @@
     <Compile Update="frmCustomers.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmDailySales.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmOrders.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmPointOfSale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmPrintPreview.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmProductEntry.vb">
@@ -34,17 +49,40 @@
     <Compile Update="frmSalesRecords.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmSalesSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmSelectOrder.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSettlePayment.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmStartOfDay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmStocksFoodInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmUserEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmViewSalesDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmVoidItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmVoucherDiscount.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="RegisterUser.vb">
       <SubType>Form</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="DataSet1.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
 </Project>

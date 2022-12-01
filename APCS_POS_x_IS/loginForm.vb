@@ -11,7 +11,7 @@
 
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles UsernameText.TextChanged
 
     End Sub
 
@@ -19,9 +19,12 @@
 
     End Sub
 
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-        MainForm.Show()
-        Me.Hide()
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Loginbutton.Click
+        With MainForm
+            .Show()
+            .switchPanel(PosForm)
+            Me.Hide()
+        End With
     End Sub
 
     Private Sub loginForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load

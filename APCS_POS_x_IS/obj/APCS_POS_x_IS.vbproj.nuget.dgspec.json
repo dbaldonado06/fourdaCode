@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {}
+    "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {
+    "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+        "projectUniqueName": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
         "projectName": "APCS_POS_x_IS",
-        "projectPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
-        "packagesPath": "C:\\Users\\oticj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\APCS_POS_x_IS\\obj\\",
+        "projectPath": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+        "packagesPath": "C:\\Users\\Bianca Pano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\oticj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bianca Pano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

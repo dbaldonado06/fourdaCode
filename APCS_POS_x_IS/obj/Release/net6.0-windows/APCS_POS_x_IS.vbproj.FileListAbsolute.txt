@@ -48,3 +48,14 @@ C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-wind
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.SettlepaymentForm.resources
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.ManageordersForm.resources
 C:\Users\oticj\Downloads\fourda\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.ManagemenuproductForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.EdituserForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.ManagemenuproductForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.ManageordersForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.NewtransactionForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.ProductentryForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.SettlepaymentForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.StartofDayForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.VoucherForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.CancelOrderForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.DailySalesForm.resources
+C:\Users\Bianca Pano\Documents\Repo\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.ViewSalesDetailsForm.resources

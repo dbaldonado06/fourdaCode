@@ -76,23 +76,27 @@
     End Sub
 
     Private Sub btnPOSManageProductMenu_Click(sender As Object, e As EventArgs) Handles btnPOSManageProductMenu.Click
-        ManagemenuproductForm.Show()
+        With ManagemenuproductForm
+            .ShowDialog()
+        End With
     End Sub
 
     Private Sub btnPOSCancelOrder_Click(sender As Object, e As EventArgs) Handles btnPOSCancelOrder.Click
-        ManageordersForm.Show()
+        CancelOrderForm.Show()
     End Sub
 
     Private Sub btnBlank_Click(sender As Object, e As EventArgs) Handles btnBlank.Click
 
     End Sub
 
-    Private Sub btnPOSMonthlyReport_Click(sender As Object, e As EventArgs) Handles btnPOSMonthlyReport.Click
-
+    Private Sub btnPOSSalesReport_Click(sender As Object, e As EventArgs) Handles btnPOSSalesReport.Click
+        With DailySalesForm
+            .ShowDialog()
+        End With
     End Sub
 
     Private Sub btnPOSAddVoucher_Click(sender As Object, e As EventArgs) Handles btnPOSAddVoucher.Click
-
+        VoucherForm.Show()
     End Sub
 
     Private Sub Panel1_Paint_1(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
@@ -108,6 +112,16 @@
     End Sub
 
     Private Sub lblPOSSoftware_Click(sender As Object, e As EventArgs) Handles lblPOSSoftware.Click
+
+    End Sub
+
+    Private Sub btnPOSStart_Click(sender As Object, e As EventArgs) Handles btnPOSStart.Click
+        With StartofDayForm
+            .ShowDialog()
+        End With
+    End Sub
+
+    Private Sub btnPOSEnd_Click(sender As Object, e As EventArgs) Handles btnPOSEnd.Click
 
     End Sub
 End Class

@@ -38,23 +38,29 @@
 
     End Sub
 
-    Private Sub btnPOSNewTransaction_Click(sender As Object, e As EventArgs) Handles btnPOSNewTransaction.Click
+    Private Sub btnPOSNewTransaction_Click(sender As Object, e As EventArgs)
         NewtransactionForm.Show()
     End Sub
 
-    Private Sub btnPOSSettlePayment_Click(sender As Object, e As EventArgs) Handles btnPOSSettlePayment.Click
+    Private Sub btnPOSSettlePayment_Click(sender As Object, e As EventArgs)
         SettlepaymentForm.Show()
     End Sub
 
-    Private Sub btnPOSCancelOrder_Click(sender As Object, e As EventArgs) Handles btnPOSCancelOrder.Click
+    Private Sub btnPOSCancelOrder_Click(sender As Object, e As EventArgs)
         ManageordersForm.Show()
     End Sub
 
-    Private Sub btnPOSManageProductMenu_Click(sender As Object, e As EventArgs) Handles btnPOSManageProductMenu.Click
+    Private Sub btnPOSManageProductMenu_Click(sender As Object, e As EventArgs)
         ManagemenuproductForm.Show()
     End Sub
 
-    Private Sub btnPOSManageOrders_Click(sender As Object, e As EventArgs) Handles btnPOSManageOrders.Click
+    Private Sub btnPOSManageOrders_Click(sender As Object, e As EventArgs)
         ManageordersForm.Show()
+    End Sub
+
+    Private Sub btnPOSStart_Click(sender As Object, e As EventArgs)
+        With StartofDayForm
+            .ShowDialog()
+        End With
     End Sub
 End Class

@@ -28,16 +28,16 @@ Partial Class loginForm
         Me.minimizeButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
         Me.userProfile = New System.Windows.Forms.PictureBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.UsernameText = New System.Windows.Forms.TextBox()
+        Me.PasswordText = New System.Windows.Forms.TextBox()
+        Me.Loginbutton = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.userProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.minimizeButton)
@@ -101,40 +101,40 @@ Partial Class loginForm
         Me.userProfile.TabIndex = 1
         Me.userProfile.TabStop = False
         '
-        'TextBox1
+        'UsernameText
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.TextBox1.Location = New System.Drawing.Point(60, 172)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.PlaceholderText = "Username"
-        Me.TextBox1.Size = New System.Drawing.Size(166, 26)
-        Me.TextBox1.TabIndex = 2
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.UsernameText.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.UsernameText.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.UsernameText.Location = New System.Drawing.Point(60, 172)
+        Me.UsernameText.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.UsernameText.Name = "UsernameText"
+        Me.UsernameText.PlaceholderText = "Username"
+        Me.UsernameText.Size = New System.Drawing.Size(166, 26)
+        Me.UsernameText.TabIndex = 2
+        Me.UsernameText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox2
+        'PasswordText
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(60, 215)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PlaceholderText = "Password"
-        Me.TextBox2.Size = New System.Drawing.Size(166, 26)
-        Me.TextBox2.TabIndex = 3
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.PasswordText.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.PasswordText.Location = New System.Drawing.Point(60, 215)
+        Me.PasswordText.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.PasswordText.Name = "PasswordText"
+        Me.PasswordText.PlaceholderText = "Password"
+        Me.PasswordText.Size = New System.Drawing.Size(166, 26)
+        Me.PasswordText.TabIndex = 3
+        Me.PasswordText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Button1
+        'Loginbutton
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(91, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(95, 272)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(103, 33)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "LOGIN"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Loginbutton.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.Loginbutton.ForeColor = System.Drawing.Color.White
+        Me.Loginbutton.Location = New System.Drawing.Point(95, 272)
+        Me.Loginbutton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Loginbutton.Name = "Loginbutton"
+        Me.Loginbutton.Size = New System.Drawing.Size(103, 33)
+        Me.Loginbutton.TabIndex = 4
+        Me.Loginbutton.Text = "LOGIN"
+        Me.Loginbutton.UseVisualStyleBackColor = False
         '
         'loginForm
         '
@@ -142,9 +142,9 @@ Partial Class loginForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 334)
         Me.ControlBox = False
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Loginbutton)
+        Me.Controls.Add(Me.PasswordText)
+        Me.Controls.Add(Me.UsernameText)
         Me.Controls.Add(Me.userProfile)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -163,8 +163,8 @@ Partial Class loginForm
     Friend WithEvents exitButton As Button
     Friend WithEvents userProfile As PictureBox
     Private WithEvents minimizeButton As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents UsernameText As TextBox
+    Friend WithEvents PasswordText As TextBox
+    Friend WithEvents Loginbutton As Button
     Friend WithEvents Label1 As Label
 End Class

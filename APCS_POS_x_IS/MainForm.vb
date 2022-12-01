@@ -30,4 +30,37 @@
         Close()
     End Sub
 
+    Private Sub MainPanel_Paint(sender As Object, e As PaintEventArgs) Handles MainPanel.Paint
+
+    End Sub
+
+    Private Sub ProfilePic_Click(sender As Object, e As EventArgs) Handles ProfilePic.Click
+
+    End Sub
+
+    Private Sub btnPOSNewTransaction_Click(sender As Object, e As EventArgs)
+        NewtransactionForm.Show()
+    End Sub
+
+    Private Sub btnPOSSettlePayment_Click(sender As Object, e As EventArgs)
+        SettlepaymentForm.Show()
+    End Sub
+
+    Private Sub btnPOSCancelOrder_Click(sender As Object, e As EventArgs)
+        ManageordersForm.Show()
+    End Sub
+
+    Private Sub btnPOSManageProductMenu_Click(sender As Object, e As EventArgs)
+        ManagemenuproductForm.Show()
+    End Sub
+
+    Private Sub btnPOSManageOrders_Click(sender As Object, e As EventArgs)
+        ManageordersForm.Show()
+    End Sub
+
+    Private Sub btnPOSStart_Click(sender As Object, e As EventArgs)
+        With StartofDayForm
+            .ShowDialog()
+        End With
+    End Sub
 End Class

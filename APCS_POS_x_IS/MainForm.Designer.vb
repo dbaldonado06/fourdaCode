@@ -39,7 +39,7 @@ Partial Class MainForm
         '
         'LeftPanel
         '
-        Me.LeftPanel.BackColor = System.Drawing.Color.SlateGray
+        Me.LeftPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
         Me.LeftPanel.Controls.Add(Me.LogoutButton)
         Me.LeftPanel.Controls.Add(Me.PosButton)
         Me.LeftPanel.Controls.Add(Me.DashboardButton)
@@ -48,7 +48,7 @@ Partial Class MainForm
         Me.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left
         Me.LeftPanel.Location = New System.Drawing.Point(0, 0)
         Me.LeftPanel.Name = "LeftPanel"
-        Me.LeftPanel.Size = New System.Drawing.Size(307, 1098)
+        Me.LeftPanel.Size = New System.Drawing.Size(307, 788)
         Me.LeftPanel.TabIndex = 0
         '
         'LogoutButton
@@ -59,9 +59,9 @@ Partial Class MainForm
         Me.LogoutButton.ForeColor = System.Drawing.Color.White
         Me.LogoutButton.Image = CType(resources.GetObject("LogoutButton.Image"), System.Drawing.Image)
         Me.LogoutButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.LogoutButton.Location = New System.Drawing.Point(0, 1038)
+        Me.LogoutButton.Location = New System.Drawing.Point(0, 707)
         Me.LogoutButton.Name = "LogoutButton"
-        Me.LogoutButton.Size = New System.Drawing.Size(307, 42)
+        Me.LogoutButton.Size = New System.Drawing.Size(304, 38)
         Me.LogoutButton.TabIndex = 4
         Me.LogoutButton.Text = "LOGOUT"
         Me.LogoutButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -79,7 +79,7 @@ Partial Class MainForm
         Me.PosButton.Name = "PosButton"
         Me.PosButton.Size = New System.Drawing.Size(307, 42)
         Me.PosButton.TabIndex = 3
-        Me.PosButton.Text = "POS"
+        Me.PosButton.Text = "POINT OF SALE"
         Me.PosButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.PosButton.UseVisualStyleBackColor = True
         '
@@ -120,7 +120,6 @@ Partial Class MainForm
         Me.ProfilePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.ProfilePanel.Controls.Add(Me.EmployeeText)
         Me.ProfilePanel.Controls.Add(Me.ProfilePic)
-        Me.ProfilePanel.Cursor = System.Windows.Forms.Cursors.Cross
         Me.ProfilePanel.Dock = System.Windows.Forms.DockStyle.Top
         Me.ProfilePanel.Location = New System.Drawing.Point(0, 0)
         Me.ProfilePanel.Name = "ProfilePanel"
@@ -150,9 +149,10 @@ Partial Class MainForm
         '
         'MainPanel
         '
-        Me.MainPanel.Location = New System.Drawing.Point(304, 0)
+        Me.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.MainPanel.Location = New System.Drawing.Point(307, 0)
         Me.MainPanel.Name = "MainPanel"
-        Me.MainPanel.Size = New System.Drawing.Size(1940, 1098)
+        Me.MainPanel.Size = New System.Drawing.Size(1079, 788)
         Me.MainPanel.TabIndex = 1
         '
         'MainForm
@@ -160,7 +160,7 @@ Partial Class MainForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1940, 1098)
+        Me.ClientSize = New System.Drawing.Size(1386, 788)
         Me.Controls.Add(Me.MainPanel)
         Me.Controls.Add(Me.LeftPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None

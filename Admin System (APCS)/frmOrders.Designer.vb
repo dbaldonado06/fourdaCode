@@ -23,25 +23,25 @@ Partial Class frmOrders
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmOrders))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
         Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
         Me.lblOrdersOrderNo = New System.Windows.Forms.Label()
         Me.txtOrdersOrderNo = New System.Windows.Forms.TextBox()
         Me.pnlOrders = New System.Windows.Forms.Panel()
-        Me.btnOrdersSave = New System.Windows.Forms.Button()
-        Me.btnOrdersUpdate = New System.Windows.Forms.Button()
-        Me.btnOrdersCancel = New System.Windows.Forms.Button()
-        Me.dataGridViewPOS = New System.Windows.Forms.DataGridView()
+        Me.dataGridViewPOSOrders = New System.Windows.Forms.DataGridView()
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colEditProducMenu = New System.Windows.Forms.DataGridViewImageColumn()
         Me.colDeleteProductMenu = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.btnOrdersCancel = New System.Windows.Forms.Button()
+        Me.btnOrdersUpdate = New System.Windows.Forms.Button()
+        Me.btnOrdersSave = New System.Windows.Forms.Button()
         Me.ToolStrip1.SuspendLayout()
         Me.pnlOrders.SuspendLayout()
-        CType(Me.dataGridViewPOS, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dataGridViewPOSOrders, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ToolStrip1
@@ -90,7 +90,7 @@ Partial Class frmOrders
         'pnlOrders
         '
         Me.pnlOrders.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlOrders.Controls.Add(Me.dataGridViewPOS)
+        Me.pnlOrders.Controls.Add(Me.dataGridViewPOSOrders)
         Me.pnlOrders.Controls.Add(Me.btnOrdersCancel)
         Me.pnlOrders.Controls.Add(Me.btnOrdersUpdate)
         Me.pnlOrders.Controls.Add(Me.btnOrdersSave)
@@ -103,78 +103,36 @@ Partial Class frmOrders
         Me.pnlOrders.Size = New System.Drawing.Size(969, 451)
         Me.pnlOrders.TabIndex = 0
         '
-        'btnOrdersSave
+        'dataGridViewPOSOrders
         '
-        Me.btnOrdersSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
-        Me.btnOrdersSave.FlatAppearance.BorderSize = 0
-        Me.btnOrdersSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnOrdersSave.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnOrdersSave.ForeColor = System.Drawing.SystemColors.Control
-        Me.btnOrdersSave.Location = New System.Drawing.Point(476, 398)
-        Me.btnOrdersSave.Name = "btnOrdersSave"
-        Me.btnOrdersSave.Size = New System.Drawing.Size(91, 23)
-        Me.btnOrdersSave.TabIndex = 12
-        Me.btnOrdersSave.Text = "SAVE"
-        Me.btnOrdersSave.UseVisualStyleBackColor = False
-        '
-        'btnOrdersUpdate
-        '
-        Me.btnOrdersUpdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
-        Me.btnOrdersUpdate.FlatAppearance.BorderSize = 0
-        Me.btnOrdersUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnOrdersUpdate.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnOrdersUpdate.ForeColor = System.Drawing.SystemColors.Control
-        Me.btnOrdersUpdate.Location = New System.Drawing.Point(568, 398)
-        Me.btnOrdersUpdate.Name = "btnOrdersUpdate"
-        Me.btnOrdersUpdate.Size = New System.Drawing.Size(91, 23)
-        Me.btnOrdersUpdate.TabIndex = 13
-        Me.btnOrdersUpdate.Text = "UPDATE"
-        Me.btnOrdersUpdate.UseVisualStyleBackColor = False
-        '
-        'btnOrdersCancel
-        '
-        Me.btnOrdersCancel.BackColor = System.Drawing.Color.Gray
-        Me.btnOrdersCancel.FlatAppearance.BorderSize = 0
-        Me.btnOrdersCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnOrdersCancel.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnOrdersCancel.ForeColor = System.Drawing.Color.Black
-        Me.btnOrdersCancel.Location = New System.Drawing.Point(660, 398)
-        Me.btnOrdersCancel.Name = "btnOrdersCancel"
-        Me.btnOrdersCancel.Size = New System.Drawing.Size(91, 23)
-        Me.btnOrdersCancel.TabIndex = 14
-        Me.btnOrdersCancel.Text = "CANCEL"
-        Me.btnOrdersCancel.UseVisualStyleBackColor = False
-        '
-        'dataGridViewPOS
-        '
-        Me.dataGridViewPOS.AllowUserToAddRows = False
-        Me.dataGridViewPOS.BackgroundColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dataGridViewPOS.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
-        Me.dataGridViewPOS.ColumnHeadersHeight = 30
-        Me.dataGridViewPOS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        Me.dataGridViewPOS.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column7, Me.Column2, Me.colEditProducMenu, Me.colDeleteProductMenu})
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SeaShell
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dataGridViewPOS.DefaultCellStyle = DataGridViewCellStyle2
-        Me.dataGridViewPOS.EnableHeadersVisualStyles = False
-        Me.dataGridViewPOS.Location = New System.Drawing.Point(12, 30)
-        Me.dataGridViewPOS.Name = "dataGridViewPOS"
-        Me.dataGridViewPOS.RowHeadersVisible = False
-        Me.dataGridViewPOS.RowTemplate.Height = 25
-        Me.dataGridViewPOS.Size = New System.Drawing.Size(945, 334)
-        Me.dataGridViewPOS.TabIndex = 15
+        Me.dataGridViewPOSOrders.AllowUserToAddRows = False
+        Me.dataGridViewPOSOrders.BackgroundColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dataGridViewPOSOrders.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
+        Me.dataGridViewPOSOrders.ColumnHeadersHeight = 30
+        Me.dataGridViewPOSOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.dataGridViewPOSOrders.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column7, Me.Column2, Me.colEditProducMenu, Me.colDeleteProductMenu})
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.SeaShell
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dataGridViewPOSOrders.DefaultCellStyle = DataGridViewCellStyle4
+        Me.dataGridViewPOSOrders.EnableHeadersVisualStyles = False
+        Me.dataGridViewPOSOrders.Location = New System.Drawing.Point(12, 30)
+        Me.dataGridViewPOSOrders.Name = "dataGridViewPOSOrders"
+        Me.dataGridViewPOSOrders.RowHeadersVisible = False
+        Me.dataGridViewPOSOrders.RowTemplate.Height = 25
+        Me.dataGridViewPOSOrders.Size = New System.Drawing.Size(945, 334)
+        Me.dataGridViewPOSOrders.TabIndex = 15
         '
         'Column7
         '
@@ -205,6 +163,48 @@ Partial Class frmOrders
         Me.colDeleteProductMenu.Name = "colDeleteProductMenu"
         Me.colDeleteProductMenu.Width = 5
         '
+        'btnOrdersCancel
+        '
+        Me.btnOrdersCancel.BackColor = System.Drawing.Color.Gray
+        Me.btnOrdersCancel.FlatAppearance.BorderSize = 0
+        Me.btnOrdersCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnOrdersCancel.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnOrdersCancel.ForeColor = System.Drawing.Color.Black
+        Me.btnOrdersCancel.Location = New System.Drawing.Point(660, 398)
+        Me.btnOrdersCancel.Name = "btnOrdersCancel"
+        Me.btnOrdersCancel.Size = New System.Drawing.Size(91, 23)
+        Me.btnOrdersCancel.TabIndex = 14
+        Me.btnOrdersCancel.Text = "CANCEL"
+        Me.btnOrdersCancel.UseVisualStyleBackColor = False
+        '
+        'btnOrdersUpdate
+        '
+        Me.btnOrdersUpdate.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.btnOrdersUpdate.FlatAppearance.BorderSize = 0
+        Me.btnOrdersUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnOrdersUpdate.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnOrdersUpdate.ForeColor = System.Drawing.SystemColors.Control
+        Me.btnOrdersUpdate.Location = New System.Drawing.Point(568, 398)
+        Me.btnOrdersUpdate.Name = "btnOrdersUpdate"
+        Me.btnOrdersUpdate.Size = New System.Drawing.Size(91, 23)
+        Me.btnOrdersUpdate.TabIndex = 13
+        Me.btnOrdersUpdate.Text = "UPDATE"
+        Me.btnOrdersUpdate.UseVisualStyleBackColor = False
+        '
+        'btnOrdersSave
+        '
+        Me.btnOrdersSave.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.btnOrdersSave.FlatAppearance.BorderSize = 0
+        Me.btnOrdersSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnOrdersSave.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnOrdersSave.ForeColor = System.Drawing.SystemColors.Control
+        Me.btnOrdersSave.Location = New System.Drawing.Point(476, 398)
+        Me.btnOrdersSave.Name = "btnOrdersSave"
+        Me.btnOrdersSave.Size = New System.Drawing.Size(91, 23)
+        Me.btnOrdersSave.TabIndex = 12
+        Me.btnOrdersSave.Text = "SAVE"
+        Me.btnOrdersSave.UseVisualStyleBackColor = False
+        '
         'frmOrders
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -221,7 +221,7 @@ Partial Class frmOrders
         Me.ToolStrip1.PerformLayout()
         Me.pnlOrders.ResumeLayout(False)
         Me.pnlOrders.PerformLayout()
-        CType(Me.dataGridViewPOS, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dataGridViewPOSOrders, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -235,7 +235,7 @@ Partial Class frmOrders
     Friend WithEvents btnOrdersSave As Button
     Friend WithEvents btnOrdersUpdate As Button
     Friend WithEvents btnOrdersCancel As Button
-    Friend WithEvents dataGridViewPOS As DataGridView
+    Friend WithEvents dataGridViewPOSOrders As DataGridView
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents colEditProducMenu As DataGridViewImageColumn

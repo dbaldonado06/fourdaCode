@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\oticj\\.nuget\\packages\\": {}
+    "C:\\Users\\Feliza Dia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
+      "projectUniqueName": "D:\\Downloads\\Admin System (APCS)\\Admin System (APCS).vbproj",
       "projectName": "Admin System (APCS)",
-      "projectPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\Admin System (APCS)\\Admin System (APCS).vbproj",
-      "packagesPath": "C:\\Users\\oticj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oticj\\Downloads\\fourda\\fourdaCode\\Admin System (APCS)\\obj\\",
+      "projectPath": "D:\\Downloads\\Admin System (APCS)\\Admin System (APCS).vbproj",
+      "packagesPath": "C:\\Users\\Feliza Dia\\.nuget\\packages\\",
+      "outputPath": "D:\\Downloads\\Admin System (APCS)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\oticj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Feliza Dia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

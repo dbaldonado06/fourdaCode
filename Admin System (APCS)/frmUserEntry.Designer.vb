@@ -26,7 +26,7 @@ Partial Class frmUserEntry
         Me.pnl1UserEntry = New System.Windows.Forms.Panel()
         Me.btnLogoutUserEntry = New System.Windows.Forms.Button()
         Me.btnRecordsUserEntry = New System.Windows.Forms.Button()
-        Me.btnVouchersUserEntry = New System.Windows.Forms.Button()
+        Me.btnDiscountUserEntry = New System.Windows.Forms.Button()
         Me.btnStocksInvUserEntry = New System.Windows.Forms.Button()
         Me.btnCustomersUserEntry = New System.Windows.Forms.Button()
         Me.btnProdMenuUserEntry = New System.Windows.Forms.Button()
@@ -50,7 +50,7 @@ Partial Class frmUserEntry
         Me.pnl1UserEntry.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
         Me.pnl1UserEntry.Controls.Add(Me.btnLogoutUserEntry)
         Me.pnl1UserEntry.Controls.Add(Me.btnRecordsUserEntry)
-        Me.pnl1UserEntry.Controls.Add(Me.btnVouchersUserEntry)
+        Me.pnl1UserEntry.Controls.Add(Me.btnDiscountUserEntry)
         Me.pnl1UserEntry.Controls.Add(Me.btnStocksInvUserEntry)
         Me.pnl1UserEntry.Controls.Add(Me.btnCustomersUserEntry)
         Me.pnl1UserEntry.Controls.Add(Me.btnProdMenuUserEntry)
@@ -96,21 +96,21 @@ Partial Class frmUserEntry
         Me.btnRecordsUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnRecordsUserEntry.UseVisualStyleBackColor = True
         '
-        'btnVouchersUserEntry
+        'btnDiscountUserEntry
         '
-        Me.btnVouchersUserEntry.FlatAppearance.BorderSize = 0
-        Me.btnVouchersUserEntry.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnVouchersUserEntry.Font = New System.Drawing.Font("Yu Gothic UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnVouchersUserEntry.ForeColor = System.Drawing.Color.White
-        Me.btnVouchersUserEntry.Image = CType(resources.GetObject("btnVouchersUserEntry.Image"), System.Drawing.Image)
-        Me.btnVouchersUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnVouchersUserEntry.Location = New System.Drawing.Point(12, 572)
-        Me.btnVouchersUserEntry.Name = "btnVouchersUserEntry"
-        Me.btnVouchersUserEntry.Size = New System.Drawing.Size(283, 50)
-        Me.btnVouchersUserEntry.TabIndex = 7
-        Me.btnVouchersUserEntry.Text = "    VOUCHERS"
-        Me.btnVouchersUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnVouchersUserEntry.UseVisualStyleBackColor = True
+        Me.btnDiscountUserEntry.FlatAppearance.BorderSize = 0
+        Me.btnDiscountUserEntry.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDiscountUserEntry.Font = New System.Drawing.Font("Yu Gothic UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnDiscountUserEntry.ForeColor = System.Drawing.Color.White
+        Me.btnDiscountUserEntry.Image = CType(resources.GetObject("btnDiscountUserEntry.Image"), System.Drawing.Image)
+        Me.btnDiscountUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnDiscountUserEntry.Location = New System.Drawing.Point(12, 572)
+        Me.btnDiscountUserEntry.Name = "btnDiscountUserEntry"
+        Me.btnDiscountUserEntry.Size = New System.Drawing.Size(283, 50)
+        Me.btnDiscountUserEntry.TabIndex = 7
+        Me.btnDiscountUserEntry.Text = "    VOUCHER "
+        Me.btnDiscountUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnDiscountUserEntry.UseVisualStyleBackColor = True
         '
         'btnStocksInvUserEntry
         '
@@ -290,7 +290,6 @@ Partial Class frmUserEntry
     Friend WithEvents btnUserUserEntry As Button
     Friend WithEvents btnLogoutUserEntry As Button
     Friend WithEvents btnRecordsUserEntry As Button
-    Friend WithEvents btnVouchersUserEntry As Button
     Friend WithEvents btnStocksInvUserEntry As Button
     Friend WithEvents btnCustomersUserEntry As Button
     Friend WithEvents btnProdMenuUserEntry As Button
@@ -298,4 +297,5 @@ Partial Class frmUserEntry
     Friend WithEvents btnDashboardUserEntry As Button
     Friend WithEvents picBoxCreateUser As PictureBox
     Friend WithEvents pnlMain As Panel
+    Friend WithEvents btnDiscountUserEntry As Button
 End Class

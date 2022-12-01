@@ -24,6 +24,7 @@ Partial Class SettlepaymentForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SettlepaymentForm))
         Me.pnlSettlePayment = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.btnSettlePaymentAcceptPayment = New System.Windows.Forms.Button()
         Me.lblSettlePaymentChange = New System.Windows.Forms.Label()
         Me.txtBoxSettlePaymentChange = New System.Windows.Forms.TextBox()
@@ -44,6 +45,7 @@ Partial Class SettlepaymentForm
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pnlSettlePayment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnlSettlePayment.Controls.Add(Me.Button1)
         Me.pnlSettlePayment.Controls.Add(Me.btnSettlePaymentAcceptPayment)
         Me.pnlSettlePayment.Controls.Add(Me.lblSettlePaymentChange)
         Me.pnlSettlePayment.Controls.Add(Me.txtBoxSettlePaymentChange)
@@ -54,10 +56,21 @@ Partial Class SettlepaymentForm
         Me.pnlSettlePayment.Controls.Add(Me.txtBoxSettlePaymentTotal)
         Me.pnlSettlePayment.Controls.Add(Me.lblSettlePaymentTotal)
         Me.pnlSettlePayment.Controls.Add(Me.picBoxAthenaSettlePayment)
-        Me.pnlSettlePayment.Location = New System.Drawing.Point(8, 8)
+        Me.pnlSettlePayment.Location = New System.Drawing.Point(12, 12)
         Me.pnlSettlePayment.Name = "pnlSettlePayment"
-        Me.pnlSettlePayment.Size = New System.Drawing.Size(344, 572)
+        Me.pnlSettlePayment.Size = New System.Drawing.Size(340, 551)
         Me.pnlSettlePayment.TabIndex = 1
+        '
+        'Button1
+        '
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.Location = New System.Drawing.Point(312, -1)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(27, 27)
+        Me.Button1.TabIndex = 14
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'btnSettlePaymentAcceptPayment
         '
@@ -66,9 +79,9 @@ Partial Class SettlepaymentForm
         Me.btnSettlePaymentAcceptPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSettlePaymentAcceptPayment.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btnSettlePaymentAcceptPayment.ForeColor = System.Drawing.SystemColors.Control
-        Me.btnSettlePaymentAcceptPayment.Location = New System.Drawing.Point(11, 479)
+        Me.btnSettlePaymentAcceptPayment.Location = New System.Drawing.Point(11, 470)
         Me.btnSettlePaymentAcceptPayment.Name = "btnSettlePaymentAcceptPayment"
-        Me.btnSettlePaymentAcceptPayment.Size = New System.Drawing.Size(321, 72)
+        Me.btnSettlePaymentAcceptPayment.Size = New System.Drawing.Size(321, 60)
         Me.btnSettlePaymentAcceptPayment.TabIndex = 12
         Me.btnSettlePaymentAcceptPayment.Text = "ACCEPT PAYMENT"
         Me.btnSettlePaymentAcceptPayment.UseVisualStyleBackColor = False
@@ -183,4 +196,5 @@ Partial Class SettlepaymentForm
     Friend WithEvents txtBoxSettlePaymentTotal As TextBox
     Friend WithEvents lblSettlePaymentTotal As Label
     Friend WithEvents picBoxAthenaSettlePayment As PictureBox
+    Friend WithEvents Button1 As Button
 End Class

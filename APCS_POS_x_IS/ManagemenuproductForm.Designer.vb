@@ -57,7 +57,7 @@ Partial Class ManagemenuproductForm
         Me.pnlMainProductMenuList.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlMainProductMenuList.Location = New System.Drawing.Point(0, 0)
         Me.pnlMainProductMenuList.Name = "pnlMainProductMenuList"
-        Me.pnlMainProductMenuList.Size = New System.Drawing.Size(800, 450)
+        Me.pnlMainProductMenuList.Size = New System.Drawing.Size(1079, 788)
         Me.pnlMainProductMenuList.TabIndex = 5
         '
         'ToolStripButton2
@@ -82,7 +82,7 @@ Partial Class ManagemenuproductForm
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.ToolStripButton2, Me.ToolStripButton1})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(800, 25)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1079, 25)
         Me.ToolStrip1.TabIndex = 0
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -202,7 +202,7 @@ Partial Class ManagemenuproductForm
         Me.dataGridViewPOS.Name = "dataGridViewPOS"
         Me.dataGridViewPOS.RowHeadersVisible = False
         Me.dataGridViewPOS.RowTemplate.Height = 25
-        Me.dataGridViewPOS.Size = New System.Drawing.Size(800, 425)
+        Me.dataGridViewPOS.Size = New System.Drawing.Size(1079, 763)
         Me.dataGridViewPOS.TabIndex = 4
         '
         'pnlProductMenuList
@@ -213,18 +213,18 @@ Partial Class ManagemenuproductForm
         Me.pnlProductMenuList.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pnlProductMenuList.Location = New System.Drawing.Point(0, 0)
         Me.pnlProductMenuList.Name = "pnlProductMenuList"
-        Me.pnlProductMenuList.Size = New System.Drawing.Size(800, 450)
+        Me.pnlProductMenuList.Size = New System.Drawing.Size(1079, 788)
         Me.pnlProductMenuList.TabIndex = 1
         '
         'ManagemenuproductForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1079, 788)
+        Me.ControlBox = False
         Me.Controls.Add(Me.pnlProductMenuList)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "ManagemenuproductForm"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ManagemenuproductForm"
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()

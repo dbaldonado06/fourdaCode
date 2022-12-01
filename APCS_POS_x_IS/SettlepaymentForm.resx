@@ -58,6 +58,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
+        BgAAAQYBzdMzvAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGZSURBVDhPlZS7
+        TsMwGIXN5TG4CCiJL4ENsfZNWJCQWJjYWZhQJxZ2FspI0xSmPgcIKCqClom+AJTzu3aTuE5SjvRJTf7j
+        k9+ubWb1EEWriRDde6Vq5lWl2kKcJJxfmMdUFIbiMxiDfhJFW6ZUqFiIY3h/9RgpG2PGFnTBCbMMEqWk
+        NniE+iH4yfjHbc6vzhhbZDTNXMGA9x+tIOAmYyp0c4T6pDOHmPMD+to66GULUzj/wtQik+XvLOWmW68v
+        ayOtGQa/e0w6FOyUdQaubxlb0mFWLSG2aZoeMzEC84dZoZOgJNRHOs0idcIwhHHgDPRRHWal12wyTV8Q
+        0Sycpk8YUPZvEk9JrbZi7OWCuSrM0rsLww0zzC+Y5g2zvMVBsGmG51Wxz5rg0XlnmQ3NHfRZ9D6jNcNv
+        98xb+rTldBgeTkFRWG5r6ItEyhePjxhiy+0yHOhzT5Hw7rOWUmuovTpeYoSP7WsTfjScYvFxgmjN4Oln
+        /N8dpfZMmTG6HGMpL01xrhNANzu8nyDtLCsdivvsPyeArrZcZ4yxPwoj1hEYVVQYAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="picBoxAthenaSettlePayment.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABdwAAAXcCAYAAAA4NUxkAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1

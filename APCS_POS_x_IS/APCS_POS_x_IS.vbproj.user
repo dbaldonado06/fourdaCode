@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="CancelOrderForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DailySalesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DashboardForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="EdituserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StartofDayForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MainForm.vb">
@@ -32,6 +41,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UsersForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewSalesDetailsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VoucherForm.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

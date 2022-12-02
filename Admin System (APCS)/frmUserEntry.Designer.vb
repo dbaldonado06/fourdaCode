@@ -72,9 +72,9 @@ Partial Class frmUserEntry
         Me.btnLogoutUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnLogoutUserEntry.Image = CType(resources.GetObject("btnLogoutUserEntry.Image"), System.Drawing.Image)
         Me.btnLogoutUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnLogoutUserEntry.Location = New System.Drawing.Point(12, 702)
+        Me.btnLogoutUserEntry.Location = New System.Drawing.Point(0, 702)
         Me.btnLogoutUserEntry.Name = "btnLogoutUserEntry"
-        Me.btnLogoutUserEntry.Size = New System.Drawing.Size(283, 42)
+        Me.btnLogoutUserEntry.Size = New System.Drawing.Size(307, 42)
         Me.btnLogoutUserEntry.TabIndex = 9
         Me.btnLogoutUserEntry.Text = "    LOGOUT"
         Me.btnLogoutUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -88,9 +88,9 @@ Partial Class frmUserEntry
         Me.btnRecordsUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnRecordsUserEntry.Image = CType(resources.GetObject("btnRecordsUserEntry.Image"), System.Drawing.Image)
         Me.btnRecordsUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnRecordsUserEntry.Location = New System.Drawing.Point(12, 516)
+        Me.btnRecordsUserEntry.Location = New System.Drawing.Point(0, 516)
         Me.btnRecordsUserEntry.Name = "btnRecordsUserEntry"
-        Me.btnRecordsUserEntry.Size = New System.Drawing.Size(283, 50)
+        Me.btnRecordsUserEntry.Size = New System.Drawing.Size(307, 50)
         Me.btnRecordsUserEntry.TabIndex = 8
         Me.btnRecordsUserEntry.Text = "    RECORDS"
         Me.btnRecordsUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -104,9 +104,9 @@ Partial Class frmUserEntry
         Me.btnDiscountUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnDiscountUserEntry.Image = CType(resources.GetObject("btnDiscountUserEntry.Image"), System.Drawing.Image)
         Me.btnDiscountUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnDiscountUserEntry.Location = New System.Drawing.Point(12, 572)
+        Me.btnDiscountUserEntry.Location = New System.Drawing.Point(0, 572)
         Me.btnDiscountUserEntry.Name = "btnDiscountUserEntry"
-        Me.btnDiscountUserEntry.Size = New System.Drawing.Size(283, 50)
+        Me.btnDiscountUserEntry.Size = New System.Drawing.Size(307, 50)
         Me.btnDiscountUserEntry.TabIndex = 7
         Me.btnDiscountUserEntry.Text = "    VOUCHER "
         Me.btnDiscountUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -120,9 +120,9 @@ Partial Class frmUserEntry
         Me.btnStocksInvUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnStocksInvUserEntry.Image = CType(resources.GetObject("btnStocksInvUserEntry.Image"), System.Drawing.Image)
         Me.btnStocksInvUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnStocksInvUserEntry.Location = New System.Drawing.Point(12, 628)
+        Me.btnStocksInvUserEntry.Location = New System.Drawing.Point(0, 628)
         Me.btnStocksInvUserEntry.Name = "btnStocksInvUserEntry"
-        Me.btnStocksInvUserEntry.Size = New System.Drawing.Size(283, 46)
+        Me.btnStocksInvUserEntry.Size = New System.Drawing.Size(307, 46)
         Me.btnStocksInvUserEntry.TabIndex = 6
         Me.btnStocksInvUserEntry.Text = "    STOCKS AND INVENTORY"
         Me.btnStocksInvUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -136,9 +136,9 @@ Partial Class frmUserEntry
         Me.btnCustomersUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnCustomersUserEntry.Image = CType(resources.GetObject("btnCustomersUserEntry.Image"), System.Drawing.Image)
         Me.btnCustomersUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnCustomersUserEntry.Location = New System.Drawing.Point(12, 460)
+        Me.btnCustomersUserEntry.Location = New System.Drawing.Point(0, 460)
         Me.btnCustomersUserEntry.Name = "btnCustomersUserEntry"
-        Me.btnCustomersUserEntry.Size = New System.Drawing.Size(283, 50)
+        Me.btnCustomersUserEntry.Size = New System.Drawing.Size(307, 50)
         Me.btnCustomersUserEntry.TabIndex = 5
         Me.btnCustomersUserEntry.Text = "    CUSTOMERS"
         Me.btnCustomersUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -152,9 +152,9 @@ Partial Class frmUserEntry
         Me.btnProdMenuUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnProdMenuUserEntry.Image = CType(resources.GetObject("btnProdMenuUserEntry.Image"), System.Drawing.Image)
         Me.btnProdMenuUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProdMenuUserEntry.Location = New System.Drawing.Point(12, 404)
+        Me.btnProdMenuUserEntry.Location = New System.Drawing.Point(0, 404)
         Me.btnProdMenuUserEntry.Name = "btnProdMenuUserEntry"
-        Me.btnProdMenuUserEntry.Size = New System.Drawing.Size(283, 50)
+        Me.btnProdMenuUserEntry.Size = New System.Drawing.Size(307, 50)
         Me.btnProdMenuUserEntry.TabIndex = 4
         Me.btnProdMenuUserEntry.Text = "    PRODUCT MENU"
         Me.btnProdMenuUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -168,9 +168,9 @@ Partial Class frmUserEntry
         Me.btnPosUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnPosUserEntry.Image = CType(resources.GetObject("btnPosUserEntry.Image"), System.Drawing.Image)
         Me.btnPosUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnPosUserEntry.Location = New System.Drawing.Point(12, 348)
+        Me.btnPosUserEntry.Location = New System.Drawing.Point(0, 348)
         Me.btnPosUserEntry.Name = "btnPosUserEntry"
-        Me.btnPosUserEntry.Size = New System.Drawing.Size(283, 50)
+        Me.btnPosUserEntry.Size = New System.Drawing.Size(307, 50)
         Me.btnPosUserEntry.TabIndex = 3
         Me.btnPosUserEntry.Text = "    POINT OF SALE"
         Me.btnPosUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -184,9 +184,9 @@ Partial Class frmUserEntry
         Me.btnDashboardUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnDashboardUserEntry.Image = CType(resources.GetObject("btnDashboardUserEntry.Image"), System.Drawing.Image)
         Me.btnDashboardUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnDashboardUserEntry.Location = New System.Drawing.Point(12, 292)
+        Me.btnDashboardUserEntry.Location = New System.Drawing.Point(0, 292)
         Me.btnDashboardUserEntry.Name = "btnDashboardUserEntry"
-        Me.btnDashboardUserEntry.Size = New System.Drawing.Size(283, 50)
+        Me.btnDashboardUserEntry.Size = New System.Drawing.Size(307, 50)
         Me.btnDashboardUserEntry.TabIndex = 2
         Me.btnDashboardUserEntry.Text = "    DASHBOARD"
         Me.btnDashboardUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -200,9 +200,9 @@ Partial Class frmUserEntry
         Me.btnUserUserEntry.ForeColor = System.Drawing.Color.White
         Me.btnUserUserEntry.Image = CType(resources.GetObject("btnUserUserEntry.Image"), System.Drawing.Image)
         Me.btnUserUserEntry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnUserUserEntry.Location = New System.Drawing.Point(12, 239)
+        Me.btnUserUserEntry.Location = New System.Drawing.Point(0, 239)
         Me.btnUserUserEntry.Name = "btnUserUserEntry"
-        Me.btnUserUserEntry.Size = New System.Drawing.Size(283, 47)
+        Me.btnUserUserEntry.Size = New System.Drawing.Size(307, 47)
         Me.btnUserUserEntry.TabIndex = 1
         Me.btnUserUserEntry.Text = "    USERS"
         Me.btnUserUserEntry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -221,14 +221,15 @@ Partial Class frmUserEntry
         '
         'lblAdminUserEntry
         '
-        Me.lblAdminUserEntry.AutoSize = True
         Me.lblAdminUserEntry.Font = New System.Drawing.Font("Yu Gothic UI", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblAdminUserEntry.ForeColor = System.Drawing.Color.White
-        Me.lblAdminUserEntry.Location = New System.Drawing.Point(73, 161)
+        Me.lblAdminUserEntry.Location = New System.Drawing.Point(-1, 172)
         Me.lblAdminUserEntry.Name = "lblAdminUserEntry"
-        Me.lblAdminUserEntry.Size = New System.Drawing.Size(168, 28)
+        Me.lblAdminUserEntry.Size = New System.Drawing.Size(307, 31)
         Me.lblAdminUserEntry.TabIndex = 1
-        Me.lblAdminUserEntry.Text = "ADMINISTRATOR"
+        Me.lblAdminUserEntry.Text = "Full Name"
+        Me.lblAdminUserEntry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblAdminUserEntry.UseCompatibleTextRendering = True
         '
         'picBoxUserEntry
         '
@@ -275,7 +276,6 @@ Partial Class frmUserEntry
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.pnl1UserEntry.ResumeLayout(False)
         Me.pnl2UserEntry.ResumeLayout(False)
-        Me.pnl2UserEntry.PerformLayout()
         CType(Me.picBoxUserEntry, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBoxCreateUser, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlMain.ResumeLayout(False)

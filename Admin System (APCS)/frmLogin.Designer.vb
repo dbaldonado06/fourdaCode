@@ -24,13 +24,14 @@ Partial Class frmLogin
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmLogin))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.lblLoginAthenaPerbs = New System.Windows.Forms.Label()
         Me.minimizeButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
+        Me.lblLoginAthenaPerbs = New System.Windows.Forms.Label()
         Me.btnLoginUser = New System.Windows.Forms.Button()
         Me.txtBoxLoginPassword = New System.Windows.Forms.TextBox()
         Me.txtBoxLoginUsername = New System.Windows.Forms.TextBox()
         Me.userProfile = New System.Windows.Forms.PictureBox()
+        Me.WarningLabel = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.userProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -46,17 +47,6 @@ Partial Class frmLogin
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(284, 35)
         Me.Panel1.TabIndex = 9
-        '
-        'lblLoginAthenaPerbs
-        '
-        Me.lblLoginAthenaPerbs.AutoSize = True
-        Me.lblLoginAthenaPerbs.Font = New System.Drawing.Font("Malgun Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblLoginAthenaPerbs.ForeColor = System.Drawing.Color.White
-        Me.lblLoginAthenaPerbs.Location = New System.Drawing.Point(5, 9)
-        Me.lblLoginAthenaPerbs.Name = "lblLoginAthenaPerbs"
-        Me.lblLoginAthenaPerbs.Size = New System.Drawing.Size(200, 17)
-        Me.lblLoginAthenaPerbs.TabIndex = 3
-        Me.lblLoginAthenaPerbs.Text = "Athena Perb's Catering Service"
         '
         'minimizeButton
         '
@@ -88,6 +78,17 @@ Partial Class frmLogin
         Me.exitButton.TabIndex = 5
         Me.exitButton.UseVisualStyleBackColor = False
         '
+        'lblLoginAthenaPerbs
+        '
+        Me.lblLoginAthenaPerbs.AutoSize = True
+        Me.lblLoginAthenaPerbs.Font = New System.Drawing.Font("Malgun Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblLoginAthenaPerbs.ForeColor = System.Drawing.Color.White
+        Me.lblLoginAthenaPerbs.Location = New System.Drawing.Point(5, 9)
+        Me.lblLoginAthenaPerbs.Name = "lblLoginAthenaPerbs"
+        Me.lblLoginAthenaPerbs.Size = New System.Drawing.Size(200, 17)
+        Me.lblLoginAthenaPerbs.TabIndex = 3
+        Me.lblLoginAthenaPerbs.Text = "Athena Perb's Catering Service"
+        '
         'btnLoginUser
         '
         Me.btnLoginUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
@@ -109,7 +110,9 @@ Partial Class frmLogin
         Me.txtBoxLoginPassword.PlaceholderText = "Password"
         Me.txtBoxLoginPassword.Size = New System.Drawing.Size(166, 26)
         Me.txtBoxLoginPassword.TabIndex = 12
+        Me.txtBoxLoginPassword.Text = "fourdaCode"
         Me.txtBoxLoginPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtBoxLoginPassword.UseSystemPasswordChar = True
         '
         'txtBoxLoginUsername
         '
@@ -121,6 +124,7 @@ Partial Class frmLogin
         Me.txtBoxLoginUsername.PlaceholderText = "Username"
         Me.txtBoxLoginUsername.Size = New System.Drawing.Size(166, 26)
         Me.txtBoxLoginUsername.TabIndex = 11
+        Me.txtBoxLoginUsername.Text = "Administrator"
         Me.txtBoxLoginUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'userProfile
@@ -135,12 +139,24 @@ Partial Class frmLogin
         Me.userProfile.TabIndex = 10
         Me.userProfile.TabStop = False
         '
+        'WarningLabel
+        '
+        Me.WarningLabel.AutoSize = True
+        Me.WarningLabel.Font = New System.Drawing.Font("Malgun Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.WarningLabel.Location = New System.Drawing.Point(57, 243)
+        Me.WarningLabel.Name = "WarningLabel"
+        Me.WarningLabel.Size = New System.Drawing.Size(0, 15)
+        Me.WarningLabel.TabIndex = 14
+        Me.WarningLabel.Tag = ""
+        Me.WarningLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 334)
         Me.ControlBox = False
+        Me.Controls.Add(Me.WarningLabel)
         Me.Controls.Add(Me.btnLoginUser)
         Me.Controls.Add(Me.txtBoxLoginPassword)
         Me.Controls.Add(Me.txtBoxLoginUsername)
@@ -148,6 +164,7 @@ Partial Class frmLogin
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "frmLogin"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.userProfile, System.ComponentModel.ISupportInitialize).EndInit()
@@ -164,4 +181,5 @@ Partial Class frmLogin
     Friend WithEvents txtBoxLoginPassword As TextBox
     Friend WithEvents txtBoxLoginUsername As TextBox
     Friend WithEvents userProfile As PictureBox
+    Friend WithEvents WarningLabel As Label
 End Class

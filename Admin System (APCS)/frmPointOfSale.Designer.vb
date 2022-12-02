@@ -22,6 +22,7 @@ Partial Class frmPointOfSale
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPointOfSale))
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -29,6 +30,7 @@ Partial Class frmPointOfSale
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.pnlTopPOS = New System.Windows.Forms.Panel()
+        Me.posClock = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.picBoxPOSAthena = New System.Windows.Forms.PictureBox()
         Me.lblPOSAthenaPerbs = New System.Windows.Forms.Label()
@@ -59,6 +61,7 @@ Partial Class frmPointOfSale
         Me.lblRole = New System.Windows.Forms.Label()
         Me.btnPOSStart = New System.Windows.Forms.Button()
         Me.btnPOSEnd = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.pnlTopPOS.SuspendLayout()
         CType(Me.picBoxPOSAthena, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlBottomDashboardPOS.SuspendLayout()
@@ -68,6 +71,7 @@ Partial Class frmPointOfSale
         'pnlTopPOS
         '
         Me.pnlTopPOS.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.pnlTopPOS.Controls.Add(Me.posClock)
         Me.pnlTopPOS.Controls.Add(Me.Panel1)
         Me.pnlTopPOS.Controls.Add(Me.picBoxPOSAthena)
         Me.pnlTopPOS.Controls.Add(Me.lblPOSAthenaPerbs)
@@ -77,6 +81,19 @@ Partial Class frmPointOfSale
         Me.pnlTopPOS.Name = "pnlTopPOS"
         Me.pnlTopPOS.Size = New System.Drawing.Size(1079, 46)
         Me.pnlTopPOS.TabIndex = 0
+        '
+        'posClock
+        '
+        Me.posClock.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.posClock.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.posClock.ForeColor = System.Drawing.Color.Lime
+        Me.posClock.Location = New System.Drawing.Point(867, 0)
+        Me.posClock.Margin = New System.Windows.Forms.Padding(0)
+        Me.posClock.Name = "posClock"
+        Me.posClock.Size = New System.Drawing.Size(193, 46)
+        Me.posClock.TabIndex = 0
+        Me.posClock.Text = "Date" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Time"
+        Me.posClock.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'Panel1
         '
@@ -272,12 +289,12 @@ Partial Class frmPointOfSale
         DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dataGridViewPOS.DefaultCellStyle = DataGridViewCellStyle5
         Me.dataGridViewPOS.EnableHeadersVisualStyles = False
-        Me.dataGridViewPOS.Location = New System.Drawing.Point(679, 109)
+        Me.dataGridViewPOS.Location = New System.Drawing.Point(682, 109)
         Me.dataGridViewPOS.Name = "dataGridViewPOS"
         Me.dataGridViewPOS.RowHeadersVisible = False
         Me.dataGridViewPOS.RowTemplate.Height = 25
         Me.dataGridViewPOS.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dataGridViewPOS.Size = New System.Drawing.Size(393, 560)
+        Me.dataGridViewPOS.Size = New System.Drawing.Size(375, 560)
         Me.dataGridViewPOS.TabIndex = 3
         '
         'Column1
@@ -329,7 +346,7 @@ Partial Class frmPointOfSale
         'pnlPOSMenu
         '
         Me.pnlPOSMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlPOSMenu.Location = New System.Drawing.Point(135, 109)
+        Me.pnlPOSMenu.Location = New System.Drawing.Point(137, 109)
         Me.pnlPOSMenu.Name = "pnlPOSMenu"
         Me.pnlPOSMenu.Size = New System.Drawing.Size(542, 610)
         Me.pnlPOSMenu.TabIndex = 4
@@ -339,7 +356,7 @@ Partial Class frmPointOfSale
         Me.pnlPOSCategories.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.pnlPOSCategories.Location = New System.Drawing.Point(3, 109)
         Me.pnlPOSCategories.Name = "pnlPOSCategories"
-        Me.pnlPOSCategories.Size = New System.Drawing.Size(131, 610)
+        Me.pnlPOSCategories.Size = New System.Drawing.Size(123, 610)
         Me.pnlPOSCategories.TabIndex = 5
         '
         'lblPOSTransactionNo
@@ -436,6 +453,11 @@ Partial Class frmPointOfSale
         Me.btnPOSEnd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnPOSEnd.UseVisualStyleBackColor = False
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
         'frmPointOfSale
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -500,4 +522,6 @@ Partial Class frmPointOfSale
     Friend WithEvents btnBlank As Button
     Friend WithEvents btnPOSStart As Button
     Friend WithEvents btnPOSEnd As Button
+    Friend WithEvents posClock As Label
+    Friend WithEvents Timer1 As Timer
 End Class

@@ -41,3 +41,103 @@ D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Ad
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmVoidItem.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmVoucherDiscount.resources
 D:\Desktop\Repository\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmStocksFoodInventory.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).exe
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).deps.json
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).runtimeconfig.json
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).pdb
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.AssemblyReference.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmAdminPassword.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCancelOrder.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCategory.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCreateUser.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomerEntry.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomers.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmDailySales.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmDashboard.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmLogin.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmOrders.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmPointOfSale.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmPrintPreview.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmProductEntry.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmProductMenuList.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmQty.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesRecords.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesSummary.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSelectOrder.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSettlePayment.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmStartOfDay.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmStocksFoodInventory.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmUserEntry.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmViewSalesDetails.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmVoidItem.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmVoucherDiscount.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.Resources.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.RegisterUser.resources
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.GenerateResource.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).GeneratedMSBuildEditorConfig.editorconfig
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).AssemblyInfoInputs.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).AssemblyInfo.vb
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.CoreCompileInputs.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\refint\Admin System (APCS).dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).pdb
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).genruntimeconfig.cache
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\ref\Admin System (APCS).dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Desktop\project\fourdaCode\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.CopyComplete
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).exe
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).deps.json
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).runtimeconfig.json
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).dll
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\Admin System (APCS).pdb
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Desktop\project\tempFile\Admin System (APCS)\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.AssemblyReference.cache
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmAdminPassword.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCancelOrder.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCategory.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCreateUser.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomerEntry.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmCustomers.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmDailySales.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmDashboard.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmLogin.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmOrders.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmPointOfSale.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmPrintPreview.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmProductEntry.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmProductMenuList.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmQty.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesRecords.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSalesSummary.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSelectOrder.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmSettlePayment.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmStartOfDay.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmStocksFoodInventory.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmUserEntry.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmViewSalesDetails.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmVoidItem.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.frmVoucherDiscount.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.Resources.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin_System__APCS_.RegisterUser.resources
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.GenerateResource.cache
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).GeneratedMSBuildEditorConfig.editorconfig
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).AssemblyInfoInputs.cache
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).AssemblyInfo.vb
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.CoreCompileInputs.cache
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).vbproj.CopyComplete
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).dll
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\refint\Admin System (APCS).dll
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).pdb
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\Admin System (APCS).genruntimeconfig.cache
+E:\Desktop\project\tempFile\Admin System (APCS)\obj\Debug\net6.0-windows\ref\Admin System (APCS).dll

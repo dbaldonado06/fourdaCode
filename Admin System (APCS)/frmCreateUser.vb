@@ -1,23 +1,32 @@
 ﻿Imports System.Data.SqlClient
 Public Class frmCreateUser
     Private Sub btnAddUser_Click(sender As Object, e As EventArgs) Handles btnAddUser.Click
+        RegisterUser.btnRegUserUpdate.Enabled = False
         RegisterUser.Show()
+        dataGridViewUserfrm.ClearSelection()
     End Sub
 
     Sub LoadRecords()
+        dataGridViewUserfrm.ClearSelection()
 
         Connection()
-        cmd = New SqlCommand("SELECT * FROM [Users],[Owner],[Employees]") With {
-            .Connection = con
-        }
+        cmd = New SqlCommand("SELECT E.EmployeeID, U.Username, U.FName, U.MName, U.LName, E.EmailAdress, E.Adress, E.ContactNumber FROM [Employees] E
+                            INNER JOIN [Users] U
+                            ON E.UserID = U.ID") With {
+                            .Connection = con
+                            }
         Dim i As Integer
         dr = cmd.ExecuteReader
-        'still have an error not fix yet
         While dr.Read()
             i += 1
-            dataGridViewUserfrm.Rows.Add(i, dr.Item("Username").ToString, dr.Item("Password").ToString, dr.Item("Adress").ToString, dr.Item("ContactNumber").ToString, dr.Item("EmailAdress").ToString)
+            dataGridViewUserfrm.Rows.Add(i, dr.Item("Username").ToString,
+                                         dr.Item("FName").ToString + " " + dr.Item("MName").ToString + ". " + dr.Item("LName").ToString,
+                                         dr.Item("EmailAdress").ToString, dr.Item("Adress").ToString, dr.Item("ContactNumber").ToString)
         End While
         con.Close()
         dr.Close()
+    End Sub
+
+    Private Sub frmCreateUser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
     End Sub
 End Class

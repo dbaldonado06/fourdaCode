@@ -44,7 +44,7 @@ Public Class frmLogin
     End Sub
 
     Private Sub exitButton_Click(sender As Object, e As EventArgs) Handles exitButton.Click
-        Me.Dispose()
+        Application.Exit()
     End Sub
 
     Private Sub minimizeButton_Click(sender As Object, e As EventArgs) Handles minimizeButton.Click

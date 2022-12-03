@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Desktop\\project\\tempFile\\Admin System (APCS)\\Admin System (APCS).vbproj": {}
+    "E:\\Desktop\\project\\Admin System (APCS)\\Admin System (APCS).vbproj": {}
   },
   "projects": {
-    "E:\\Desktop\\project\\tempFile\\Admin System (APCS)\\Admin System (APCS).vbproj": {
+    "E:\\Desktop\\project\\Admin System (APCS)\\Admin System (APCS).vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Desktop\\project\\tempFile\\Admin System (APCS)\\Admin System (APCS).vbproj",
+        "projectUniqueName": "E:\\Desktop\\project\\Admin System (APCS)\\Admin System (APCS).vbproj",
         "projectName": "Admin System (APCS)",
-        "projectPath": "E:\\Desktop\\project\\tempFile\\Admin System (APCS)\\Admin System (APCS).vbproj",
+        "projectPath": "E:\\Desktop\\project\\Admin System (APCS)\\Admin System (APCS).vbproj",
         "packagesPath": "C:\\Users\\DantZee\\.nuget\\packages\\",
-        "outputPath": "E:\\Desktop\\project\\tempFile\\Admin System (APCS)\\obj\\",
+        "outputPath": "E:\\Desktop\\project\\Admin System (APCS)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DantZee\\AppData\\Roaming\\NuGet\\NuGet.Config",

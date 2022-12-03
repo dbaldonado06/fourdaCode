@@ -270,6 +270,7 @@ Partial Class frmUserEntry
         Me.Controls.Add(Me.pnlMain)
         Me.Controls.Add(Me.pnl1UserEntry)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmUserEntry"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmUserEntry"

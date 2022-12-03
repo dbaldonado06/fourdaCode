@@ -115,10 +115,9 @@ Partial Class frmCreateUser
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
         Me.Column2.DefaultCellStyle = DataGridViewCellStyle3
         Me.Column2.HeaderText = "Username"
-        Me.Column2.MinimumWidth = 200
+        Me.Column2.MinimumWidth = 100
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
-        Me.Column2.Width = 200
         '
         'Column3
         '
@@ -129,10 +128,11 @@ Partial Class frmCreateUser
         DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Gainsboro
         DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black
         Me.Column3.DefaultCellStyle = DataGridViewCellStyle4
-        Me.Column3.HeaderText = "Password"
+        Me.Column3.HeaderText = "Full Name"
+        Me.Column3.MinimumWidth = 200
         Me.Column3.Name = "Column3"
         Me.Column3.ReadOnly = True
-        Me.Column3.Width = 82
+        Me.Column3.Width = 200
         '
         'Column6
         '
@@ -144,9 +144,10 @@ Partial Class frmCreateUser
         DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
         Me.Column6.DefaultCellStyle = DataGridViewCellStyle5
         Me.Column6.HeaderText = "Email"
+        Me.Column6.MinimumWidth = 150
         Me.Column6.Name = "Column6"
         Me.Column6.ReadOnly = True
-        Me.Column6.Width = 61
+        Me.Column6.Width = 150
         '
         'Column4
         '
@@ -171,9 +172,10 @@ Partial Class frmCreateUser
         DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black
         Me.Column5.DefaultCellStyle = DataGridViewCellStyle7
         Me.Column5.HeaderText = "Phone Number"
+        Me.Column5.MinimumWidth = 125
         Me.Column5.Name = "Column5"
         Me.Column5.ReadOnly = True
-        Me.Column5.Width = 113
+        Me.Column5.Width = 125
         '
         'Column7
         '
@@ -183,6 +185,7 @@ Partial Class frmCreateUser
         Me.Column7.DefaultCellStyle = DataGridViewCellStyle8
         Me.Column7.HeaderText = ""
         Me.Column7.Image = CType(resources.GetObject("Column7.Image"), System.Drawing.Image)
+        Me.Column7.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
         Me.Column7.Width = 5
@@ -195,6 +198,7 @@ Partial Class frmCreateUser
         Me.Column8.DefaultCellStyle = DataGridViewCellStyle9
         Me.Column8.HeaderText = ""
         Me.Column8.Image = CType(resources.GetObject("Column8.Image"), System.Drawing.Image)
+        Me.Column8.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch
         Me.Column8.Name = "Column8"
         Me.Column8.ReadOnly = True
         Me.Column8.Width = 5

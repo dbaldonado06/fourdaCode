@@ -58,7 +58,12 @@ Public Class frmUserEntry
     End Sub
 
     Private Sub btnLogoutUserEntry_Click(sender As Object, e As EventArgs) Handles btnLogoutUserEntry.Click
-        Application.Exit()
+        Me.Dispose()
+        With frmLogin
+            .txtBoxLoginPassword.Text = ""
+            .txtBoxLoginPassword.Focus()
+            .Show()
+        End With
     End Sub
 
     Private Sub picBoxCreateUser_Click_1(sender As Object, e As EventArgs) Handles picBoxCreateUser.Click

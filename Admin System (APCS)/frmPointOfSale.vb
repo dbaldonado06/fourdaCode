@@ -51,7 +51,6 @@ Public Class frmPointOfSale
         Timer1.Start()
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Date.Now.ToString("y")
         posClock.Text = Date.Now.ToString(String.Format("MMM dd, yy" + Environment.NewLine + "hh:mm:ss:tt"))
     End Sub
 End Class

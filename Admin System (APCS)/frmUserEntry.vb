@@ -75,15 +75,4 @@ Public Class frmUserEntry
         btnPosUserEntry.BackColor = Color.FromArgb(10, 61, 98)
     End Sub
 
-    Private Sub pnlMain_Paint(sender As Object, e As PaintEventArgs) Handles pnlMain.Paint
-        Connection()
-        cmd = New SqlCommand("SELECT FName, MName, LName FROM [Users] WHERE ID = '" & ID & "'")
-        cmd.Connection = con
-        dr = cmd.ExecuteReader()
-        If (dr.Read()) Then
-            lblAdminUserEntry.Text = dr("FName") + " " + dr("LName")
-        End If
-        dr.Close()
-    End Sub
-
 End Class

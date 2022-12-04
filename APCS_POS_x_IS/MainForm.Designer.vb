@@ -24,14 +24,16 @@ Partial Class MainForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.LeftPanel = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.LogoutButton = New System.Windows.Forms.Button()
         Me.PosButton = New System.Windows.Forms.Button()
         Me.DashboardButton = New System.Windows.Forms.Button()
-        Me.UsersButton = New System.Windows.Forms.Button()
+        Me.ProfileButton = New System.Windows.Forms.Button()
         Me.ProfilePanel = New System.Windows.Forms.Panel()
-        Me.EmployeeText = New System.Windows.Forms.Label()
+        Me.UserLabelPOS = New System.Windows.Forms.Label()
         Me.ProfilePic = New System.Windows.Forms.PictureBox()
         Me.MainPanel = New System.Windows.Forms.Panel()
+        Me.RoleLbl = New System.Windows.Forms.Label()
         Me.LeftPanel.SuspendLayout()
         Me.ProfilePanel.SuspendLayout()
         CType(Me.ProfilePic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -40,16 +42,26 @@ Partial Class MainForm
         'LeftPanel
         '
         Me.LeftPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.LeftPanel.Controls.Add(Me.RoleLbl)
+        Me.LeftPanel.Controls.Add(Me.Label1)
         Me.LeftPanel.Controls.Add(Me.LogoutButton)
         Me.LeftPanel.Controls.Add(Me.PosButton)
         Me.LeftPanel.Controls.Add(Me.DashboardButton)
-        Me.LeftPanel.Controls.Add(Me.UsersButton)
+        Me.LeftPanel.Controls.Add(Me.ProfileButton)
         Me.LeftPanel.Controls.Add(Me.ProfilePanel)
         Me.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left
         Me.LeftPanel.Location = New System.Drawing.Point(0, 0)
         Me.LeftPanel.Name = "LeftPanel"
         Me.LeftPanel.Size = New System.Drawing.Size(307, 788)
         Me.LeftPanel.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(167, 411)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(0, 15)
+        Me.Label1.TabIndex = 0
         '
         'LogoutButton
         '
@@ -99,26 +111,26 @@ Partial Class MainForm
         Me.DashboardButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.DashboardButton.UseVisualStyleBackColor = True
         '
-        'UsersButton
+        'ProfileButton
         '
-        Me.UsersButton.FlatAppearance.BorderSize = 0
-        Me.UsersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.UsersButton.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.UsersButton.ForeColor = System.Drawing.Color.White
-        Me.UsersButton.Image = CType(resources.GetObject("UsersButton.Image"), System.Drawing.Image)
-        Me.UsersButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.UsersButton.Location = New System.Drawing.Point(0, 218)
-        Me.UsersButton.Name = "UsersButton"
-        Me.UsersButton.Size = New System.Drawing.Size(307, 42)
-        Me.UsersButton.TabIndex = 1
-        Me.UsersButton.Text = "USERS"
-        Me.UsersButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.UsersButton.UseVisualStyleBackColor = True
+        Me.ProfileButton.FlatAppearance.BorderSize = 0
+        Me.ProfileButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ProfileButton.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ProfileButton.ForeColor = System.Drawing.Color.White
+        Me.ProfileButton.Image = CType(resources.GetObject("ProfileButton.Image"), System.Drawing.Image)
+        Me.ProfileButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ProfileButton.Location = New System.Drawing.Point(0, 218)
+        Me.ProfileButton.Name = "ProfileButton"
+        Me.ProfileButton.Size = New System.Drawing.Size(307, 42)
+        Me.ProfileButton.TabIndex = 1
+        Me.ProfileButton.Text = "USERS"
+        Me.ProfileButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.ProfileButton.UseVisualStyleBackColor = True
         '
         'ProfilePanel
         '
         Me.ProfilePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ProfilePanel.Controls.Add(Me.EmployeeText)
+        Me.ProfilePanel.Controls.Add(Me.UserLabelPOS)
         Me.ProfilePanel.Controls.Add(Me.ProfilePic)
         Me.ProfilePanel.Dock = System.Windows.Forms.DockStyle.Top
         Me.ProfilePanel.Location = New System.Drawing.Point(0, 0)
@@ -126,16 +138,17 @@ Partial Class MainForm
         Me.ProfilePanel.Size = New System.Drawing.Size(307, 203)
         Me.ProfilePanel.TabIndex = 0
         '
-        'EmployeeText
+        'UserLabelPOS
         '
-        Me.EmployeeText.AutoSize = True
-        Me.EmployeeText.Font = New System.Drawing.Font("Yu Gothic UI", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.EmployeeText.ForeColor = System.Drawing.Color.White
-        Me.EmployeeText.Location = New System.Drawing.Point(96, 169)
-        Me.EmployeeText.Name = "EmployeeText"
-        Me.EmployeeText.Size = New System.Drawing.Size(109, 28)
-        Me.EmployeeText.TabIndex = 1
-        Me.EmployeeText.Text = "EMPLOYEE"
+        Me.UserLabelPOS.Font = New System.Drawing.Font("Yu Gothic UI", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.UserLabelPOS.ForeColor = System.Drawing.Color.White
+        Me.UserLabelPOS.Location = New System.Drawing.Point(-1, 169)
+        Me.UserLabelPOS.Name = "UserLabelPOS"
+        Me.UserLabelPOS.Size = New System.Drawing.Size(307, 31)
+        Me.UserLabelPOS.TabIndex = 2
+        Me.UserLabelPOS.Text = "Full Name"
+        Me.UserLabelPOS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.UserLabelPOS.UseCompatibleTextRendering = True
         '
         'ProfilePic
         '
@@ -155,6 +168,18 @@ Partial Class MainForm
         Me.MainPanel.Size = New System.Drawing.Size(1079, 788)
         Me.MainPanel.TabIndex = 1
         '
+        'RoleLbl
+        '
+        Me.RoleLbl.Font = New System.Drawing.Font("Yu Gothic UI", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.RoleLbl.ForeColor = System.Drawing.Color.White
+        Me.RoleLbl.Location = New System.Drawing.Point(0, 201)
+        Me.RoleLbl.Name = "RoleLbl"
+        Me.RoleLbl.Size = New System.Drawing.Size(307, 31)
+        Me.RoleLbl.TabIndex = 3
+        Me.RoleLbl.Text = "Role"
+        Me.RoleLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.RoleLbl.UseCompatibleTextRendering = True
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -168,8 +193,8 @@ Partial Class MainForm
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.LeftPanel.ResumeLayout(False)
+        Me.LeftPanel.PerformLayout()
         Me.ProfilePanel.ResumeLayout(False)
-        Me.ProfilePanel.PerformLayout()
         CType(Me.ProfilePic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -177,11 +202,13 @@ Partial Class MainForm
 
     Friend WithEvents LeftPanel As Panel
     Friend WithEvents ProfilePanel As Panel
-    Friend WithEvents EmployeeText As Label
     Friend WithEvents ProfilePic As PictureBox
-    Friend WithEvents UsersButton As Button
+    Friend WithEvents ProfileButton As Button
     Friend WithEvents DashboardButton As Button
     Friend WithEvents PosButton As Button
     Friend WithEvents LogoutButton As Button
     Friend WithEvents MainPanel As Panel
+    Friend WithEvents UserLabelPOS As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents RoleLbl As Label
 End Class

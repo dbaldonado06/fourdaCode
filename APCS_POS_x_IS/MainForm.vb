@@ -1,8 +1,6 @@
-﻿Public Class MainForm
-    Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Imports System.Data.SqlClient
 
-    End Sub
-
+Public Class MainForm
     Sub switchPanel(ByVal panel As Form)
         MainPanel.Controls.Clear()
         panel.TopLevel = False
@@ -12,7 +10,7 @@
         panel.Show()
     End Sub
 
-    Private Sub UsersButton_Click(sender As Object, e As EventArgs) Handles UsersButton.Click
+    Private Sub UsersButton_Click(sender As Object, e As EventArgs) Handles ProfileButton.Click
         switchPanel(UsersForm)
     End Sub
 
@@ -26,20 +24,14 @@
 
 
     Private Sub LogoutButton_Click(sender As Object, e As EventArgs) Handles LogoutButton.Click
+        Me.Dispose()
         loginForm.Show()
-        Close()
-    End Sub
-
-    Private Sub MainPanel_Paint(sender As Object, e As PaintEventArgs) Handles MainPanel.Paint
-
-    End Sub
-
-    Private Sub ProfilePic_Click(sender As Object, e As EventArgs) Handles ProfilePic.Click
-
     End Sub
 
     Private Sub btnPOSNewTransaction_Click(sender As Object, e As EventArgs)
-        NewtransactionForm.Show()
+        With NewtransactionForm
+            .Show()
+        End With
     End Sub
 
     Private Sub btnPOSSettlePayment_Click(sender As Object, e As EventArgs)

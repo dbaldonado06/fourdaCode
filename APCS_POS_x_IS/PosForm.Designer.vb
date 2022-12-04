@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class PosForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,18 +20,22 @@ Partial Class PosForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PosForm))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.posPanel = New System.Windows.Forms.Panel()
-        Me.btnPOSEnd = New System.Windows.Forms.Button()
-        Me.btnPOSStart = New System.Windows.Forms.Button()
-        Me.pnlPOSCategories = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RealtimeDate = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.lblPOSTransactionNo = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.dataGridViewPOS = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -42,10 +46,7 @@ Partial Class PosForm
         Me.pnlPOSMenu = New System.Windows.Forms.FlowLayoutPanel()
         Me.lblTransactionNumber = New System.Windows.Forms.Label()
         Me.lblPOSOrderNo = New System.Windows.Forms.Label()
-        Me.lblRole = New System.Windows.Forms.Label()
         Me.lblOrderNumber = New System.Windows.Forms.Label()
-        Me.lblPOSTransactionNo = New System.Windows.Forms.Label()
-        Me.lblName = New System.Windows.Forms.Label()
         Me.pnlBottomDashboardPOS = New System.Windows.Forms.Panel()
         Me.btnBlank = New System.Windows.Forms.Button()
         Me.btnPOSManageOrders = New System.Windows.Forms.Button()
@@ -56,10 +57,13 @@ Partial Class PosForm
         Me.btnPOSSettlePayment = New System.Windows.Forms.Button()
         Me.btnPOSNewTransaction = New System.Windows.Forms.Button()
         Me.pnlTopPOS = New System.Windows.Forms.Panel()
+        Me.btnPOSEnd = New System.Windows.Forms.Button()
+        Me.btnPOSStart = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.picBoxPOSAthena = New System.Windows.Forms.PictureBox()
         Me.lblPOSAthenaPerbs = New System.Windows.Forms.Label()
         Me.lblPOSSoftware = New System.Windows.Forms.Label()
+        Me.DateAndTime = New System.Windows.Forms.Timer(Me.components)
         Me.posPanel.SuspendLayout()
         CType(Me.dataGridViewPOS, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlBottomDashboardPOS.SuspendLayout()
@@ -70,17 +74,17 @@ Partial Class PosForm
         'posPanel
         '
         Me.posPanel.BackColor = System.Drawing.Color.White
-        Me.posPanel.Controls.Add(Me.btnPOSEnd)
-        Me.posPanel.Controls.Add(Me.btnPOSStart)
-        Me.posPanel.Controls.Add(Me.pnlPOSCategories)
+        Me.posPanel.Controls.Add(Me.RealtimeDate)
+        Me.posPanel.Controls.Add(Me.Button4)
+        Me.posPanel.Controls.Add(Me.Button3)
+        Me.posPanel.Controls.Add(Me.Button2)
+        Me.posPanel.Controls.Add(Me.lblPOSTransactionNo)
+        Me.posPanel.Controls.Add(Me.Button1)
         Me.posPanel.Controls.Add(Me.dataGridViewPOS)
         Me.posPanel.Controls.Add(Me.pnlPOSMenu)
         Me.posPanel.Controls.Add(Me.lblTransactionNumber)
         Me.posPanel.Controls.Add(Me.lblPOSOrderNo)
-        Me.posPanel.Controls.Add(Me.lblRole)
         Me.posPanel.Controls.Add(Me.lblOrderNumber)
-        Me.posPanel.Controls.Add(Me.lblPOSTransactionNo)
-        Me.posPanel.Controls.Add(Me.lblName)
         Me.posPanel.Controls.Add(Me.pnlBottomDashboardPOS)
         Me.posPanel.Controls.Add(Me.pnlTopPOS)
         Me.posPanel.Dock = System.Windows.Forms.DockStyle.Fill
@@ -89,78 +93,117 @@ Partial Class PosForm
         Me.posPanel.Size = New System.Drawing.Size(1079, 788)
         Me.posPanel.TabIndex = 4
         '
-        'btnPOSEnd
+        'RealtimeDate
         '
-        Me.btnPOSEnd.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
-        Me.btnPOSEnd.FlatAppearance.BorderSize = 0
-        Me.btnPOSEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPOSEnd.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnPOSEnd.ForeColor = System.Drawing.Color.White
-        Me.btnPOSEnd.Image = CType(resources.GetObject("btnPOSEnd.Image"), System.Drawing.Image)
-        Me.btnPOSEnd.Location = New System.Drawing.Point(844, 674)
-        Me.btnPOSEnd.Name = "btnPOSEnd"
-        Me.btnPOSEnd.Size = New System.Drawing.Size(172, 40)
-        Me.btnPOSEnd.TabIndex = 24
-        Me.btnPOSEnd.Text = " [ END OF THE DAY ]"
-        Me.btnPOSEnd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnPOSEnd.UseVisualStyleBackColor = False
+        Me.RealtimeDate.BackColor = System.Drawing.Color.Black
+        Me.RealtimeDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.RealtimeDate.Font = New System.Drawing.Font("Yu Gothic UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.RealtimeDate.ForeColor = System.Drawing.Color.Lime
+        Me.RealtimeDate.Location = New System.Drawing.Point(871, 49)
+        Me.RealtimeDate.Margin = New System.Windows.Forms.Padding(0)
+        Me.RealtimeDate.Name = "RealtimeDate"
+        Me.RealtimeDate.Size = New System.Drawing.Size(185, 70)
+        Me.RealtimeDate.TabIndex = 0
+        Me.RealtimeDate.Text = "mm-dd-yy" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "hh-mm-ss-tt" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.RealtimeDate.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'btnPOSStart
+        'Button4
         '
-        Me.btnPOSStart.BackColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btnPOSStart.FlatAppearance.BorderSize = 0
-        Me.btnPOSStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPOSStart.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnPOSStart.ForeColor = System.Drawing.Color.White
-        Me.btnPOSStart.Image = CType(resources.GetObject("btnPOSStart.Image"), System.Drawing.Image)
-        Me.btnPOSStart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnPOSStart.Location = New System.Drawing.Point(666, 674)
-        Me.btnPOSStart.Name = "btnPOSStart"
-        Me.btnPOSStart.Size = New System.Drawing.Size(172, 40)
-        Me.btnPOSStart.TabIndex = 23
-        Me.btnPOSStart.Text = " [ START OF THE DAY ]"
-        Me.btnPOSStart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnPOSStart.UseVisualStyleBackColor = False
+        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.Button4.FlatAppearance.BorderSize = 0
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button4.ForeColor = System.Drawing.Color.White
+        Me.Button4.Location = New System.Drawing.Point(417, 70)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(132, 41)
+        Me.Button4.TabIndex = 23
+        Me.Button4.Text = "Cat4"
+        Me.Button4.UseVisualStyleBackColor = False
         '
-        'pnlPOSCategories
+        'Button3
         '
-        Me.pnlPOSCategories.BackColor = System.Drawing.Color.White
-        Me.pnlPOSCategories.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlPOSCategories.Location = New System.Drawing.Point(-14, 114)
-        Me.pnlPOSCategories.Name = "pnlPOSCategories"
-        Me.pnlPOSCategories.Size = New System.Drawing.Size(131, 600)
-        Me.pnlPOSCategories.TabIndex = 16
+        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button3.ForeColor = System.Drawing.Color.White
+        Me.Button3.Location = New System.Drawing.Point(279, 70)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(132, 41)
+        Me.Button3.TabIndex = 22
+        Me.Button3.Text = "Cat3"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(141, 70)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(132, 41)
+        Me.Button2.TabIndex = 21
+        Me.Button2.Text = "Cat2"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'lblPOSTransactionNo
+        '
+        Me.lblPOSTransactionNo.BackColor = System.Drawing.Color.Transparent
+        Me.lblPOSTransactionNo.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblPOSTransactionNo.Location = New System.Drawing.Point(602, 70)
+        Me.lblPOSTransactionNo.Name = "lblPOSTransactionNo"
+        Me.lblPOSTransactionNo.Size = New System.Drawing.Size(113, 15)
+        Me.lblPOSTransactionNo.TabIndex = 17
+        Me.lblPOSTransactionNo.Text = "TRANSACTION NO."
+        Me.lblPOSTransactionNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(3, 70)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(132, 41)
+        Me.Button1.TabIndex = 9
+        Me.Button1.Text = "Cat1"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'dataGridViewPOS
         '
         Me.dataGridViewPOS.AllowUserToAddRows = False
         Me.dataGridViewPOS.BackgroundColor = System.Drawing.SystemColors.Control
         Me.dataGridViewPOS.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dataGridViewPOS.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dataGridViewPOS.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
         Me.dataGridViewPOS.ColumnHeadersHeight = 30
         Me.dataGridViewPOS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.dataGridViewPOS.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.colPOSDelete})
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.SeaShell
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dataGridViewPOS.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle10.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.SeaShell
+        DataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dataGridViewPOS.DefaultCellStyle = DataGridViewCellStyle10
         Me.dataGridViewPOS.EnableHeadersVisualStyles = False
-        Me.dataGridViewPOS.Location = New System.Drawing.Point(662, 114)
+        Me.dataGridViewPOS.Location = New System.Drawing.Point(602, 122)
         Me.dataGridViewPOS.Name = "dataGridViewPOS"
         Me.dataGridViewPOS.RowHeadersVisible = False
         Me.dataGridViewPOS.RowTemplate.Height = 25
-        Me.dataGridViewPOS.Size = New System.Drawing.Size(404, 554)
+        Me.dataGridViewPOS.Size = New System.Drawing.Size(454, 597)
         Me.dataGridViewPOS.TabIndex = 14
         '
         'Column1
@@ -178,8 +221,8 @@ Partial Class PosForm
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column3.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column3.DefaultCellStyle = DataGridViewCellStyle7
         Me.Column3.HeaderText = "Price"
         Me.Column3.Name = "Column3"
         Me.Column3.Width = 58
@@ -187,8 +230,8 @@ Partial Class PosForm
         'Column4
         '
         Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.Column4.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.Column4.DefaultCellStyle = DataGridViewCellStyle8
         Me.Column4.HeaderText = "Order"
         Me.Column4.Name = "Column4"
         Me.Column4.Width = 62
@@ -196,8 +239,8 @@ Partial Class PosForm
         'Column5
         '
         Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Column5.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Column5.DefaultCellStyle = DataGridViewCellStyle9
         Me.Column5.HeaderText = "Total"
         Me.Column5.Name = "Column5"
         Me.Column5.Width = 57
@@ -213,9 +256,9 @@ Partial Class PosForm
         '
         Me.pnlPOSMenu.BackColor = System.Drawing.Color.White
         Me.pnlPOSMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlPOSMenu.Location = New System.Drawing.Point(118, 114)
+        Me.pnlPOSMenu.Location = New System.Drawing.Point(2, 122)
         Me.pnlPOSMenu.Name = "pnlPOSMenu"
-        Me.pnlPOSMenu.Size = New System.Drawing.Size(542, 600)
+        Me.pnlPOSMenu.Size = New System.Drawing.Size(599, 597)
         Me.pnlPOSMenu.TabIndex = 15
         '
         'lblTransactionNumber
@@ -230,23 +273,14 @@ Partial Class PosForm
         '
         'lblPOSOrderNo
         '
-        Me.lblPOSOrderNo.AutoSize = True
+        Me.lblPOSOrderNo.BackColor = System.Drawing.Color.Transparent
         Me.lblPOSOrderNo.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblPOSOrderNo.Location = New System.Drawing.Point(49, 90)
+        Me.lblPOSOrderNo.Location = New System.Drawing.Point(602, 96)
         Me.lblPOSOrderNo.Name = "lblPOSOrderNo"
         Me.lblPOSOrderNo.Size = New System.Drawing.Size(69, 15)
         Me.lblPOSOrderNo.TabIndex = 18
         Me.lblPOSOrderNo.Text = "ORDER NO."
-        '
-        'lblRole
-        '
-        Me.lblRole.AutoSize = True
-        Me.lblRole.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblRole.Location = New System.Drawing.Point(967, 90)
-        Me.lblRole.Name = "lblRole"
-        Me.lblRole.Size = New System.Drawing.Size(35, 15)
-        Me.lblRole.TabIndex = 22
-        Me.lblRole.Text = "ROLE"
+        Me.lblPOSOrderNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'lblOrderNumber
         '
@@ -257,26 +291,6 @@ Partial Class PosForm
         Me.lblOrderNumber.Name = "lblOrderNumber"
         Me.lblOrderNumber.Size = New System.Drawing.Size(0, 15)
         Me.lblOrderNumber.TabIndex = 20
-        '
-        'lblPOSTransactionNo
-        '
-        Me.lblPOSTransactionNo.AutoSize = True
-        Me.lblPOSTransactionNo.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblPOSTransactionNo.Location = New System.Drawing.Point(5, 65)
-        Me.lblPOSTransactionNo.Name = "lblPOSTransactionNo"
-        Me.lblPOSTransactionNo.Size = New System.Drawing.Size(113, 15)
-        Me.lblPOSTransactionNo.TabIndex = 17
-        Me.lblPOSTransactionNo.Text = "TRANSACTION NO."
-        '
-        'lblName
-        '
-        Me.lblName.AutoSize = True
-        Me.lblName.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblName.Location = New System.Drawing.Point(961, 65)
-        Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(41, 15)
-        Me.lblName.TabIndex = 21
-        Me.lblName.Text = "NAME"
         '
         'pnlBottomDashboardPOS
         '
@@ -409,6 +423,8 @@ Partial Class PosForm
         'pnlTopPOS
         '
         Me.pnlTopPOS.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.pnlTopPOS.Controls.Add(Me.btnPOSEnd)
+        Me.pnlTopPOS.Controls.Add(Me.btnPOSStart)
         Me.pnlTopPOS.Controls.Add(Me.Panel1)
         Me.pnlTopPOS.Controls.Add(Me.picBoxPOSAthena)
         Me.pnlTopPOS.Controls.Add(Me.lblPOSAthenaPerbs)
@@ -418,6 +434,39 @@ Partial Class PosForm
         Me.pnlTopPOS.Name = "pnlTopPOS"
         Me.pnlTopPOS.Size = New System.Drawing.Size(1079, 46)
         Me.pnlTopPOS.TabIndex = 12
+        '
+        'btnPOSEnd
+        '
+        Me.btnPOSEnd.BackColor = System.Drawing.Color.DimGray
+        Me.btnPOSEnd.FlatAppearance.BorderSize = 0
+        Me.btnPOSEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPOSEnd.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnPOSEnd.ForeColor = System.Drawing.Color.White
+        Me.btnPOSEnd.Image = CType(resources.GetObject("btnPOSEnd.Image"), System.Drawing.Image)
+        Me.btnPOSEnd.Location = New System.Drawing.Point(899, 3)
+        Me.btnPOSEnd.Name = "btnPOSEnd"
+        Me.btnPOSEnd.Size = New System.Drawing.Size(172, 40)
+        Me.btnPOSEnd.TabIndex = 24
+        Me.btnPOSEnd.Text = " [ END OF THE DAY ]"
+        Me.btnPOSEnd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnPOSEnd.UseVisualStyleBackColor = False
+        '
+        'btnPOSStart
+        '
+        Me.btnPOSStart.BackColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(112, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnPOSStart.FlatAppearance.BorderSize = 0
+        Me.btnPOSStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPOSStart.Font = New System.Drawing.Font("Yu Gothic UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnPOSStart.ForeColor = System.Drawing.Color.White
+        Me.btnPOSStart.Image = CType(resources.GetObject("btnPOSStart.Image"), System.Drawing.Image)
+        Me.btnPOSStart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnPOSStart.Location = New System.Drawing.Point(721, 3)
+        Me.btnPOSStart.Name = "btnPOSStart"
+        Me.btnPOSStart.Size = New System.Drawing.Size(172, 40)
+        Me.btnPOSStart.TabIndex = 23
+        Me.btnPOSStart.Text = " [ START OF THE DAY ]"
+        Me.btnPOSStart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnPOSStart.UseVisualStyleBackColor = False
         '
         'Panel1
         '
@@ -461,6 +510,10 @@ Partial Class PosForm
         Me.lblPOSSoftware.TabIndex = 0
         Me.lblPOSSoftware.Text = "POS SOFTWARE"
         '
+        'DateAndTime
+        '
+        Me.DateAndTime.Interval = 1000
+        '
         'PosForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -485,11 +538,8 @@ Partial Class PosForm
     Friend WithEvents posPanel As Panel
     Friend WithEvents lblTransactionNumber As Label
     Friend WithEvents lblPOSOrderNo As Label
-    Friend WithEvents pnlPOSCategories As FlowLayoutPanel
-    Friend WithEvents lblRole As Label
     Friend WithEvents lblOrderNumber As Label
     Friend WithEvents lblPOSTransactionNo As Label
-    Friend WithEvents lblName As Label
     Friend WithEvents dataGridViewPOS As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
@@ -514,4 +564,10 @@ Partial Class PosForm
     Friend WithEvents Panel1 As Panel
     Friend WithEvents btnPOSEnd As Button
     Friend WithEvents btnPOSStart As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents RealtimeDate As Label
+    Friend WithEvents DateAndTime As Timer
 End Class

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {}
+    "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {
+    "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+        "projectUniqueName": "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
         "projectName": "APCS_POS_x_IS",
-        "projectPath": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
-        "packagesPath": "C:\\Users\\Bianca Pano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bianca Pano\\Documents\\Repo\\fourdaCode\\APCS_POS_x_IS\\obj\\",
+        "projectPath": "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\APCS_POS_x_IS.vbproj",
+        "packagesPath": "C:\\Users\\DantZee\\.nuget\\packages\\",
+        "outputPath": "E:\\Desktop\\project\\fourdaCode\\APCS_POS_x_IS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bianca Pano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DantZee\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -31,6 +31,7 @@ Partial Class loginForm
         Me.UsernameText = New System.Windows.Forms.TextBox()
         Me.PasswordText = New System.Windows.Forms.TextBox()
         Me.Loginbutton = New System.Windows.Forms.Button()
+        Me.WarningLabel = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.userProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -93,11 +94,11 @@ Partial Class loginForm
         '
         Me.userProfile.BackColor = System.Drawing.Color.Transparent
         Me.userProfile.BackgroundImage = CType(resources.GetObject("userProfile.BackgroundImage"), System.Drawing.Image)
-        Me.userProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.userProfile.Location = New System.Drawing.Point(76, 40)
+        Me.userProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.userProfile.Location = New System.Drawing.Point(73, 35)
         Me.userProfile.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.userProfile.Name = "userProfile"
-        Me.userProfile.Size = New System.Drawing.Size(137, 119)
+        Me.userProfile.Size = New System.Drawing.Size(141, 128)
         Me.userProfile.TabIndex = 1
         Me.userProfile.TabStop = False
         '
@@ -111,6 +112,7 @@ Partial Class loginForm
         Me.UsernameText.PlaceholderText = "Username"
         Me.UsernameText.Size = New System.Drawing.Size(166, 26)
         Me.UsernameText.TabIndex = 2
+        Me.UsernameText.Text = "bronwyn"
         Me.UsernameText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'PasswordText
@@ -122,6 +124,7 @@ Partial Class loginForm
         Me.PasswordText.PlaceholderText = "Password"
         Me.PasswordText.Size = New System.Drawing.Size(166, 26)
         Me.PasswordText.TabIndex = 3
+        Me.PasswordText.Text = "012001"
         Me.PasswordText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Loginbutton
@@ -136,12 +139,23 @@ Partial Class loginForm
         Me.Loginbutton.Text = "LOGIN"
         Me.Loginbutton.UseVisualStyleBackColor = False
         '
+        'WarningLabel
+        '
+        Me.WarningLabel.Font = New System.Drawing.Font("Malgun Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.WarningLabel.Location = New System.Drawing.Point(2, 242)
+        Me.WarningLabel.Name = "WarningLabel"
+        Me.WarningLabel.Size = New System.Drawing.Size(284, 20)
+        Me.WarningLabel.TabIndex = 15
+        Me.WarningLabel.Tag = ""
+        Me.WarningLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'loginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 334)
         Me.ControlBox = False
+        Me.Controls.Add(Me.WarningLabel)
         Me.Controls.Add(Me.Loginbutton)
         Me.Controls.Add(Me.PasswordText)
         Me.Controls.Add(Me.UsernameText)
@@ -167,4 +181,5 @@ Partial Class loginForm
     Friend WithEvents PasswordText As TextBox
     Friend WithEvents Loginbutton As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents WarningLabel As Label
 End Class

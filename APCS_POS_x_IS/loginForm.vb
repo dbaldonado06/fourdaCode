@@ -1,30 +1,40 @@
-﻿Public Class loginForm
+﻿Imports System.Data.SqlClient
+Public Class loginForm
     Private Sub exitButton_Click(sender As Object, e As EventArgs) Handles exitButton.Click
-        Me.Dispose()
+        Application.Exit()
     End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles minimizeButton.Click
-        Me.WindowState = FormWindowState.Minimized
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles userProfile.Click
-
-    End Sub
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles UsernameText.TextChanged
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
-
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Loginbutton.Click
-        With MainForm
-            .Show()
-            .switchPanel(PosForm)
-            Me.Hide()
-        End With
+        If (UsernameText.Text = "" Or PasswordText.Text = "") Then
+            UsernameText.Focus() 'focus username textbox'
+            WarningLabel.ForeColor = Color.Red
+            WarningLabel.Text = "Enter Username Or Password!"
+            Exit Sub
+        End If
+        Try
+            Connection()
+            cmd = New SqlCommand("SELECT * FROM [Users] WHERE Username='" & UsernameText.Text & "' AND Password = '" & PasswordText.Text & "'")
+            cmd.Connection = con
+            dr = cmd.ExecuteReader()
+            PosForm.DateAndTime.Start()
+            If (dr.Read()) Then
+
+                With MainForm
+                    .UserLabelPOS.Text = dr("FName") + " " + dr("MName") + ". " + dr("LName")
+                    .Show()
+                    .switchPanel(PosForm)
+                    Me.Hide()
+                End With
+            Else
+                WarningLabel.ForeColor = Color.Red
+                WarningLabel.Text = "Invalid Username Or Password!"
+                UsernameText.Text = ""
+                PasswordText.Text = ""
+                UsernameText.Focus() 'focus username textbox'
+            End If
+        Catch ex As Exception
+        End Try
+        dr.Close()
+        con.Close()
     End Sub
 
     Private Sub loginForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -53,4 +63,7 @@
 
     End Sub
 
+    Private Sub Loginbutton_Click(sender As Object, e As EventArgs) Handles Loginbutton.Click
+
+    End Sub
 End Class

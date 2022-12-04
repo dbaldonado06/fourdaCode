@@ -7,7 +7,7 @@ Public Class frmLogin
         If (txtBoxLoginUsername.Text = "" Or txtBoxLoginPassword.Text = "") Then
             txtBoxLoginUsername.Focus() 'focus username textbox'
             WarningLabel.ForeColor = Color.Red
-            WarningLabel.Text = " Enter Username Or Password!"
+            WarningLabel.Text = "Enter Username Or Password!"
             Exit Sub
         End If
         Try
@@ -17,8 +17,8 @@ Public Class frmLogin
             dr = cmd.ExecuteReader()
             If (dr.Read()) Then
                 If (dr("Usertype") = 1) Then
-                    frmUserEntry.ID = dr("Usertype")
                     With frmUserEntry
+                        .lblAdminUserEntry.Text = dr("FName") + " " + dr("LName")
                         .Show()
                         .switchPanel(frmDashboard)
                         Me.Hide()

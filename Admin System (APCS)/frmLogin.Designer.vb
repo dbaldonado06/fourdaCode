@@ -110,7 +110,6 @@ Partial Class frmLogin
         Me.txtBoxLoginPassword.PlaceholderText = "Password"
         Me.txtBoxLoginPassword.Size = New System.Drawing.Size(166, 26)
         Me.txtBoxLoginPassword.TabIndex = 12
-        Me.txtBoxLoginPassword.Text = "fourdaCode"
         Me.txtBoxLoginPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtBoxLoginPassword.UseSystemPasswordChar = True
         '
@@ -124,28 +123,26 @@ Partial Class frmLogin
         Me.txtBoxLoginUsername.PlaceholderText = "Username"
         Me.txtBoxLoginUsername.Size = New System.Drawing.Size(166, 26)
         Me.txtBoxLoginUsername.TabIndex = 11
-        Me.txtBoxLoginUsername.Text = "Administrator"
         Me.txtBoxLoginUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'userProfile
         '
         Me.userProfile.BackColor = System.Drawing.Color.Transparent
         Me.userProfile.BackgroundImage = CType(resources.GetObject("userProfile.BackgroundImage"), System.Drawing.Image)
-        Me.userProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.userProfile.Location = New System.Drawing.Point(76, 40)
+        Me.userProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.userProfile.Location = New System.Drawing.Point(73, 34)
         Me.userProfile.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.userProfile.Name = "userProfile"
-        Me.userProfile.Size = New System.Drawing.Size(137, 119)
+        Me.userProfile.Size = New System.Drawing.Size(141, 128)
         Me.userProfile.TabIndex = 10
         Me.userProfile.TabStop = False
         '
         'WarningLabel
         '
-        Me.WarningLabel.AutoSize = True
         Me.WarningLabel.Font = New System.Drawing.Font("Malgun Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.WarningLabel.Location = New System.Drawing.Point(57, 243)
+        Me.WarningLabel.Location = New System.Drawing.Point(2, 242)
         Me.WarningLabel.Name = "WarningLabel"
-        Me.WarningLabel.Size = New System.Drawing.Size(0, 15)
+        Me.WarningLabel.Size = New System.Drawing.Size(284, 20)
         Me.WarningLabel.TabIndex = 14
         Me.WarningLabel.Tag = ""
         Me.WarningLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter

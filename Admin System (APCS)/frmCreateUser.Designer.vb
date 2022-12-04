@@ -33,8 +33,6 @@ Partial Class frmCreateUser
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCreateUser))
         Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.dataGridViewUserfrm = New System.Windows.Forms.DataGridView()
-        Me.lblUserAccounts = New System.Windows.Forms.Label()
-        Me.btnAddUser = New System.Windows.Forms.Button()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -43,6 +41,8 @@ Partial Class frmCreateUser
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column7 = New System.Windows.Forms.DataGridViewImageColumn()
         Me.Column8 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.lblUserAccounts = New System.Windows.Forms.Label()
+        Me.btnAddUser = New System.Windows.Forms.Button()
         CType(Me.dataGridViewUserfrm, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -61,37 +61,6 @@ Partial Class frmCreateUser
         Me.dataGridViewUserfrm.RowTemplate.Height = 25
         Me.dataGridViewUserfrm.Size = New System.Drawing.Size(1055, 714)
         Me.dataGridViewUserfrm.TabIndex = 0
-        '
-        'lblUserAccounts
-        '
-        Me.lblUserAccounts.AutoSize = True
-        Me.lblUserAccounts.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(81, Byte), Integer))
-        Me.lblUserAccounts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.lblUserAccounts.Font = New System.Drawing.Font("Yu Gothic UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblUserAccounts.ForeColor = System.Drawing.Color.White
-        Me.lblUserAccounts.Location = New System.Drawing.Point(2, 12)
-        Me.lblUserAccounts.Name = "lblUserAccounts"
-        Me.lblUserAccounts.Size = New System.Drawing.Size(193, 37)
-        Me.lblUserAccounts.TabIndex = 2
-        Me.lblUserAccounts.Text = "User Accounts"
-        '
-        'btnAddUser
-        '
-        Me.btnAddUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.btnAddUser.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnAddUser.FlatAppearance.BorderSize = 0
-        Me.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddUser.Font = New System.Drawing.Font("Yu Gothic UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnAddUser.ForeColor = System.Drawing.Color.White
-        Me.btnAddUser.Image = CType(resources.GetObject("btnAddUser.Image"), System.Drawing.Image)
-        Me.btnAddUser.Location = New System.Drawing.Point(1011, 12)
-        Me.btnAddUser.Margin = New System.Windows.Forms.Padding(0)
-        Me.btnAddUser.Name = "btnAddUser"
-        Me.btnAddUser.Size = New System.Drawing.Size(29, 28)
-        Me.btnAddUser.TabIndex = 0
-        Me.btnAddUser.TabStop = False
-        Me.btnAddUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnAddUser.UseVisualStyleBackColor = True
         '
         'Column1
         '
@@ -202,6 +171,37 @@ Partial Class frmCreateUser
         Me.Column8.Name = "Column8"
         Me.Column8.ReadOnly = True
         Me.Column8.Width = 5
+        '
+        'lblUserAccounts
+        '
+        Me.lblUserAccounts.AutoSize = True
+        Me.lblUserAccounts.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(81, Byte), Integer))
+        Me.lblUserAccounts.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblUserAccounts.Font = New System.Drawing.Font("Yu Gothic UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblUserAccounts.ForeColor = System.Drawing.Color.White
+        Me.lblUserAccounts.Location = New System.Drawing.Point(2, 12)
+        Me.lblUserAccounts.Name = "lblUserAccounts"
+        Me.lblUserAccounts.Size = New System.Drawing.Size(193, 37)
+        Me.lblUserAccounts.TabIndex = 2
+        Me.lblUserAccounts.Text = "User Accounts"
+        '
+        'btnAddUser
+        '
+        Me.btnAddUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnAddUser.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnAddUser.FlatAppearance.BorderSize = 0
+        Me.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddUser.Font = New System.Drawing.Font("Yu Gothic UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnAddUser.ForeColor = System.Drawing.Color.White
+        Me.btnAddUser.Image = CType(resources.GetObject("btnAddUser.Image"), System.Drawing.Image)
+        Me.btnAddUser.Location = New System.Drawing.Point(1011, 12)
+        Me.btnAddUser.Margin = New System.Windows.Forms.Padding(0)
+        Me.btnAddUser.Name = "btnAddUser"
+        Me.btnAddUser.Size = New System.Drawing.Size(29, 28)
+        Me.btnAddUser.TabIndex = 0
+        Me.btnAddUser.TabStop = False
+        Me.btnAddUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnAddUser.UseVisualStyleBackColor = True
         '
         'frmCreateUser
         '

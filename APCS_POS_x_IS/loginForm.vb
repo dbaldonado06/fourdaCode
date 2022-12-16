@@ -15,11 +15,17 @@ Public Class loginForm
             cmd = New SqlCommand("SELECT * FROM [Users] WHERE Username='" & UsernameText.Text & "' AND Password = '" & PasswordText.Text & "'")
             cmd.Connection = con
             dr = cmd.ExecuteReader()
-            PosForm.DateAndTime.Start()
             If (dr.Read()) Then
 
                 With MainForm
                     .UserLabelPOS.Text = dr("FName") + " " + dr("MName") + ". " + dr("LName")
+                    If (dr("Usertype").ToString = 1) Then
+                        MsgBox("Welcome, Admin!")
+                        .RoleLbl.Text = "Admin"
+                    Else
+                        MsgBox("Welcome, User!")
+                        .RoleLbl.Text = "Cashier"
+                    End If
                     .Show()
                     .switchPanel(PosForm)
                     Me.Hide()

@@ -15,6 +15,5 @@ Module DBConnection
             MsgBox("Connection error! Check: DBConnection.vb", Title:="DATABASE WARNING!")
             Application.Exit()
         End Try
-
     End Sub
 End Module

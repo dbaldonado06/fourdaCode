@@ -112,7 +112,6 @@ Partial Class loginForm
         Me.UsernameText.PlaceholderText = "Username"
         Me.UsernameText.Size = New System.Drawing.Size(166, 26)
         Me.UsernameText.TabIndex = 2
-        Me.UsernameText.Text = "bronwyn"
         Me.UsernameText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'PasswordText
@@ -124,7 +123,6 @@ Partial Class loginForm
         Me.PasswordText.PlaceholderText = "Password"
         Me.PasswordText.Size = New System.Drawing.Size(166, 26)
         Me.PasswordText.TabIndex = 3
-        Me.PasswordText.Text = "012001"
         Me.PasswordText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Loginbutton

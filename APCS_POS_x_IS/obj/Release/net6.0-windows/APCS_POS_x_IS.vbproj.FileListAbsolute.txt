@@ -99,3 +99,4 @@ E:\Desktop\project\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\runtimes\
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\bin\Release\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\Desktop\project\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.vbproj.CopyComplete
+E:\Desktop\project\fourdaCode\APCS_POS_x_IS\obj\Release\net6.0-windows\APCS_POS_x_IS.SetQuantity.resources

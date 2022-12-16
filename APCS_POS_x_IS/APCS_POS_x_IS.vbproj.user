@@ -40,6 +40,9 @@
     <Compile Update="SettlepaymentForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SetQuantity.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UsersForm.vb">
       <SubType>Form</SubType>
     </Compile>

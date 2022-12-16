@@ -1,6 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class MainForm
+    Public Shared role As Integer
     Sub switchPanel(ByVal panel As Form)
         MainPanel.Controls.Clear()
         panel.TopLevel = False
@@ -54,5 +55,15 @@ Public Class MainForm
         With StartofDayForm
             .ShowDialog()
         End With
+    End Sub
+    Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        DatexTime.Start()
+    End Sub
+    Private Sub DatexTime_Tick(sender As Object, e As EventArgs) Handles DatexTime.Tick
+        RealtimeDate.Text = Date.Now.ToString(String.Format("| dddd |" + Environment.NewLine + "MMMM dd, yy" + Environment.NewLine + "hh: mm: ss | tt"))
+    End Sub
+
+    Private Sub MainPanel_Paint(sender As Object, e As PaintEventArgs) Handles MainPanel.Paint
+
     End Sub
 End Class

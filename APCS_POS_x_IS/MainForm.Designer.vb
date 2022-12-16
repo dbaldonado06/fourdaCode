@@ -22,9 +22,11 @@ Partial Class MainForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.LeftPanel = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.RealtimeDate = New System.Windows.Forms.Label()
+        Me.RoleLbl = New System.Windows.Forms.Label()
         Me.LogoutButton = New System.Windows.Forms.Button()
         Me.PosButton = New System.Windows.Forms.Button()
         Me.DashboardButton = New System.Windows.Forms.Button()
@@ -33,7 +35,7 @@ Partial Class MainForm
         Me.UserLabelPOS = New System.Windows.Forms.Label()
         Me.ProfilePic = New System.Windows.Forms.PictureBox()
         Me.MainPanel = New System.Windows.Forms.Panel()
-        Me.RoleLbl = New System.Windows.Forms.Label()
+        Me.DatexTime = New System.Windows.Forms.Timer(Me.components)
         Me.LeftPanel.SuspendLayout()
         Me.ProfilePanel.SuspendLayout()
         CType(Me.ProfilePic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -42,8 +44,8 @@ Partial Class MainForm
         'LeftPanel
         '
         Me.LeftPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(92, Byte), Integer), CType(CType(125, Byte), Integer))
+        Me.LeftPanel.Controls.Add(Me.RealtimeDate)
         Me.LeftPanel.Controls.Add(Me.RoleLbl)
-        Me.LeftPanel.Controls.Add(Me.Label1)
         Me.LeftPanel.Controls.Add(Me.LogoutButton)
         Me.LeftPanel.Controls.Add(Me.PosButton)
         Me.LeftPanel.Controls.Add(Me.DashboardButton)
@@ -55,13 +57,30 @@ Partial Class MainForm
         Me.LeftPanel.Size = New System.Drawing.Size(307, 788)
         Me.LeftPanel.TabIndex = 0
         '
-        'Label1
+        'RealtimeDate
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(167, 411)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 15)
-        Me.Label1.TabIndex = 0
+        Me.RealtimeDate.BackColor = System.Drawing.Color.Black
+        Me.RealtimeDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.RealtimeDate.Font = New System.Drawing.Font("Yu Gothic UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.RealtimeDate.ForeColor = System.Drawing.Color.Lime
+        Me.RealtimeDate.Location = New System.Drawing.Point(0, 381)
+        Me.RealtimeDate.Margin = New System.Windows.Forms.Padding(0)
+        Me.RealtimeDate.Name = "RealtimeDate"
+        Me.RealtimeDate.Size = New System.Drawing.Size(307, 126)
+        Me.RealtimeDate.TabIndex = 5
+        Me.RealtimeDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'RoleLbl
+        '
+        Me.RoleLbl.Font = New System.Drawing.Font("Yu Gothic UI", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.RoleLbl.ForeColor = System.Drawing.Color.White
+        Me.RoleLbl.Location = New System.Drawing.Point(0, 201)
+        Me.RoleLbl.Name = "RoleLbl"
+        Me.RoleLbl.Size = New System.Drawing.Size(307, 31)
+        Me.RoleLbl.TabIndex = 3
+        Me.RoleLbl.Text = "Role"
+        Me.RoleLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.RoleLbl.UseCompatibleTextRendering = True
         '
         'LogoutButton
         '
@@ -71,7 +90,7 @@ Partial Class MainForm
         Me.LogoutButton.ForeColor = System.Drawing.Color.White
         Me.LogoutButton.Image = CType(resources.GetObject("LogoutButton.Image"), System.Drawing.Image)
         Me.LogoutButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.LogoutButton.Location = New System.Drawing.Point(0, 707)
+        Me.LogoutButton.Location = New System.Drawing.Point(2, 729)
         Me.LogoutButton.Name = "LogoutButton"
         Me.LogoutButton.Size = New System.Drawing.Size(304, 38)
         Me.LogoutButton.TabIndex = 4
@@ -87,7 +106,7 @@ Partial Class MainForm
         Me.PosButton.ForeColor = System.Drawing.Color.White
         Me.PosButton.Image = CType(resources.GetObject("PosButton.Image"), System.Drawing.Image)
         Me.PosButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.PosButton.Location = New System.Drawing.Point(0, 310)
+        Me.PosButton.Location = New System.Drawing.Point(0, 336)
         Me.PosButton.Name = "PosButton"
         Me.PosButton.Size = New System.Drawing.Size(307, 42)
         Me.PosButton.TabIndex = 3
@@ -103,7 +122,7 @@ Partial Class MainForm
         Me.DashboardButton.ForeColor = System.Drawing.Color.White
         Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
         Me.DashboardButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.DashboardButton.Location = New System.Drawing.Point(0, 264)
+        Me.DashboardButton.Location = New System.Drawing.Point(0, 290)
         Me.DashboardButton.Name = "DashboardButton"
         Me.DashboardButton.Size = New System.Drawing.Size(307, 42)
         Me.DashboardButton.TabIndex = 2
@@ -119,7 +138,7 @@ Partial Class MainForm
         Me.ProfileButton.ForeColor = System.Drawing.Color.White
         Me.ProfileButton.Image = CType(resources.GetObject("ProfileButton.Image"), System.Drawing.Image)
         Me.ProfileButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.ProfileButton.Location = New System.Drawing.Point(0, 218)
+        Me.ProfileButton.Location = New System.Drawing.Point(0, 244)
         Me.ProfileButton.Name = "ProfileButton"
         Me.ProfileButton.Size = New System.Drawing.Size(307, 42)
         Me.ProfileButton.TabIndex = 1
@@ -168,17 +187,9 @@ Partial Class MainForm
         Me.MainPanel.Size = New System.Drawing.Size(1079, 788)
         Me.MainPanel.TabIndex = 1
         '
-        'RoleLbl
+        'DatexTime
         '
-        Me.RoleLbl.Font = New System.Drawing.Font("Yu Gothic UI", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.RoleLbl.ForeColor = System.Drawing.Color.White
-        Me.RoleLbl.Location = New System.Drawing.Point(0, 201)
-        Me.RoleLbl.Name = "RoleLbl"
-        Me.RoleLbl.Size = New System.Drawing.Size(307, 31)
-        Me.RoleLbl.TabIndex = 3
-        Me.RoleLbl.Text = "Role"
-        Me.RoleLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.RoleLbl.UseCompatibleTextRendering = True
+        Me.DatexTime.Interval = 1000
         '
         'MainForm
         '
@@ -193,7 +204,6 @@ Partial Class MainForm
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.LeftPanel.ResumeLayout(False)
-        Me.LeftPanel.PerformLayout()
         Me.ProfilePanel.ResumeLayout(False)
         CType(Me.ProfilePic, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -209,6 +219,7 @@ Partial Class MainForm
     Friend WithEvents LogoutButton As Button
     Friend WithEvents MainPanel As Panel
     Friend WithEvents UserLabelPOS As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents RoleLbl As Label
+    Friend WithEvents RealtimeDate As Label
+    Friend WithEvents DatexTime As Timer
 End Class
